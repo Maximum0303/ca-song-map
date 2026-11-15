@@ -54,19 +54,61 @@ function normalize(value) {
   return String(value ?? '').normalize('NFKC').toLowerCase().replace(/[\p{P}\s]/gu, '');
 }
 
+function versionDate(row) {
+  const [type, year, , , , , meta] = row;
+  if (meta?.performanceYear) {
+    return { year: meta.performanceYear, label: meta.performanceYear.includes('–') ? '公演期間' : '公演' };
+  }
+  if (meta?.broadcastYear) return { year: meta.broadcastYear, label: '放送' };
+  if (meta?.releaseYear) return { year: meta.releaseYear, label: meta.releaseLabel || '発売' };
+  if (!/^\d{4}$/.test(year)) return { year: '', label: year };
+  if (meta?.dateBasis) return { year, label: meta.dateBasis };
+  if (type === '受賞記録') return { year, label: '受賞' };
+  if (/^(?:ライブ歌唱|ライブ客演|ライブカバー|イベント歌唱)$/.test(type)) return { year, label: '公演' };
+  if (type === '配信収録') return { year, label: '配信' };
+  if (/^ライブ(?:映像|音源)|スタジオ歌唱|形態未確認|ミュージックビデオ/.test(type)) {
+    return { year, label: '資料記載' };
+  }
+  return { year, label: '発売・配信' };
+}
+
+function dateSortKey(date, fallback = '9999') {
+  return date.year.slice(0, 4) || fallback;
+}
+
+function yearText(year) {
+  return year.replace('–', '〜') + '年';
+}
+
+function versionYearLabels(row, date) {
+  const meta = row[6];
+  const labels = [];
+  if (date.label === '公演' || date.label === '公演期間') {
+    if (meta?.broadcastYear) labels.push(`放送 ${yearText(meta.broadcastYear)}`);
+  }
+  if (meta?.releaseYear && (meta.performanceYear || meta.broadcastYear)) {
+    labels.push(`${meta.releaseLabel || '発売'} ${yearText(meta.releaseYear)}`);
+  }
+  return labels;
+}
+
 const collator = new Intl.Collator('ja', { numeric: true, sensitivity: 'base' });
 const catalogSongs = songs.flatMap((song, index) => {
   if (song.redirectTo) return [];
-  const firstYear = song.versions[0][1];
+  const versions = song.versions.map(row => ({ row, date: versionDate(row) }))
+    .sort((a, b) => dateSortKey(a.date).localeCompare(dateSortKey(b.date)));
+  const first = versions.find(({ date }) => date.year && !date.year.includes('–') && date.label !== '資料記載');
+  const firstYear = first?.date.year || '';
+  const firstVersion = first?.row || song.versions[0];
   const fields = [song.title, song.lyrics, song.music, ...song.versions.flatMap(
-    ([type, year, artist, work, , , meta]) => [type, year, artist, work, meta?.track, meta?.note, meta?.creditedAs]
+    ([type, year, artist, work, , , meta]) => [type, year, artist, work, meta?.track, meta?.note, meta?.creditedAs, meta?.performanceYear, meta?.broadcastYear, meta?.releaseYear]
   )].filter(Boolean).join(' ');
-  return [{ song, number: index + 1, firstYear, text: normalize(fields + ' ' + normalizeArtistAliases(fields)) }];
+  return [{ song, number: index + 1, firstYear, firstVersion, versions, text: normalize(fields + ' ' + normalizeArtistAliases(fields)) }];
 });
 const entries = new Map(catalogSongs.map(entry => [entry.song.id, entry]));
 const redirects = new Map(songs.filter(song => song.redirectTo).map(song => [song.id, song.redirectTo]));
 const sorters = {
-  oldest: (a, b) => a.firstYear.localeCompare(b.firstYear) || a.number - b.number,
+  oldest: (a, b) => (a.firstYear || '9999').localeCompare(b.firstYear || '9999') || a.number - b.number,
   newest: (a, b) => b.firstYear.localeCompare(a.firstYear) || a.number - b.number,
   title: (a, b) => collator.compare(a.song.title, b.song.title) || a.number - b.number,
   added: (a, b) => b.number - a.number,
@@ -77,7 +119,7 @@ let selected = null;
 let listScroll = 0;
 let compactScroll = 0;
 
-for (const value of [...new Set(catalogSongs.map(({ firstYear }) => firstYear.slice(0, 3) + '0'))].sort()) {
+for (const value of [...new Set(catalogSongs.filter(({ firstYear }) => firstYear).map(({ firstYear }) => firstYear.slice(0, 3) + '0'))].sort()) {
   decade.add(new Option(value + '年代', value));
 }
 
@@ -102,21 +144,25 @@ function showDetail() {
     return;
   }
 
-  const { song, number } = selected;
-  const rows = song.versions;
+  const { song, number, firstYear, versions } = selected;
   detailContent.innerHTML = `
     <p class="eyebrow">No. ${String(number).padStart(2,'0')}</p>
     <h3>${song.title}</h3>
+    <p class="credit">初出年　${firstYear ? yearText(firstYear) : "未確認"}</p>
     <p class="credit">作詞　${song.lyrics}　／　作曲　${song.music}</p>
     ${song.note ? `<p class="note">${song.note}</p>` : ''}
-    <p class="version-heading">収録・公演記録 <span>${rows.length}件</span></p>
-    <ol class="timeline">${rows.map(([type, year, artist, release, url, source, meta]) => `
+    <p class="version-heading">収録・公演記録 <span>${versions.length}件</span></p>
+    <ol class="timeline">${versions.map(({ row, date }) => {
+      const [type, year, artist, release, url, source, meta] = row;
+      const relatedYears = versionYearLabels(row, date);
+      return `
       <li><details class="version">
         <summary>
-          <time datetime="${year}">${year}</time>
+          <span class="version-date">${/^\d{4}$/.test(date.year) ? `<time datetime="${date.year}">${date.year}</time>` : date.year}<small>${date.label}</small></span>
           <span class="version-summary">
             <span class="version-title"><strong>${displayArtist(year, artist, release)}</strong> <span class="badge ${badges[type]}">${type}</span></span>
             <span class="version-release">${meta?.track ? `「${meta.track}」 · ` : ''}『${release}』</span>
+            ${relatedYears.length ? `<span class="version-release">${relatedYears.join(' ／ ')}</span>` : ''}
           </span>
         </summary>
         <div class="version-info">
@@ -126,7 +172,8 @@ function showDetail() {
           ${meta?.reference ? `<a class="source" href="${meta.reference[0]}" target="_blank" rel="noopener">${meta.reference[1]} ↗</a>` : ''}
           ${meta?.creditSource ? `<a class="source" href="${meta.creditSource}" target="_blank" rel="noopener">名義の確認資料 ↗</a>` : ''}
         </div>
-      </details></li>`).join('')}</ol>`;
+      </details></li>`;
+    }).join('')}</ol>`;
 }
 
 function renderCatalog() {
@@ -142,10 +189,10 @@ function renderCatalog() {
     ? `${matches.length}件 / 全${catalogSongs.length}曲`
     : `${catalogSongs.length}曲`;
   clearSearch.hidden = !query && !writer && !decade.value && sort.value === 'oldest';
-  results.innerHTML = matches.length ? matches.map(({ song, number, firstYear }) => {
-    const [, year, artist, work] = song.versions[0];
+  results.innerHTML = matches.length ? matches.map(({ song, number, firstYear, firstVersion }) => {
+    const [, year, artist, work] = firstVersion;
     return `<button type="button" class="song" data-song="${song.id}" aria-controls="detail">
-      <span class="song-index"><span class="year">${firstYear}</span><small>No. ${number}</small></span>
+      <span class="song-index"><span class="year">${firstYear || "未確認"}</span><small>No. ${number}</small></span>
       <span><strong>${song.title}</strong><small>${displayArtist(year, artist, work)} · ${song.versions.length}件</small></span>
       <span class="arrow" aria-hidden="true">›</span>
     </button>`;
