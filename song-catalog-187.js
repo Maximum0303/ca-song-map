@@ -3821,5 +3821,32 @@ const songs = [
         }
       ]
     ]
+  },
+  {
+    "id": "mamma-mia-kaoru-miyazaki",
+    "title": "Mamma Mia!",
+    "lyrics": "クレジット未確認",
+    "music": "クレジット未確認",
+    "writers": [],
+    "note": "宮﨑薫のアルバム「Garden」収録曲。ASKAが共同プロデュースで参加したことを公式ブログで明かしている。",
+    "versions": [
+      [
+        "配信収録",
+        "2026",
+        "宮﨑薫",
+        "Garden",
+        "https://www.fellows.tokyo/blog/detail/1558/",
+        "ASKA公式ブログ・共同プロデュースと収録曲順",
+        {
+          "note": "10月30日配信。アルバムの第2曲。共同プロデュースにASKAが参加。",
+          "releaseYear": "2026",
+          "releaseLabel": "配信",
+          "reference": [
+            "https://www.fellows.tokyo/news/detail/792",
+            "ASKA公式・アルバムのデジタル配信日"
+          ]
+        }
+      ]
+    ]
   }
 ];
