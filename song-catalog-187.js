@@ -3673,9 +3673,17 @@ const songs = [
     ['映像収録','2026','玉置浩二・ASKA','命の宿り（ミュージックビデオ）','https://saltmoderate.com/news/detail/20738','玉置浩二公式・ミュージックビデオ公開日と公式動画',
       {note:'10月14日公開。',reference:['https://www.sonymusic.co.jp/artist/KojiTamakiASKA/info/587649','ソニーミュージック公式・MV公開情報']}]
   ]},
-  {"id": "hoshi-ni-negai-wo", "title": "星に願いを～WHEN YOU WISH UPON A STAR～", "lyrics": "Ned Washington", "music": "Leigh Harline", "writers": [], "note": "ディズニー映画『ピノキオ』の楽曲。CHAGE&ASKAが1993年にカバーした。", "versions":[
-    ["原曲", "1940", "クリフ・エドワーズ（ジミニー・クリケット）", "ピノキオ", "https://catalog.afi.com/Film/5131-PINOCCHIO", "AFI・映画の公開情報と作家クレジット", {"note": "米国で2月公開。", "dateBasis":"映画公開"}],
-    ["カバー", "1993", "CHAGE&ASKA", "You are free", "https://www.chage-aska.net/discography/single/you_are_free.php", "CHAGE and ASKA公式・発売日と曲順", {"note": "11月19日発売。シングルCD（PCCA-00529）第2曲。"}]
+  {"id":"hoshi-ni-negai-wo","title":"星に願いを～WHEN YOU WISH UPON A STAR～","lyrics":"Ned Washington","music":"Leigh Harline","writers":[],"note":"ディズニー映画『ピノキオ』の主題歌。CHAGE&ASKAが服部隆之の編曲でカバーし、1993年のシングル「You are free」に収録した。ASKAとChageもそれぞれのソロ公演で歌唱した。", "versions":[
+    ["原曲","1940","クリフ・エドワーズ（ジミニー・クリケット）","ピノキオ","https://catalog.afi.com/Film/5131-PINOCCHIO","AFI・映画の公開情報と作家クレジット",{"note":"米国で2月公開。","dateBasis":"映画公開"}],
+    ["カバー","1993","CHAGE&ASKA","You are free","https://www.chage-aska.net/discography/single/you_are_free.php","CHAGE and ASKA公式・発売日、曲順とクレジット",{"note":"11月19日発売。シングルCD（PCCA-00529）の第2曲。編曲は服部隆之。","releaseYear":"1993","releaseLabel":"CD発売"}],
+    ["テレビ放送","1993","CHAGE&ASKA","CHAGE&ASKA 史上最大のメリークリスマス","https://w.atwiki.jp/cavc/pages/54.html","C&A映像情報メディア管理センター・放送日と番組使用曲",{"note":"12月23日、日本テレビの生放送特番。番組資料の曲目に掲載。本曲の放送素材と歌唱場所は未確認。","broadcastYear":"1993"}],
+    ["ボックス収録","1994","CHAGE&ASKA","SUPER BEST BOX SINGLE HISTORY 1979-1994 AND Snow Mail","https://w.atwiki.jp/cavc/pages/186.html","C&A映像情報メディア管理センター・発売日と曲順",{"note":"12月16日発売。4枚組CD（PCCA-00700）のDisc 4「Snow Mail」第6曲。","releaseYear":"1994","releaseLabel":"CD発売"}],
+    ["テレビ放送","1999","CHAGE&ASKA","CHAGE&ASKA TV クリスマス特番","https://w.atwiki.jp/cavc/pages/66.html","C&A映像情報メディア管理センター・放送月と番組使用曲",{"note":"12月、ディレクTVで放送。番組資料では本曲のプロモーション映像を使用。放送日は未確認。","broadcastYear":"1999"}],
+    ["ライブカバー","2005","ASKA","ASKA Symphonic Concert 2005 featuring Takayuki Hattori","https://w.atwiki.jp/cavc/pages/95.html","C&A映像情報メディア管理センター・公演日と曲目",{"note":"11月16日・17日、東京国際フォーラム ホールA。服部隆之の指揮と東京ニューシティ管弦楽団の演奏で、アンコールの1曲目に歌唱。","performanceYear":"2005","reference":["https://www.chage-aska.net/history/2000.php","CHAGE and ASKA公式・公演日、会場と出演者"]}],
+    ["ライブカバー","2008","Chage","AIR-G’ FM北海道「GOTCHA!」 presents CHAGE Acoustic Xmas Night","https://www.livefans.jp/events/14643","LiveFans・公演日、会場と投稿セットリスト",{"note":"12月22日、Zepp Sapporo公演で歌唱。","performanceYear":"2008","reference":["https://newikis.com/ja/Chage","公演資料・副題を含む曲名と公演記録"]}],
+    ["再収録","2009","CHAGE and ASKA","Snow Mail add 3 songs","https://www.yamahamusic.co.jp/s/ymc/discography/569?ima=0000&link=ROBO004","ヤマハミュージックコミュニケーションズ公式・発売日と曲順",{"note":"11月25日発売。増補版SHM-CD（YCCR-10029）の第6曲。1986年のオリジナル盤の4曲に追加された3曲のうちの1曲。","releaseYear":"2009","releaseLabel":"CD発売"}],
+    ["ライブカバー","2025","ASKA","ASKA Dinner Show 2025（福岡公演）","https://note.com/lofty_sloth4931/n/n89631fe443e8","公演観覧記・福岡公演の曲目",{"note":"12月7日、グランド ハイアット 福岡 ザ・グランド・ボールルーム。観覧記のセットリストでは第6曲。","performanceYear":"2025","reference":["https://www.fellows.tokyo/feature/aska_dinnershow_2025","ASKA公式・公演日と会場"]}],
+    ["ライブカバー","2025","ASKA","ASKA Dinner Show 2025（東京公演）","https://note.com/sors/n/n98ec7fcc9a5f","公演観覧記・東京2日目の曲目",{"note":"12月21日、ザ・プリンス パークタワー東京 ボールルーム。東京2日目の観覧記で歌唱を確認。","performanceYear":"2025","reference":["https://www.fellows.tokyo/feature/aska_dinnershow_2025","ASKA公式・公演日と会場"]}]
   ]},
   {"id": "love-is-alive", "title": "Love is alive", "lyrics": "飛鳥涼（ASKA）", "music": "飛鳥涼（ASKA）", "writers": ["ASKA"], "note": "飛鳥涼が作詞・作曲し、岩崎宏美とデュエット。スタジオ版の編曲は澤近泰輔。", "versions":[
     ["原曲", "1991", "ASKA・岩崎宏美", "SCENE II", "https://www.fellows.tokyo/discography/detail/48/", "ASKA公式・発売日と曲順", {"note": "6月5日発売。第3曲。", "reference": ["https://moma-bd.com/aska.madeinaska.htm", "アルバム資料・共演と編曲のクレジット"]}],
