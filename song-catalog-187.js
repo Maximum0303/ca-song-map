@@ -3707,5 +3707,111 @@ const songs = [
   {"id": "miagete-goran-yoru-no-hoshi-wo", "title": "見上げてごらん夜の星を", "lyrics": "永六輔", "music": "いずみたく", "writers": [], "note": "同名ミュージカルの主題歌。坂本九が1963年にシングルで発表し、2026年の公演でASKAと岩崎宏美が共演した。", "versions":[
     ["原曲", "1963", "坂本九", "見上げてごらん夜の星を／勉強のチャチャチャ", "https://www.sakamoto-kyu.com/Memory-main/Memory-1963.html", "坂本九公式・発売日、品番とクレジット", {"note": "5月1日発売。東芝レコード盤（JP-5217）。編曲は渋谷毅。"}],
     ["ライブ映像", "2026", "ASKA・岩崎宏美", "ASKA CONCERT 2026 昭和が見ていたクリスマス!?", "https://www.fellows.tokyo/news/detail/737", "ASKA公式・上映曲目、収録日と会場", {"note": "2月13日、東京国際フォーラム ホールA公演。岩崎宏美とデュエット。", "performanceYear":"2026"}]
-  ]}
+  ]},
+  {
+    "id": "white-christmas",
+    "title": "WHITE CHRISTMAS",
+    "lyrics": "Irving Berlin",
+    "music": "Irving Berlin",
+    "writers": [],
+    "note": "Irving Berlin作詞・作曲のクリスマス・スタンダード。ビング・クロスビーが1941年にラジオで初披露した。チャゲ＆飛鳥は1980年代の公演で歌唱し、1993年に服部隆之の編曲によるカバーをシングルに収録した。",
+    "versions": [
+      [
+        "ラジオ歌唱",
+        "1941",
+        "ビング・クロスビー",
+        "The Kraft Music Hall",
+        "https://www.loc.gov/lcm/pdf/LCM_2014_1112.pdf",
+        "米国議会図書館・初披露と映画の公開",
+        {
+          "note": "12月25日のNBCラジオ放送で初披露。",
+          "broadcastYear": "1941"
+        }
+      ],
+      [
+        "原曲",
+        "1942",
+        "ビング・クロスビー",
+        "White Christmas（Decca盤）",
+        "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/WHITE%20CHRISTMAS.pdf",
+        "米国議会図書館・録音と発売",
+        {
+          "note": "5月29日録音、8月に発売。同年公開の映画『Holiday Inn』の挿入歌。",
+          "releaseYear": "1942"
+        }
+      ],
+      [
+        "ライブカバー",
+        "1985",
+        "チャゲ＆飛鳥",
+        "SHAKIN’ NIGHT",
+        "https://w.atwiki.jp/cavc/pages/441.html",
+        "C&A映像情報メディア管理センター・公演記録",
+        {
+          "note": "12月3日、調布市グリーンホール。セットリストの第23曲。",
+          "performanceYear": "1985"
+        }
+      ],
+      [
+        "ライブカバー",
+        "1986",
+        "チャゲ＆飛鳥",
+        "Super Explosion Series X'mas Special",
+        "https://w.atwiki.jp/cavc/pages/380.html",
+        "C&A映像情報メディア管理センター・公演記録",
+        {
+          "note": "12月11日の日本武道館公演では第23曲、12月24日の福岡国際センター公演では第22曲。",
+          "performanceYear": "1986"
+        }
+      ],
+      [
+        "ライブカバー",
+        "1987",
+        "チャゲ＆飛鳥",
+        "Super Explosion Series X'mas Special（静岡振替公演）",
+        "https://w.atwiki.jp/cavc/pages/380.html",
+        "C&A映像情報メディア管理センター・振替公演の記録",
+        {
+          "note": "1月に静岡市民文化会館で開催された振替公演。資料では本曲を含む構成を維持したとされる。開催日は未確認。",
+          "performanceYear": "1987"
+        }
+      ],
+      [
+        "カバー",
+        "1993",
+        "CHAGE&ASKA",
+        "なぜに君は帰らない",
+        "https://www.chage-aska.net/discography/single/nazeni_kimiha_kaeranai.php",
+        "CHAGE and ASKA公式・発売日、曲順とクレジット",
+        {
+          "note": "11月19日発売。シングルの第3曲。編曲は服部隆之。",
+          "releaseYear": "1993"
+        }
+      ],
+      [
+        "ボックス収録",
+        "1994",
+        "CHAGE&ASKA",
+        "SUPER BEST BOX SINGLE HISTORY 1979-1994 AND Snow Mail",
+        "https://w.atwiki.jp/cavc/pages/186.html",
+        "C&A映像情報メディア管理センター・発売日と曲順",
+        {
+          "note": "12月16日発売。Disc 4の第5曲。",
+          "releaseYear": "1994"
+        }
+      ],
+      [
+        "再収録",
+        "2009",
+        "CHAGE and ASKA",
+        "Snow Mail add 3 songs",
+        "https://www.yamahamusic.co.jp/s/ymc/discography/569?ima=0000&link=ROBO004",
+        "ヤマハミュージックコミュニケーションズ公式・発売日と曲順",
+        {
+          "note": "11月25日発売。増補版SHM-CD（YCCR-10029）の第5曲。1986年のオリジナル盤の4曲に追加された3曲のうちの1曲。",
+          "releaseYear": "2009"
+        }
+      ]
+    ]
+  }
 ];
