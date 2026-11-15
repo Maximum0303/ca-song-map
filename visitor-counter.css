@@ -1,0 +1,28 @@
+.visitor-counter {
+  max-inline-size: 12rem;
+  margin-block-end: 1rem;
+  padding: .75rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--card);
+  font-size: .8125rem;
+}
+.visitor-counter[hidden] { display: none; }
+.visitor-counter h2 { margin: 0 0 .3rem; font-size: 1em; }
+.visitor-counter dl { margin: 0; }
+.visitor-counter dl > div {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding-block: .25rem;
+  border-bottom: 1px solid var(--line);
+}
+.visitor-counter dd {
+  margin: 0;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.visitor-counter p {
+  margin: .5rem 0 0;
+  color: var(--muted);
+  font-size: .6875rem;
+}
