@@ -243,7 +243,7 @@ const songs = [
     ['ベスト盤収録','2023','酒井法子','Premium Best','https://www.jvcmusic.co.jp/-/Discography/A000342/VICL-65856.html','ビクター・ベスト盤収録情報',
       {note:'7月19日発売。CD1に収録。'}]
   ]},
-  { id:'august', title:'1ページのAugust', lyrics:'松本和子', music:'Chage', writers:['Chage'], versions:[
+  { id:'august', "note":"松本和子が作詞、Chageが作曲した酒井法子への提供曲。船山基紀の編曲で、1988年のアルバム『Lovely Times／NORIKO PartIII』に収録された。", title:'1ページのAugust', lyrics:'松本和子', music:'Chage', writers:['Chage'], versions:[
     ['提供音源','1988','酒井法子','Lovely Times／NORIKO PartIII','https://funayamamotoki.com/works/s.html','船山基紀公式・発売日と楽曲クレジット',
       {note:'8月21日発売。第10曲。作曲の当時のクレジットはCHAGE、編曲は船山基紀。ビクターの配信版は2017年7月26日リリースで、同じく第10曲に収録。', reference:['https://www.jvcmusic.co.jp/-/Discography/A000342/VEATP-34359.html','ビクターエンタテインメント・配信版の収録情報']}]
   ]},
@@ -615,13 +615,13 @@ const songs = [
     ['ベスト盤収録','2009','CHAGE and ASKA','CHAGE and ASKA VERY BEST NOTHING BUT C&A','https://www.chage-aska.net/discography/album/very_best_bothing.php','CHAGE and ASKA公式・ベスト盤',
       {note:'2月4日発売。第1曲。'}]
   ]},
-  { id:"kimi-wa-nanimo", title:"君はなにも知らないまま", lyrics:"青木せい子", music:"Chage", writers:["Chage"], versions:[
+  { id:"kimi-wa-nanimo", "note":"青木せい子が作詞、Chageが作曲。1993年のシングル『YAH YAH YAH／夢の番人』の3曲目として発表され、翌年、14 KARAT SOULが「BACK AGAINST THE WALL」の題で英語カバーした。", title:"君はなにも知らないまま", lyrics:"青木せい子", music:"Chage", writers:["Chage"], versions:[
     ["原曲", "1993", "CHAGE&ASKA", "YAH YAH YAH／夢の番人", "https://www.chage-aska.net/discography/single/yah_yah_yah.php", "CHAGE and ASKA公式・原曲の収録情報",
       {creditSource:"https://www.suruga-ya.jp/product/detail/250020147", "note": "3月3日発売。第3曲。"}],
     ["海外カバー", "1994", "14 KARAT SOUL", "TRANSPACIFIC", "https://music.apple.com/us/album/transpacific/1460227827", "Apple Music・ポニーキャニオン配信情報",
       {"track": "BACK AGAINST THE WALL", "note": "4月21日発売。第7曲の英語カバー。初版CDはPCCY-00537。", "reference": ["https://item.fril.jp/329d3b8fd04d1b07ae7c6351c88a6bdb", "初版CDの資料・原曲との対応"]}]
   ]},
-  { id:"hikari-to-kage", title:"光と影", lyrics:"Chage", music:"Chage", writers:["Chage"], versions:[
+  { id:"hikari-to-kage", "note":"Chageが作詞・作曲した、1992年のアルバム『GUYS』収録曲。14 KARAT SOULが英語カバー「OVER THE RAINBOW」をアルバム『TRANSPACIFIC』で発表した。", title:"光と影", lyrics:"Chage", music:"Chage", writers:["Chage"], versions:[
     ["原曲", "1992", "CHAGE&ASKA", "GUYS", "https://www.chage-aska.net/discography/album/guys.php", "CHAGE and ASKA公式・原曲の収録情報",
       {creditSource:"https://www.suruga-ya.jp/product/detail/220039127", "note": "11月7日発売。第4曲。"}],
     ["海外カバー", "1994", "14 KARAT SOUL", "TRANSPACIFIC", "https://music.apple.com/us/album/transpacific/1460227827", "Apple Music・ポニーキャニオン配信情報",
@@ -838,7 +838,7 @@ const songs = [
     ["ライブ映像","2024","ASKA","ASKA 10 DAYS SPECIAL グッバイ＆サンキュー東京厚生年金会館 -ここにあなたの足跡を-","https://www.fellows.tokyo/feature/10days_special_release","ASKA公式・収録公演、発売日と曲順",
       {"note":"9月4日Blu-ray発売。第13曲。2010年2月25日の東京厚生年金会館公演を収録。", "performanceYear":"2010","releaseYear":"2024"}]
   ]},
-  {"id":"morning-moon","title":"モーニングムーン","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"versions":[
+  {"id":"morning-moon", "note":"ASKAが作詞・作曲した1986年のシングル。アルバム『TURNING POINT』では間奏の長いバージョンが収録され、後に英国でも「Morning Moon」の題で複数のリミックスが発売された。","title":"モーニングムーン","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"versions":[
     ["原曲","1986","チャゲ＆飛鳥","モーニングムーン／Gently","https://www.chage-aska.net/discography/single/morning_moon.php","CHAGE and ASKA公式・原曲のシングルとクレジット",{creditSource:"https://osaka45studio.higana.jp/chage_and_aska.html", "note":"2月5日発売。シングル表題曲。編曲は佐藤準。"}],
     ["アルバム版","1986","チャゲ＆飛鳥","TURNING POINT","https://www.chage-aska.net/discography/album/turning_point.php","CHAGE and ASKA公式・発売日と曲順",{creditSource:"https://www.fanfan1.com/products/detail/565802", "note":"4月21日発売。第1曲。シングル版より間奏が長いロングバージョン。","reference":["https://w.atwiki.jp/cavc/pages/109.html","C&A映像情報メディア管理センター・ロングバージョンの解説"]}],
     ["ライブ映像","1986","チャゲ＆飛鳥","ONESIDE GAME 横浜スタジアム","https://www.chage-aska.net/discography/video/oneside_game.php","CHAGE and ASKA公式・発売日と曲順",{"note":"10月21日発売のVTR第4曲。1986年8月9日の横浜スタジアム公演。","reference":["https://www.suruga-ya.jp/kaitori/kaitori_detail/938006444","駿河屋・収録公演の日付と会場"], "performanceYear":"1986","releaseYear":"1986"}],
@@ -917,7 +917,7 @@ const songs = [
     ["カバー","2025","チャンミン","CHANGMIN from 東方神起 CONCERT TOUR ～The First Dining～（初回盤特典CD）","https://toho-jp.net/news/detail.php?id=1127687","東方神起公式・発売日と特典CDの曲順",{"note":"12月3日発売。初回生産限定盤の特典CD第3曲。CD音源の編曲は井上慎二郎、ケリーが楽器演奏を担当。","reference":["https://glor.jp/website/2025/12/03/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E6%83%85%E5%A0%B1-%E6%9D%B1%E6%96%B9%E7%A5%9E%E8%B5%B7-12/","制作スタッフの所属先・CD音源の担当"]}],
     ["ライブカバー","2025","チャンミン","CHANGMIN from 東方神起 CONCERT TOUR ～The First Dining～（ライブ映像）","https://toho-jp.net/news/detail.php?id=1127687","東方神起公式・映像の発売日、収録公演と曲順",{"note":"12月3日発売。2025年9月5日の東京国際フォーラム ホールA公演の歌唱を収録。"}]
   ]},
-  { id:"count-down", title:"Count Down", lyrics:"澤地隆", music:"Chage", writers:["Chage"], versions:[
+  { id:"count-down", "note":"澤地隆が作詞、Chageが作曲した、1986年のチャゲ＆飛鳥のシングル表題曲。1995年には『C・A・A・MIX FACTORY』に「COUNT DOWN（Super NRG Version）」が収録された。", title:"Count Down", lyrics:"澤地隆", music:"Chage", writers:["Chage"], versions:[
     ["原曲", "1986", "チャゲ＆飛鳥", "Count Down", "https://www.chage-aska.net/discography/single/count_down.php", "CHAGE and ASKA公式・原曲のシングル",
       {creditSource:"https://osaka45studio.higana.jp/chage_and_aska.html", "note": "8月21日発売。シングル表題曲。"}],
     ["カバー","1995","C.A.A. MIX FACTORY（歌唱：Julia Wilson）","C・A・A・MIX FACTORY","https://tower.jp/item/549350","タワーレコード・CD収録情報",{"track":"COUNT DOWN（Super NRG Version）","note":"11月17日発売。ポニーキャニオンのCD（PCCY-00871）第6曲。ParaParaManiaの収録曲資料による歌唱名義。CDブックレットは未照合。","reference":["https://www.2choume.com/para/CAA-MIX-FACTORY/cd/caamf.html","ParaParaMania・曲別の歌唱者一覧"]}]
@@ -2492,15 +2492,15 @@ const songs = [
       {note:'10月1日、デビューシングルのサブスクリプション配信開始。',reference:['https://www.fellows.tokyo/news/detail/218','ASKA公式・配信解禁の告知']}]
   ]}
 ,
-  {"id":"take-me-away-lisa-stansfield-aska","title":"Take Me Away","lyrics":"Lisa Jane Stansfield","music":"ASKA","writers":["ASKA"],"versions":[
+  {"id":"take-me-away-lisa-stansfield-aska", "note":"Lisa Stansfieldが作詞、ASKAが作曲し、二人で歌ったオリジナル曲。1996年のトリビュート盤『one voice』の日本盤に、ボーナス・トラックとして収録された。","title":"Take Me Away","lyrics":"Lisa Jane Stansfield","music":"ASKA","writers":["ASKA"],"versions":[
     ["原曲","1996","Lisa Stansfield & ASKA","one voice THE SONGS OF CHAGE & ASKA BY VARIOUS ARTISTS（日本盤）","https://www.chage-aska.net/discography/others/one_voice.php","CHAGE and ASKA公式・日本盤の発売日、品番と曲順",{"track":"TAKE ME AWAY","note":"7月31日発売。日本盤（TOCT-9560）の第2曲。日本盤のボーナス・トラック。Lisa StansfieldとASKAのデュエットによるオリジナル曲。作詞はLisa Jane Stansfield、作曲はASKA。","reference":["https://www.kinokuniya.co.jp/f/dsg-10-4988006135710","紀伊國屋書店・歌唱者と曲名または作家のクレジット"]}]
   ]},
-  {"id":"noichigo-ga-yureru-you-ni","title":"野いちごがゆれるように","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"versions":[
+  {"id":"noichigo-ga-yureru-you-ni", "note":"ASKAが作詞・作曲した、1992年のアルバム『GUYS』収録曲。Chaka Khanが「RASPBERRY」の題で英語カバーし、1996年の『one voice』のUK盤と日本盤に収録された。","title":"野いちごがゆれるように","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"versions":[
     ["原曲","1992","CHAGE&ASKA","GUYS","https://www.chage-aska.net/discography/album/guys.php","CHAGE and ASKA公式・原曲の発売日、曲順と作家クレジット",{creditSource:"https://www.suruga-ya.jp/product/detail/220039127", "note":"11月7日発売。第2曲。"}],
     ["海外カバー","1996","Chaka Khan","one voice THE SONGS OF CHAGE & ASKA BY VARIOUS ARTISTS（UK盤）","https://www.chage-aska.net/discography/others/one_voice_england.php","CHAGE and ASKA公式・UK盤の発売日、品番と曲順",{"track":"RASPBERRY","note":"7月8日発売。UK盤（7243 8 52785 2 5）の第2曲。「野いちごがゆれるように」の英語カバー。両盤のテイク・ミックスの異同は未照合。","reference":["https://www.fanfan1.com/products/detail.php?product_id=777244","日本盤CDの現物資料・歌唱者と原曲の対応"]}],
     ["海外カバー","1996","Chaka Khan","one voice THE SONGS OF CHAGE & ASKA BY VARIOUS ARTISTS（日本盤）","https://www.chage-aska.net/discography/others/one_voice.php","CHAGE and ASKA公式・日本盤の発売日、品番と曲順",{"track":"RASPBERRY","note":"7月31日発売。日本盤（TOCT-9560）の第3曲。「野いちごがゆれるように」の英語カバー。両盤のテイク・ミックスの異同は未照合。","reference":["https://www.fanfan1.com/products/detail.php?product_id=777244","日本盤CDの現物資料・歌唱者と原曲の対応"]}]
   ]},
-  {"id":"red-hill","title":"RED HILL","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"versions":[
+  {"id":"red-hill", "note":"ASKAが作詞・作曲した、1993年のアルバム『RED HILL』の表題曲。CHAGE&ASKAは「MTV UNPLUGGED LIVE」でも演奏し、Michael Hutchenceは『one voice』で英語カバーした。","title":"RED HILL","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"versions":[
     ["原曲","1993","CHAGE&ASKA","RED HILL","https://www.chage-aska.net/discography/album/red_hill.php","CHAGE and ASKA公式・原曲の発売日、曲順と作家クレジット",{creditSource:"https://www.suruga-ya.jp/product/detail/220039190", "note":"10月10日発売。初版CD（PCCA-00476）の第10曲。編曲は井上鑑。","reference":["https://www.suruga-ya.jp/product/detail/220039190","駿河屋・初版CDの品番と曲順"]}],
     ["映像収録","1994","CHAGE&ASKA","RED HILL（ミュージックビデオ集）","https://www.chage-aska.net/discography/video/red_hill.php","CHAGE and ASKA公式・初版の発売日と曲順",{"note":"2月18日発売。VHS・LDの第6曲。2020年11月11日発売のDVDにも第6曲として収録。","reference":["https://www.chage-aska.net/discography/video/red_hill_2020.php","CHAGE and ASKA公式・DVDの発売日と曲順"]}],
     ["ベスト盤収録","1994","CHAGE&ASKA","Singles - The European Collection","https://www.fanfan1.com/products/detail/698749","FanFan・欧州盤CDの曲順",{"track":"Red Hill","note":"欧州向けベスト盤の第7曲。初出アルバムとの音源の異同は未照合。","reference":["https://w.atwiki.jp/cavc/pages/185.html","C&A映像情報メディア管理センター・欧州盤の発売年と曲順"]}],
@@ -2554,11 +2554,11 @@ const songs = [
   ]},
   // Keep this slot so published song numbers stay fixed.
   {id:"yume-chage-aska", redirectTo:"yume"},
-  {"id":"mousugu-da","title":"もうすぐだ","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"versions":[
+  {"id":"mousugu-da", "note":"ASKAが作詞・作曲した、1996年のアルバム『CODE NAME.2 SISTER MOON』の1曲目。同年、Richard Marxが「HEART OF MY OWN」の題で英語カバーし、『one voice』日本盤に収録された。","title":"もうすぐだ","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"versions":[
     ["原曲","1996","CHAGE&ASKA","CODE NAME.2 SISTER MOON","https://www.chage-aska.net/discography/album/code_name2.php","CHAGE and ASKA公式・原曲の発売日、曲順と作家クレジット",{creditSource:"https://www.suruga-ya.jp/kaitori/kaitori_detail/220039507", "note":"4月22日発売。第1曲。"}],
     ["海外カバー","1996","Richard Marx","one voice THE SONGS OF CHAGE & ASKA BY VARIOUS ARTISTS（日本盤）","https://www.chage-aska.net/discography/others/one_voice.php","CHAGE and ASKA公式・日本盤の発売日、品番と曲順",{"track":"HEART OF MY OWN","note":"7月31日発売。日本盤（TOCT-9560）の第10曲。日本盤のボーナス・トラック。「もうすぐだ」の英語カバー。","reference":["https://www.kinokuniya.co.jp/f/dsg-10-4988006135710","紀伊國屋書店・歌唱者と曲名または作家のクレジット"]}]
   ]},
-  {"id":"uso-chage-aska","title":"嘘","lyrics":"松井五郎","music":"Chage","writers":["Chage"],"versions":[
+  {"id":"uso-chage-aska", "note":"松井五郎が作詞、Chageが作曲した、1981年のアルバム『熱風』収録曲。CHAGE&ASKAは1996年の「MTV UNPLUGGED LIVE」で歌い、Marianne Faithfullは『one voice』で「LIES」の題で英語カバーした。","title":"嘘","lyrics":"松井五郎","music":"Chage","writers":["Chage"],"versions":[
     ["原曲","1981","チャゲ＆飛鳥","熱風","https://www.chage-aska.net/discography/album/neppu.php","CHAGE and ASKA公式・原曲の発売日、曲順と作家クレジット",{creditSource:"https://www.snowrecords.jp/?pid=177456133", "note":"2月25日発売。第9曲。"}],
     ["ライブ音源","1996","CHAGE&ASKA","MTV UNPLUGGED LIVE","https://www.chage-aska.net/discography/album/mtv_unplugged_live.php","CHAGE and ASKA公式・ライブCDの発売日と曲順",{"note":"6月19日、ロンドンのファウンテン・テレビジョン・スタジオで収録。10月7日発売のライブCDでは第5曲。","performanceYear":"1996","releaseYear":"1996","releaseLabel":"CD発売","reference":["https://www.yamahamusic.co.jp/s/ymc/discography/567","ヤマハミュージックコミュニケーションズ・収録日と都市"]}],
     ["ライブ映像","1996","CHAGE&ASKA","MTV UNPLUGGED LIVE","https://www.chage-aska.net/discography/video/mtv_unplugged.php","CHAGE and ASKA公式・DVDの発売日と曲順",{"note":"6月19日、ロンドンのファウンテン・テレビジョン・スタジオで収録。1996年10月18日発売のビデオと、2001年1月1日発売のDVD（YCBR-00003）では第4曲。","performanceYear":"1996","releaseYear":"2001","releaseLabel":"DVD発売","reference":["https://www.suruga-ya.jp/kaitori/kaitori_detail/938001520","駿河屋・ビデオの発売日、収録会場と曲順"]}],
@@ -2566,16 +2566,16 @@ const songs = [
     ["海外カバー","1996","Marianne Faithfull","one voice THE SONGS OF CHAGE & ASKA BY VARIOUS ARTISTS（日本盤）","https://www.chage-aska.net/discography/others/one_voice.php","CHAGE and ASKA公式・日本盤の発売日、品番と曲順",{"track":"LIES","note":"7月31日発売。日本盤（TOCT-9560）の第13曲。「嘘」の英語カバー。両盤のテイク・ミックスの異同は未照合。","reference":["https://www.fanfan1.com/products/detail.php?product_id=777244","日本盤CDの現物資料・歌唱者と原曲の対応"]}]
   ]}
 ,
-  {"id":"aruku-tabi-ni-sukitooru-kaze","title":"歩くたびに透きとおる風","lyrics":"—","music":"ASKA","writers":["ASKA"],"versions":[
+  {"id":"aruku-tabi-ni-sukitooru-kaze", "note":"ASKAが作曲した、ドラマ『振り返れば奴がいる』の劇伴。1993年のサウンドトラックには、序曲・ギター版・オーケストラ版の3種類が収録された。","title":"歩くたびに透きとおる風","lyrics":"—","music":"ASKA","writers":["ASKA"],"versions":[
     ["インスト","1993","ASKA・S.E.N.S.（共同プロデュース）","「振り返れば奴がいる」オリジナルサウンドトラック","https://www.sens-company.com/sens/disco/details/details_sa010_yha_yha_yha.html","S.E.N.S.公式・発売日、共同プロデュースと曲順",{"track":"歩くたびに透きとおる風 ～Overture～","note":"3月10日発売。第1曲。ASKA作曲の劇伴。","reference":["https://www.fellows.tokyo/feature/disco_offer","ASKA公式・楽曲提供と作曲クレジット"]}],
     ["インスト","1993","ASKA・S.E.N.S.（共同プロデュース）","「振り返れば奴がいる」オリジナルサウンドトラック","https://www.sens-company.com/sens/disco/details/details_sa010_yha_yha_yha.html","S.E.N.S.公式・発売日、共同プロデュースと曲順",{"track":"歩くたびに透きとおる風 ～Guitar Version～","note":"3月10日発売。第9曲。ASKA作曲の劇伴。","reference":["https://www.fellows.tokyo/feature/disco_offer","ASKA公式・楽曲提供と作曲クレジット"]}],
     ["インスト","1993","ASKA・S.E.N.S.（共同プロデュース）","「振り返れば奴がいる」オリジナルサウンドトラック","https://www.sens-company.com/sens/disco/details/details_sa010_yha_yha_yha.html","S.E.N.S.公式・発売日、共同プロデュースと曲順",{"track":"歩くたびに透きとおる風 ～Orchestra Version～","note":"3月10日発売。第13曲。ASKA作曲の劇伴。","reference":["https://www.fellows.tokyo/feature/disco_offer","ASKA公式・楽曲提供と作曲クレジット"]}]
   ]},
-  {"id":"otonatachi-no-niwa","title":"大人たちの庭","lyrics":"—","music":"ASKA／S.E.N.S.","writers":["ASKA"],"versions":[
+  {"id":"otonatachi-no-niwa", "note":"ASKAとS.E.N.S.が共同で作曲した、ドラマ『振り返れば奴がいる』の劇伴。1993年のサウンドトラックには、ストリングス版とピアノ版が収録された。","title":"大人たちの庭","lyrics":"—","music":"ASKA／S.E.N.S.","writers":["ASKA"],"versions":[
     ["インスト","1993","ASKA・S.E.N.S.（共同プロデュース）","「振り返れば奴がいる」オリジナルサウンドトラック","https://www.sens-company.com/sens/disco/details/details_sa010_yha_yha_yha.html","S.E.N.S.公式・発売日、共同プロデュースと曲順",{"track":"大人たちの庭 ～Strings Version～","note":"3月10日発売。第7曲。ASKAとS.E.N.S.の共同作曲による劇伴。","reference":["https://www.fellows.tokyo/feature/disco_offer","ASKA公式・楽曲提供と作曲クレジット"]}],
     ["インスト","1993","ASKA・S.E.N.S.（共同プロデュース）","「振り返れば奴がいる」オリジナルサウンドトラック","https://www.sens-company.com/sens/disco/details/details_sa010_yha_yha_yha.html","S.E.N.S.公式・発売日、共同プロデュースと曲順",{"track":"大人たちの庭 ～Piano Version～","note":"3月10日発売。第11曲。ASKAとS.E.N.S.の共同作曲による劇伴。","reference":["https://www.fellows.tokyo/feature/disco_offer","ASKA公式・楽曲提供と作曲クレジット"]}]
   ]},
-  {"id":"natural-chage-aska","title":"NATURAL","lyrics":"ASKA","music":"Chage／村上啓介","writers":["ASKA","Chage"],"versions":[
+  {"id":"natural-chage-aska", "note":"ASKAが作詞、Chageと村上啓介が作曲した、映画『ヒーローインタビュー』のオープニングテーマ。1994年のシングル『HEART／NATURAL／On Your Mark』に収録され、映画のサウンドトラックにはピアノ版も収められた。","title":"NATURAL","lyrics":"ASKA","music":"Chage／村上啓介","writers":["ASKA","Chage"],"versions":[
     ["原曲","1994","CHAGE&ASKA","HEART／NATURAL／On Your Mark","https://www.chage-aska.net/discography/single/heart.php","CHAGE and ASKA公式・シングルの発売日、曲順と作家クレジット",{creditSource:"https://www.suruga-ya.com/en/product/250020140", "note":"8月3日発売。8cm CD（PCDA-00629）の第2曲。編曲は村上啓介。映画『ヒーローインタビュー』オープニングテーマ。所蔵音源の管理データには6分41秒と6分40秒の記録がある。各音源の版とテイク・ミックスの異同は未照合。","reference":["https://ototoy.jp/_/default/p/84470","OTOTOY・配信版の第2曲（6分40秒）"]}],
     ["インスト","1994","井上鑑（編曲）","「ヒーローインタビュー」オリジナルサウンドトラック","https://www.kinokuniya.co.jp/f/dsg-10-4988013551831","紀伊國屋書店・サントラの発売日、曲順と作家クレジット",{"track":"夢のまた夢〈Featuring “NATURAL”〉","note":"9月7日発売。第14曲。「NATURAL」のモチーフを使用。作曲者欄はCHAGE、村上啓介、井上鑑。","reference":["https://www.suruga-ya.jp/product/detail/223000788","駿河屋・CDの副題と曲順"]}],
     ["インスト","1994","演奏者未確認","「ヒーローインタビュー」オリジナルサウンドトラック","https://www.kinokuniya.co.jp/f/dsg-10-4988013551831","紀伊國屋書店・サントラの発売日、曲順と作家クレジット",{"track":"NATURAL ～Piano Version～","note":"9月7日発売。第23曲。「NATURAL」のピアノ版。演奏者個人のクレジットは未照合。","reference":["https://www.suruga-ya.jp/product/detail/223000788","駿河屋・CDの副題と曲順"]}],
@@ -2583,7 +2583,7 @@ const songs = [
     ["アルバム収録","1995","CHAGE&ASKA","Code Name.1 Brother Sun","https://www.chage-aska.net/discography/album/code_name1.php","CHAGE and ASKA公式・アルバムの発売日と曲順",{creditSource:"https://www.suruga-ya.jp/product/detail/220039430", "note":"6月28日発売。第11曲。所蔵音源の管理データでは6分39秒。シングルとミックスが異なるとの指摘があるが、音源の比較は未照合。","reference":["https://ameblo.jp/chage-age/entry-12324651226.html","ちゃげえみ・シングルとアルバムのミックスに関する比較記録"]}],
     ["ベスト盤収録","1998","CHAGE&ASKA","Greatest Hits: Asian Special Version","https://www.cdhkonline.com/product-page/chage-aska-greatest-hits-asian-special-version","CDHK Online・香港盤の品番と曲順",{"track":"Natural","note":"香港盤（ARC 00019）の第12曲。6分40秒。初出シングルとのテイク・ミックスの異同は未照合。","reference":["https://musicbrainz.org/release/b24e8c3a-eb75-4f68-84e8-e86a318bbdee","MusicBrainz・香港盤の曲順と収録時間"]}]
   ]},
-  {"id":"epilogue-chage-aska","title":"終章（エピローグ）","lyrics":"Chage／田北憲次","music":"Chage","writers":["Chage"],"versions":[
+  {"id":"epilogue-chage-aska", "note":"Chageと田北憲次が作詞、Chageが作曲。1980年のアルバム『風舞』の最後を飾った曲で、CHAGE and ASKAの公演やChageのソロ作品でも取り上げられ、中国語圏でも複数の歌手がカバーしている。","title":"終章（エピローグ）","lyrics":"Chage／田北憲次","music":"Chage","writers":["Chage"],"versions":[
     ["原曲","1980","チャゲ＆飛鳥","風舞","https://www.chage-aska.net/discography/album/kazemai.php","CHAGE and ASKA公式・発売日、曲順と作家クレジット",{creditSource:"https://www.stereo-records.com/detail.php?itemCd=50115", "note":"4月25日発売。第10曲。編曲は瀬尾一三。 所蔵音源の管理データでは5分40秒。"}],
     ["ライブ音源","1981","チャゲ＆飛鳥","ライブ・イン田園コロシアム ～The 夏祭り'81","https://www.chage-aska.net/discography/album/live_in_denen_colosseum.php","CHAGE and ASKA公式・発売日と曲順",{creditSource:"https://www.snowrecords.jp/?pid=90302385", "note":"8月1日の東京・田園コロシアム公演。1981年9月10日発売のオリジナル盤は通し第7曲。2009年発売の完全収録盤はDisc 1第8曲で、所蔵音源の管理データでは5分10秒。","reference":["https://books.rakuten.co.jp/rb/6140301/","楽天ブックス・完全収録盤の発売日、曲順と収録時間"], "performanceYear":"1981","releaseYear":"1981"}],
     ["ライブ映像","1982","チャゲ＆飛鳥","THE夏祭り 大阪城LIVE","https://www.chage-aska.net/discography/video/the_natsumatsuri.php","CHAGE and ASKA公式・発売日と曲順",{creditSource:"https://w.atwiki.jp/cavc/pages/99.html", "note":"1982年8月15日の大阪城西の丸庭園公演。1983年7月1日発売の映像作品の第18曲。2009年の『LIVE DVD BOX 1』でもDVD化。","reference":["https://www.yamahamusic.co.jp/s/ymc/discography/507","ヤマハ公式・DVD BOXの発売日と曲順"], "performanceYear":"1982","releaseYear":"1983"}],
@@ -2625,15 +2625,15 @@ const songs = [
     ["ライブ音源","2023","Chage","Chageのずっと細道 特別編 Live at Spa Resort Hawaiians","https://chage-store.jp/products/ymehcd-10002","Chage公式ストア・曲順と収録公演",{"note":"2023年5月27日の福島・Spa Resort Hawaiians公演。2024年3月29日発売のCD第6曲。所蔵音源の管理データでは4分23秒。", "performanceYear":"2023","releaseYear":"2024"}],
     ["ライブ音源","2026","Chage","『Chageのずっと細道』 Live at SHIBUYA CLUB QUATTRO","https://chage.jp/discography/chage/album/027.php","Chage公式・発売日とDisc 2の曲順",{"note":"2026年3月22日の東京・渋谷CLUB QUATTRO公演。9月9日発売の『Ko』Deluxe EditionのDisc 2第7曲。所蔵音源の管理データでは5分14秒。","reference":["https://chage.jp/information/live/detail-804.php","Chage公式・収録公演の日付と会場"], "performanceYear":"2026","releaseYear":"2026"}]
   ]},
-  {"id":"meguriai-chage-aska","title":"めぐり逢い","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"versions":[
+  {"id":"meguriai-chage-aska", "note":"ASKAが作詞・作曲した、1994年のCHAGE&ASKAのシングル。フジテレビ系ドラマ『妹よ』の主題歌で、ドラマのサウンドトラックにはインストゥルメンタル版が収録された。","title":"めぐり逢い","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"versions":[
     ["原曲","1994","CHAGE&ASKA","めぐり逢い","https://www.chage-aska.net/discography/single/meguriai.php","CHAGE and ASKA公式・シングルの発売日、曲順と作家クレジット",{creditSource:"https://www.suruga-ya.jp/product/detail/250020143", "note":"11月16日発売。シングル第1曲。フジテレビ系ドラマ『妹よ』主題歌。"}],
     ["インスト","1994","日向敏文（作品名義）","妹よ ～Tokyo Cinderella Story～ オリジナル・サウンドトラック","https://ndlsearch.ndl.go.jp/books/R100000002-I000008947379","国立国会図書館・1994年盤の書誌と曲順",{"track":"Meguriai","note":"11月9日発売。第9曲。主題歌「めぐり逢い」のインスト版。","reference":["https://artist.cdjournal.com/d/imouto-yo/1195010414","CDJournal・1994年盤の発売日と曲名"]}]
   ]},
-  {"id":"risky-game-shigemi","title":"risky game","lyrics":"—","music":"ASKA／重実徹","writers":["ASKA"],"versions":[
+  {"id":"risky-game-shigemi", "note":"ASKAと重実徹が共同で作曲した、ドラマ『リスキー・ゲーム』の劇伴。1996年のサウンドトラック『river』には、「risky game」と「remembrance version」が収録された。","title":"risky game","lyrics":"—","music":"ASKA／重実徹","writers":["ASKA"],"versions":[
     ["インスト","1996","重実徹（作品名義）","original soundtrack risky game「river」","https://www.suruga-ya.jp/product/detail/224000345","駿河屋・サントラの発売日、曲順とアレンジの解説",{"track":"risky game","note":"2月7日発売。PCCR-00188。第6曲。ASKAと重実徹が共同作曲した劇伴。","reference":["https://www.fellows.tokyo/feature/disco_offer","ASKA公式・楽曲提供と作曲クレジット"]}],
     ["インスト","1996","重実徹（作品名義）","original soundtrack risky game「river」","https://www.suruga-ya.jp/product/detail/224000345","駿河屋・サントラの発売日、曲順とアレンジの解説",{"track":"risky game [remembrance version]","note":"2月7日発売。PCCR-00188。第12曲。同じ劇伴のremembrance version。","reference":["https://www.fellows.tokyo/feature/disco_offer","ASKA公式・楽曲提供と作曲クレジット"]}]
   ]},
-  {"id":"id-aska","title":"ID","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"versions":[
+  {"id":"id-aska", "note":"ASKAが作詞・作曲した1997年のソロシングル。『木曜の怪談ファイナル』のエンディング曲に使われ、同年のアルバム『ONE』にも収録された。","title":"ID","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"versions":[
     ["原曲","1997","ASKA","ID","https://tower.jp/item/593145","タワーレコード・初版シングルの発売日、品番と曲順",{"note":"2月5日発売。8cm CD（TODT-3923）の第1曲。『木曜の怪談ファイナル』のエンディング曲。所蔵音源の管理データでは4分49秒。","reference":["https://music.apple.com/us/song/1783456226","Apple Music・シングル版の作家クレジット"]}],
     ["インスト","1997","ASKA（作品名義）","ID","https://www.suruga-ya.jp/product/detail/250002760001","駿河屋・8cmシングルの品番と曲順",{"track":"ID (Instrumental)","note":"2月5日発売。8cm CD（TODT-3923）の第3曲。所蔵音源の管理データでは4分49秒。"}],
     ["アルバム収録","1997","寺嶋民哉（サントラ名義）","「木曜の怪談ファイナル タイムキーパーズ」オリジナル・サウンドトラック","https://diskunion.net/detail/4000115386","ディスクユニオン・サントラの発売日、品番と曲順",{"track":"Always～ID","note":"3月10日発売。WPC6-8275。第7曲。「ID」部分はASKA作曲・寺嶋民哉編曲とする資料がある。","reference":["https://www.ffshrine.org/archive/t-189800.html","寺嶋民哉の作品資料・「ID」部分の作曲と編曲"]}],
@@ -2643,7 +2643,7 @@ const songs = [
     ["ベスト盤収録","2018","ASKA","Made in ASKA","https://www.yamahamusic.co.jp/s/ymc/discography/976","ヤマハミュージックコミュニケーションズ・発売日と曲順",{"note":"10月17日発売。第6曲。所蔵音源の管理データでは4分50秒。初出シングルとのテイク・ミックスの異同は未照合。"}],
     ["ライブ音源","2022","ASKA","ASKA premium concert tour -higher ground-アンコール公演2022","https://www.fellows.tokyo/discography/detail/52/","ASKA公式・Blu-rayとライブCDの発売日と曲順",{"note":"10月5日発売。2022年4月13日の東京国際フォーラム ホールA公演を収録。ライブCDの1枚目（商品全体ではDISC 2）の第10曲。Blu-rayも第10曲。所蔵音源の管理データでは4分44秒。","reference":["https://www.biccamera.com/bc/item/10436170/","ビックカメラ・収録公演の日付と会場"], "performanceYear":"2022","releaseYear":"2022"}]
   ]},
-  {"id":"one-aska","title":"ONE","lyrics":"ASKA","music":"ASKA／ERVIN BEDWARD","writers":["ASKA"],"versions":[
+  {"id":"one-aska", "note":"ASKAが作詞し、Ervin Bedwardと共同で作曲した、1997年のソロアルバム『ONE』の表題曲。日本テレビ系ドラマ『ガラスの靴』のエンディング曲に使われ、同年にシングルでも発売された。","title":"ONE","lyrics":"ASKA","music":"ASKA／ERVIN BEDWARD","writers":["ASKA"],"versions":[
     ["原曲","1997","ASKA","ONE","https://artist.cdjournal.com/d/one/1197040547","CDJournal・初版アルバムの発売日と曲順",{"note":"3月12日発売。初版CD（TOCT-9835）の第2曲。日本テレビ系ドラマ『ガラスの靴』のエンディング曲。所蔵音源の管理データでは4分02秒。","reference":["https://www.uta-net.com/song/9712/","歌ネット・作家クレジットとタイアップ"]}],
     ["再収録","1997","ASKA","ONE（シングル）","https://www.suruga-ya.jp/product/detail/250002764","駿河屋・8cmシングルの発売日、品番と曲順",{"note":"4月28日発売。東芝EMIの8cm CD（TODT-3956）の第2曲。所蔵音源の管理データでは4分04秒。アルバム版とのテイク・ミックスの異同は未照合。"}],
     ["インスト","1997","井上鑑（作品名義）","「ガラスの靴 ～a Cinderella Story～」オリジナルサウンドトラック","https://www.oricon.co.jp/prof/183/products/299767/1/","オリコン・サントラの発売日、品番と曲順",{"track":"ONE ～Acoustic version～","note":"6月1日発売。VPCD-80506。第8曲。主題歌のアコースティック版。"}],
