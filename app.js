@@ -14,7 +14,7 @@ const category = document.querySelector('#song-category');
 const sort = document.querySelector('#sort');
 const filters = document.querySelectorAll('[data-writer]');
 const compactScreen = matchMedia('(max-width: 760px)');
-const badges = {'原曲':'original', '海外カバー':'cover', '別題・別歌詞':'self', 'ライブ客演':'duet', '提供音源':'original', 'セルフカバー':'self', 'カバー':'cover', '共演再録':'duet', '客演':'duet', 'ライブカバー':'cover', 'インスト':'instrumental', 'カラオケ':'instrumental', '英語歌唱版':'cover', 'ライブ映像':'self', 'ライブ歌唱':'self', 'ライブ音源':'self', '映像収録':'self', 'アルバム収録':'original', 'リミックス':'original', 'クラブMIX':'cover', 'アルバム版':'cover', '放送歌唱映像':'self', 'ラジオ歌唱':'self', '再録':'original', '再収録':'original', 'ベスト盤収録':'original'};
+const badges = {'原曲':'original', '海外カバー':'cover', '別題・別歌詞':'self', 'ライブ客演':'duet', 'ライブ共演':'duet', '提供音源':'original', 'セルフカバー':'self', 'カバー':'cover', '共演再録':'duet', '客演':'duet', 'ライブカバー':'cover', 'インスト':'instrumental', 'カラオケ':'instrumental', '英語歌唱版':'cover', 'ライブ映像':'self', 'ライブ歌唱':'self', 'ライブ音源':'self', '映像収録':'self', 'アルバム収録':'original', 'リミックス':'original', 'クラブMIX':'cover', 'アルバム版':'cover', '放送歌唱映像':'self', 'ラジオ歌唱':'self', '再録':'original', '再収録':'original', 'ベスト盤収録':'original'};
 const duoNamePattern = /\bchage\s*(?:[&＆]|and)\s*asu?ka\b|チャゲ\s*(?:[&＆]|と)\s*飛鳥/gi;
 const recordingTypes = new Set([
   '原曲', '提供音源', 'スタジオ音源', 'スタジオ歌唱', 'セルフカバー', 'カバー',
@@ -43,7 +43,7 @@ const catalogCategoryTests = {
   provided: ([type]) => type === '提供音源',
   cover: isCover,
   'self-cover': ([type]) => type === 'セルフカバー',
-  guest: ([type]) => /^(?:ライブ客演|客演|共演再録|共作・デュエット)$/.test(type),
+  guest: ([type]) => /^(?:ライブ客演|ライブ共演|客演|共演再録|共作・デュエット)$/.test(type),
   live: isLive,
 };
 
@@ -95,7 +95,7 @@ function versionDate(row) {
   if (!/^\d{4}$/.test(year)) return { year: '', label: year };
   if (meta?.dateBasis) return { year, label: meta.dateBasis };
   if (type === '受賞記録') return { year, label: '受賞' };
-  if (/^(?:ライブ歌唱|ライブ客演|ライブカバー|イベント歌唱)$/.test(type)) return { year, label: '公演' };
+  if (/^(?:ライブ歌唱|ライブ客演|ライブ共演|ライブカバー|イベント歌唱)$/.test(type)) return { year, label: '公演' };
   if (type === '配信収録') return { year, label: '配信' };
   if (/^ライブ(?:映像|音源)|スタジオ歌唱|形態未確認|ミュージックビデオ/.test(type)) {
     return { year, label: '資料記載' };
