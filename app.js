@@ -10,6 +10,7 @@ const previousSong = document.querySelector('#previous-song');
 const nextSong = document.querySelector('#next-song');
 const clearSearch = document.querySelector('#clear-search');
 const decade = document.querySelector('#decade');
+const category = document.querySelector('#song-category');
 const sort = document.querySelector('#sort');
 const filters = document.querySelectorAll('[data-writer]');
 const compactScreen = matchMedia('(max-width: 760px)');
@@ -24,15 +25,27 @@ const recordingTypes = new Set([
   'ロングバージョン', '別アレンジ', '別バージョン', '別ミックス', '別題・別歌詞',
   '日本語版', '英語歌唱版',
 ]);
+const isCover = ([type, , , work]) =>
+  /^(?:海外|ライブ)?カバー(?:（形態未確認）|再収録)?$/.test(type)
+  || (type === '配信収録' && work.endsWith('（いま歌うシリーズ）'));
+const isLive = ([type, , , , , , meta]) =>
+  /^(?:ライブ|放送)|^(?:イベント歌唱|テレビ放送|ラジオ歌唱|ミュージックビデオ|映像収録)$/.test(type)
+  || Boolean(meta?.performanceYear || meta?.broadcastYear);
+
 const versionFilters = [
   { id: 'recording', label: '音源・再収録', matches: ([type, , , , , , meta]) =>
     recordingTypes.has(type) && !meta?.performanceYear && !meta?.broadcastYear },
-  { id: 'live', label: 'ライブ・映像・放送', matches: ([type, , , , , , meta]) =>
-    /^(?:ライブ|放送)|^(?:イベント歌唱|テレビ放送|ラジオ歌唱|ミュージックビデオ|映像収録)$/.test(type)
-    || Boolean(meta?.performanceYear || meta?.broadcastYear) },
-  { id: 'cover', label: '他の歌手によるカバー', matches: ([type]) =>
-    /^(?:海外|ライブ)?カバー(?:（形態未確認）|再収録)?$/.test(type) },
+  { id: 'live', label: 'ライブ・映像・放送', matches: isLive },
+  { id: 'cover', label: '他の歌手によるカバー', matches: isCover },
 ];
+
+const catalogCategoryTests = {
+  provided: ([type]) => type === '提供音源',
+  cover: isCover,
+  'self-cover': ([type]) => type === 'セルフカバー',
+  guest: ([type]) => /^(?:ライブ客演|客演|共演再録|共作・デュエット)$/.test(type),
+  live: isLive,
+};
 
 // Editions and tours in the transition years are classified by their documented dates.
 const duoNamesByTransitionWork = {
@@ -121,7 +134,8 @@ const catalogSongs = songs.flatMap((song, index) => {
   const fields = [song.title, song.lyrics, song.music, ...song.versions.flatMap(
     ([type, year, artist, work, , , meta]) => [type, year, artist, work, meta?.track, meta?.note, meta?.creditedAs, meta?.reissue?.note, meta?.performanceYear, meta?.broadcastYear, meta?.releaseYear]
   )].filter(Boolean).join(' ');
-  return [{ song, number: index + 1, firstYear, firstVersion, versions, text: normalize(fields + ' ' + normalizeArtistAliases(fields)) }];
+  const categories = Object.keys(catalogCategoryTests).filter(key => song.versions.some(catalogCategoryTests[key]));
+  return [{ song, categories, number: index + 1, firstYear, firstVersion, versions, text: normalize(fields + ' ' + normalizeArtistAliases(fields)) }];
 });
 const entries = new Map(catalogSongs.map(entry => [entry.song.id, entry]));
 const redirects = new Map(songs.filter(song => song.redirectTo).map(song => [song.id, song.redirectTo]));
@@ -220,17 +234,19 @@ function showDetail() {
 
 function renderCatalog() {
   const query = search.value.trim();
+  const selectedCategory = category?.value || '';
   const terms = normalizeArtistAliases(query).split(/\s+/).map(normalize).filter(Boolean);
   const number = query.normalize('NFKC').match(/^(?:#|no\.?\s*)?(\d{1,3})$/i)?.[1];
   matches = catalogSongs.filter(entry =>
     (!writer || entry.song.writers.includes(writer)) &&
+    (!selectedCategory || entry.categories.includes(selectedCategory)) &&
     (!decade.value || entry.firstYear.startsWith(decade.value.slice(0, 3))) &&
     (Number(number) === entry.number || terms.every(term => entry.text.includes(term)))
   ).sort(sorters[sort.value]);
-  count.textContent = query || writer || decade.value
+  count.textContent = query || writer || selectedCategory || decade.value
     ? `${matches.length}件 / 全${catalogSongs.length}曲`
     : `${catalogSongs.length}曲`;
-  clearSearch.hidden = !query && !writer && !decade.value && sort.value === 'oldest';
+  clearSearch.hidden = !query && !writer && !selectedCategory && !decade.value && sort.value === 'oldest';
   const groupByDecade = sort.value === 'oldest' || sort.value === 'newest';
   let previousDecade = null;
   results.innerHTML = matches.length ? matches.map(({ song, number, firstYear, firstVersion }) => {
@@ -251,7 +267,7 @@ function renderCatalog() {
 
 function updateUrl(push = false) {
   const url = new URL(location.href);
-  const params = { q: search.value.trim(), writer, decade: decade.value,
+  const params = { q: search.value.trim(), writer, category: category?.value, decade: decade.value,
     sort: sort.value === 'oldest' ? '' : sort.value,
     song: workspace.dataset.view === 'detail' ? selected?.song.id : '' };
   for (const [key, value] of Object.entries(params)) {
@@ -327,11 +343,14 @@ function restoreFromUrl(restorePosition = false) {
   const entry = entries.get(redirects.get(id) ?? id);
   const query = params.get('q') ?? '';
   const nextWriter = params.get('writer') ?? '';
+  const categoryParam = params.get('category') ?? '';
+  const nextCategory = Object.hasOwn(catalogCategoryTests, categoryParam) ? categoryParam : '';
   const nextDecade = params.get('decade') ?? '';
   const nextSort = params.get('sort') ?? 'oldest';
-  const sameFilters = search.value === query && writer === nextWriter && decade.value === nextDecade && sort.value === nextSort;
+  const sameFilters = search.value === query && writer === nextWriter && (category?.value || '') === nextCategory && decade.value === nextDecade && sort.value === nextSort;
   search.value = query;
   setWriter(['ASKA', 'Chage'].includes(nextWriter) ? nextWriter : '');
+  if (category) category.value = nextCategory;
   decade.value = [...decade.options].some(option => option.value === nextDecade) ? nextDecade : '';
   sort.value = Object.hasOwn(sorters, nextSort) ? nextSort : 'oldest';
   if (!sameFilters || !restorePosition) renderCatalog();
@@ -340,6 +359,7 @@ function restoreFromUrl(restorePosition = false) {
 }
 
 search.addEventListener('input', filterChanged);
+category?.addEventListener('change', filterChanged);
 decade.addEventListener('change', filterChanged);
 sort.addEventListener('change', filterChanged);
 for (const item of filters) item.addEventListener('click', () => {
@@ -349,6 +369,7 @@ for (const item of filters) item.addEventListener('click', () => {
 clearSearch.addEventListener('click', () => {
   search.value = '';
   setWriter('');
+  if (category) category.value = '';
   decade.value = '';
   sort.value = 'oldest';
   filterChanged();
