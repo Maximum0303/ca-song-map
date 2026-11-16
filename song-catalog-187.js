@@ -4000,5 +4000,20 @@ const songs = [
     ["原曲","1993","ORIGINAL LOVE","接吻 kiss","https://originallove.com/discography/581","Original Love公式・シングルの発売日",{"note":"11月10日発売の5枚目のシングル。","track":"接吻 kiss","reference":["https://www.at-elise.com/elise/JPDPDO03110/","ドレミ楽譜出版社・ドラマ主題歌と作詞作曲"]}],
     ["ライブ映像","2023","Chage","Chage Billboard Live “64 to 65”","https://chage.jp/discography/chage/album/017.php","Chage公式・公演日、収録曲、発売日",{"note":"1月6日、Billboard Live TOKYO公演。8月30日発売の「青い空だけじゃない」付属Blu-ray／DVDに収録。映像の第11曲。","performanceYear":"2023","releaseYear":"2023","releaseLabel":"Blu-ray／DVD発売","reference":["https://news.tv.rakuten.co.jp/2023/01/chage-archive.html","Rakuten TV・見逃し配信と当日のセットリスト"]}],
     ["カバー","2025","Chage","Vandange_1958","https://chage.jp/information/release/detail-727.php","Chage公式・配信日と曲順",{"note":"6月18日配信開始。カバー集の第11曲。","releaseYear":"2025"}]
+  ]},
+  {"id":"mata-au-hi-made-ozaki","title":"また逢う日まで","lyrics":"阿久悠","music":"筒美京平","writers":[],"note":"尾崎紀世彦が1971年に発表したシングル。別れを自分たちの意志で受け止める二人を、力強い歌声と躍動感のある編曲で描く。1999年のCHAGE and ASKA「電光石火」ではアンコール歌唱の記録がある。ASKAは2012年と2026年の「昭和が見ていたクリスマス」でも歌った。","versions":[
+    ["原曲","1971","尾崎紀世彦","また逢う日まで","https://www.universal-music.co.jp/jp/news/2024-02-29/","ユニバーサル ミュージック・発売日と作詞作曲",{"note":"3月5日発売のシングル。"}],
+    ["ライブカバー","1999","CHAGE and ASKA","CONCERT TOUR 電光石火","https://ca-treasurebox.seesaa.net/article/13649954.html","CA MusicFan・1999年10月のセットリスト",{"note":"アンコール歌唱の記録あり（開始公演未確認）。1999年10月のセットリストでは「流恋情歌」の直後。","performanceYear":"1999","reference":["https://www.livefans.jp/songs/146395","LiveFans・公演別の投稿セットリスト"]}],
+    ["ライブ映像","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://www.fellows.tokyo/discography/detail/63/","ASKA公式・Blu-rayの曲順と発売日",{"note":"1月21日・22日に日本武道館で開催された公演の映像作品。5月23日発売のBlu-ray第5曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://billboard-japan.com/goods/detail/359200","Billboard JAPAN・公演日と曲順"]}],
+    ["ライブ映像","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://www.fellows.tokyo/feature/concert_2026_christmas","ASKA公式・公演日、曲順、発売日",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray＋ライブCDに収録。Blu-rayの本編第3曲。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray＋ライブCD発売"}]
+  ]},
+  {"id":"ue-o-muite-arukou","title":"上を向いて歩こう","lyrics":"永六輔","music":"中村八大","writers":[],"note":"坂本九が1961年に発表し、海外では「Sukiyaki」の題で広まった。ASKAは東日本大震災後の「いま歌う」シリーズでカバーを配信し、2013年のアルバム「僕にできること（いま歌うシリーズ）」にも収録した。","versions":[
+    ["原曲","1961","坂本九","上を向いて歩こう／あの娘の名前はなんてんかな","https://www.universal-music.co.jp/sakamoto-kyu/song-list/","ユニバーサル ミュージック・発売日と作詞作曲",{"note":"10月15日発売のシングル。"}],
+    ["カバー","2011","ASKA","上を向いて歩こう（いま歌うシリーズ）","https://www.chage-aska.net/history/2010.php","CHAGE and ASKA公式年表・配信と録音の経緯",{"note":"「いま歌う」をテーマに録音し、東日本大震災後にiTunesで配信。公式年表は4月26日付。","releaseYear":"2011","releaseLabel":"配信"}],
+    ["アルバム収録","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・CDの曲順と発売日",{"note":"3月27日発売のアルバム第6曲。","releaseYear":"2013"}]
+  ]},
+  {"id":"ai-no-uta-stardust-revue","title":"愛の歌","lyrics":"STARDUST REVUE","music":"根本要","writers":[],"note":"スターダスト☆レビューが2007年に発表したシングル。2016年、香川県のテアトロンで開かれた同バンドの公演にChageがゲスト出演し、アンコールの最後にこの曲を歌った。","versions":[
+    ["原曲","2007","スターダスト☆レビュー","愛の歌","https://s-d-r.jp/discography/%E6%84%9B%E3%81%AE%E6%AD%8C/","スターダスト☆レビュー公式・発売日と作詞作曲",{"note":"7月25日発売のシングル。TBS系「徳光和夫の感動再会“逢いたい”」エンディングテーマ。"}],
+    ["ライブ客演","2016","スターダスト☆レビュー（ゲスト歌唱：Chage）","STARDUST REVUE 20回目のテアトロン with んなアホなホーンズ","https://s-d-r.jp/discography/stardust-revue-20%E5%9B%9E%E7%9B%AE%E3%81%AE%E3%83%86%E3%82%A2%E3%83%88%E3%83%AD%E3%83%B3-with-%E3%82%93%E3%81%AA%E3%82%A2%E3%83%9B%E3%81%AA%E3%83%9B%E3%83%BC%E3%83%B3%E3%82%BA/","スターダスト☆レビュー公式・公演日、会場、映像収録",{"note":"7月30日、さぬき市野外音楽広場テアトロン。アンコールの最終曲にChageが歌唱参加。2017年1月25日発売のBlu-ray／DVDに収録。","performanceYear":"2016","releaseYear":"2017","releaseLabel":"Blu-ray／DVD発売","reference":["https://mantan-web.jp/article/20160923dog00m200043000c.html","MANTANWEB・Chageの歌唱とWOWOW放送"]}]
   ]}
 ];
