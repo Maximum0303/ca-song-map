@@ -4027,5 +4027,22 @@ const songs = [
     ["原曲","1966","加山雄三","夜空を仰いで／旅人よ","https://www.kayamayuzo.com/history/","加山雄三公式・シングルの発表年と曲名",{"note":"10月発売。","reference":["https://www.kiokunokiroku.jp/artist/000031","日本音楽制作者連盟・楽曲クレジット"]}],
     ["配信収録","2011","ASKA","旅人よ（いま歌うシリーズ）","https://www.chage-aska.net/history/2010.php","CHAGE and ASKA公式年表・iTunes配信日",{"note":"10月8日、iTunesで先行配信。","releaseYear":"2011","releaseLabel":"配信"}],
     ["アルバム収録","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・CDの曲順と一般発売日",{"note":"3月27日一般発売。第10曲。","releaseYear":"2013"}]
+  ]},
+  {"id":"the-christmas-song-nat-king-cole","title":"The Christmas Song","lyrics":"Mel Tormé／Robert Wells","music":"Mel Tormé／Robert Wells","writers":[],"note":"ナット・キング・コールが1946年に録音・発表したクリスマスのスタンダード。ASKAは2009年の「STANDARD」でカバーし、同年の「昭和が見ていたクリスマス」でも歌った。スタジオ版は2011年の「BOOKEND」に再収録された。","versions":[
+    ["原曲","1946","ナット・キング・コール（The King Cole Trio）","The Christmas Song","https://www.grammy.com/news/feature-nat-king-coles-christmas-song-record/","Recording Academy・初期録音と作家クレジット",{"note":"1946年にトリオで録音し、同年にストリングスを加えて再録。キャピトル盤（No. 311）で発売されたのはストリングス入り録音。","reference":["https://www.patsyclinediscography.com/natkingcole/nat-king-cole-capitol-1943-1947.php","キャピトル録音資料・盤番号と発売年"]}],
+    ["カバー","2009","ASKA","STANDARD","https://www.universal-music.co.jp/chage-and-aska/products/umck-1336/","ユニバーサル ミュージック・発売日と収録曲",{"note":"11月25日発売。第2曲。","releaseYear":"2009"}],
+    ["ライブ映像","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.fellows.tokyo/discography/detail/70/","ASKA公式・DVD発売日と曲順",{"note":"12月17日・18日に東京国際フォーラム ホールAで開催された公演の映像作品。第17曲。DVDは2010年3月24日、Blu-rayは2012年10月17日発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://artist.cdjournal.com/d/-/4210010694","CDJournal・公演日と曲順"]}],
+    ["再収録","2011","ASKA","BOOKEND","https://www.billboard-japan.com/goods/detail/238913","Billboard JAPAN・発売日と収録曲",{"note":"12月7日発売。第5曲。「STANDARD」のスタジオ版を再収録。","releaseYear":"2011","reference":["https://www.moma-bd.com/aska.bookend.htm","作品資料・既発音源の再収録"]}]
+  ]},
+  {"id":"tenshi-no-yuwaku","title":"天使の誘惑","lyrics":"なかにし礼","music":"鈴木邦彦","writers":[],"note":"黛ジュンが1968年に発表し、第10回日本レコード大賞を受賞した楽曲。ASKAは2012年、ビッグバンドをバックにした日本武道館公演「昭和が見ていたクリスマス!?」でカバーした。","versions":[
+    ["原曲","1968","黛ジュン","天使の誘惑","https://www.jacompa.or.jp/record/","日本作曲家協会・受賞曲と作家クレジット",{"note":"5月1日発売のシングル。第10回日本レコード大賞受賞曲。","reference":["https://www.fanfan1.com/products/detail/765845","レコード盤資料・品番と発売日"]}],
+    ["ライブカバー","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://www.fellows.tokyo/discography/detail/63/","ASKA公式・Blu-ray収録曲",{"note":"1月21日・22日に日本武道館で開催された公演の映像作品。Blu-ray（POXS-22021）の第6曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://billboard-japan.com/goods/detail/359200","Billboard JAPAN・公演日と曲順"]}]
+  ]},
+  {"id":"tokyo-boogie-woogie","title":"東京ブギウギ","lyrics":"鈴木勝","music":"服部良一","writers":[],"note":"笠置シヅ子が1947年の舞台で披露し、翌年のレコード発売で広まった戦後のブギの代表曲。Chageは2009年の服部良一・克久・隆之三代コンサートと「Chageの細道2009」で歌い、2011年には「題名のない音楽会」の震災復興応援企画でも取り上げた。","versions":[
+    ["ライブ歌唱","1947","笠置シヅ子（当時：笠置シズ子）","踊る漫画祭・浦島再び龍宮へ行く","https://columbia.jp/kasagi/","日本コロムビア・舞台での披露とレコード発売",{"note":"1947年、舞台の劇中で歌唱。","performanceYear":"1947"}],
+    ["原曲","1948","笠置シヅ子（盤面表記：笠置シズ子）","東京ブギウギ","https://search.showakan.go.jp/search/record/detail.php?id=90195898","昭和館デジタルアーカイブ・原盤と作家クレジット",{"note":"1月発売。東宝映画「春の饗宴」の主題歌。","reference":["https://columbia.jp/kasagi/","日本コロムビア・発売年月と作品解説"]}],
+    ["ライブカバー","2009","Chage","Super Generation 2009 ～服部良一・克久・隆之 三代コンサート～","https://chage.jp/biography/2009.php","Chage公式年表・公演日、会場、曲名",{"note":"3月7日、宮崎県・都城総合文化ホール 大ホール。オーケストラをバックに歌唱。","performanceYear":"2009"}],
+    ["ライブ映像","2009","Chage","Chageドキュメント2009〜日々即是空〜","https://chage.jp/discography/chage/bd/010.php","Chage公式・DVD発売日と収録曲",{"note":"「Chageの細道2009」の映像を含むドキュメントDVD。2010年3月18日発売。当該映像の収録日・会場は未確認。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://www.livefans.jp/songs/230514","LiveFans・ツアーの公演別セットリスト"]}],
+    ["放送歌唱","2011","Chage","題名のない音楽会","https://chage.jp/biography/2011.php","Chage公式年表・放送日と歌唱曲",{"note":"5月1日、テレビ朝日系で放送。「東日本大震災 復興応援～今、音楽にできること」でオーケストラをバックに歌唱。","broadcastYear":"2011"}]
   ]}
 ];
