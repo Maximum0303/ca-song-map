@@ -4356,5 +4356,9 @@ const songs = [
   {"id":"hoshi-no-yoru-shionoya","title":"星の夜","lyrics":"吉田美奈子","music":"塩谷哲","writers":[],"note":"塩谷哲の楽曲。『Cross your fingers 24』のアンコールでASKAを含む出演者が共演した。","versions":[
     ["原曲","1998","塩谷哲 WITH FRIENDS","星の夜","https://artist.cdjournal.com/d/-/3198101284","CDJournal・シングル発売日と収録曲",{"note":"11月21日発売。第1曲はトゥインクル・ミックス。"}],
     ["ライブ共演","2024","ASKAを含む出演者全員","佐藤竹善 Presents Cross your fingers 24","https://cocolo.jp/site/pickup_detail/2563","FM COCOLO・公演レポートと歌唱者",{"note":"5月26日、大阪・オリックス劇場。アンコールの最後に全員で共演。塩谷哲、大儀見元、ジュスカ・グランペールは演奏。","performanceYear":"2024","reference":["https://cocolo.jp/service/homepage/index/6210/60443","FM COCOLO・放送セットリスト（ALL CAST SESSION）"]}]
+  ]},
+  {"id":"jungle-boogie","title":"ジャングル・ブギー","lyrics":"黒澤明","music":"服部良一","writers":[],"note":"笠置シヅ子が映画『酔いどれ天使』で歌った楽曲。2003年の「FM802 MEET THE WORLD BEAT」では、CHAGE and ASKAがファイナルセッションの歌唱に参加した。","versions":[
+    ["原曲","1948","笠置シヅ子","酔いどれ天使","https://columbia.jp/kasagi/","日本コロムビア・楽曲と作家クレジット",{"note":"映画『酔いどれ天使』の劇中歌。"}],
+    ["ライブ共演","2003","CHAGE and ASKAほか","FM802 MEET THE WORLD BEAT 2003","https://funky802.com/meet/archive/detail.php?year=2003","FM802公式・公演日、会場とファイナルセッション曲",{"note":"7月27日、万博記念公園 もみじ川芝生広場。ファイナルセッションで披露。公式セットリストの表記は「ジャングル・ブギ」。CHAGE and ASKAの歌唱参加は当日の生放送の視聴証言による。","performanceYear":"2003"}]
   ]}
 ];
