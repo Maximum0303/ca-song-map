@@ -948,7 +948,8 @@ const songs = [
       {creditSource:"https://osaka45studio.higana.jp/chage_and_aska.html", "note": "8月21日発売。シングル表題曲。"}],
     ["カバー","1995","C.A.A. MIX FACTORY（歌唱：Julia Wilson）","C・A・A・MIX FACTORY","https://tower.jp/item/549350","タワーレコード・CD収録情報",{"track":"COUNT DOWN（Super NRG Version）","note":"11月17日発売。ポニーキャニオンのCD（PCCY-00871）第6曲。ParaParaManiaの収録曲資料による歌唱名義。CDブックレットは未照合。","reference":["https://www.2choume.com/para/CAA-MIX-FACTORY/cd/caamf.html","ParaParaMania・曲別の歌唱者一覧"]}],
     ["ライブ映像","1986","チャゲ＆飛鳥","ONESIDE GAME 横浜スタジアム","https://www.chage-aska.net/discography/video/oneside_game.php","CHAGE and ASKA公式・発売日と収録曲",{"note":"8月9日、横浜スタジアム公演。1986年10月21日発売のVTR。公式収録曲リストの第7曲。","performanceYear":"1986","releaseYear":"1986","releaseLabel":"VTR発売","reference":["https://www.suruga-ya.jp/kaitori/kaitori_detail/938006444","収録公演・作品の補足資料"]}],
-    ["ベスト盤収録","1987","チャゲ＆飛鳥","SUPER BEST","https://www.chage-aska.net/discography/album/super_best.php","CHAGE and ASKA公式・発売日と曲順",{"note":"3月5日発売。公式掲載のCDでは第16曲。"}]
+    ["ベスト盤収録","1987","チャゲ＆飛鳥","SUPER BEST","https://www.chage-aska.net/discography/album/super_best.php","CHAGE and ASKA公式・発売日と曲順",{"note":"3月5日発売。公式掲載のCDでは第16曲。"}],
+    ["ベスト盤収録","1992","CHAGE&ASKA","SUPER BEST II","https://www.chage-aska.net/discography/album/super_best2.php","CHAGE and ASKA公式・オリジナル発売日とCDの曲順",{"note":"3月25日発売。第3曲。"}]
   ]},
   { id:"koibito-wa-wine-iro", title:"恋人はワイン色", lyrics:"ASKA", music:"ASKA", writers:["ASKA"], note:"ASKAが作詞・作曲し、西平彰が編曲したチャゲ＆飛鳥のシングル。テレビ朝日系ドラマ『あぶない雑居カップル』のテーマ曲。", versions:[
     ["原曲","1988","チャゲ＆飛鳥","恋人はワイン色／あきらめのBlue Day","https://www.chage-aska.net/discography/single/koibito_ha_wine_iro.php","CHAGE and ASKA公式・初出日、曲目とクレジット",
