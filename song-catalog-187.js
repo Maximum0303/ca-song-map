@@ -3924,7 +3924,7 @@ const songs = [
     ["ライブ映像","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.universal-music.co.jp/p/POXS-22020/","ユニバーサル ミュージック・Blu-rayの曲順",{"note":"2009年12月17日・18日、東京国際フォーラム ホールA公演を収録した映像作品の第23曲。本曲の採用日は未確認。DVDは2010年3月24日、Blu-rayは2012年5月23日発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://artist.cdjournal.com/d/-/4210010694","CDJournal・収録公演とDVD発売日"]}],
     ["配信収録","2011","ASKA","廃墟の鳩（いま歌うシリーズ）","https://aska07.blog44.fc2.com/blog-entry-953.html","当時の配信告知の記録",{"note":"4月22日の記事でiTunes Store配信開始を確認。","releaseYear":"2011","releaseLabel":"配信"}],
     ["ライブ映像","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://www.fellows.tokyo/discography/detail/63/","ASKA公式・Blu-rayの曲順",{"note":"1月22日、日本武道館公演。Blu-ray（POXS-22021）の第7曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://barks.jp/news/666957/","BARKS・公演日と会場"]}],
-    ["カバー","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・発売日と曲順",{"note":"3月27日発売。CD（POCS-22022）第5曲。","releaseYear":"2013"}],
+    ["アルバム収録","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・発売日と曲順",{"note":"3月27日発売。CD（POCS-22022）第5曲。","releaseYear":"2013"}],
     ["ライブ映像","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://artist.cdjournal.com/d/aska-concert-tour-2026/4226080253","CDJournal・収録日、発売日とBlu-rayの曲順",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray（DDLB-0028）の第6項。オープニング映像を含めた商品資料での曲順。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/news/detail/737","ASKA公式・収録公演と上映曲目"]}]
   ]},
   {"id":"kimi-wa-bara-yori-utsukushii","title":"君は薔薇より美しい","lyrics":"門谷憲二","music":"ミッキー吉野","writers":[],"note":"布施明の楽曲。ASKAは「My Game is ASKA」のアンコールで歌唱し、2009年と2026年の「昭和が見ていたクリスマス」でも取り上げた。", "versions":[
@@ -3937,8 +3937,9 @@ const songs = [
   {"id":"momen-no-hankachifu","title":"木綿のハンカチーフ","lyrics":"松本隆","music":"筒美京平","writers":[],"note":"太田裕美の楽曲。ASKAは2012年と2026年の「昭和が見ていたクリスマス」や「ROCKET」で歌唱し、「いま歌うシリーズ」にも収録した。", "versions":[
     ["原曲","1975","太田裕美","心が風邪をひいた日／木綿のハンカチーフ","https://www.sonymusic.co.jp/artist/HiromiOta/discography/SRCL-1812","ソニーミュージック・アルバム曲目",{"note":"1975年にアルバム「心が風邪をひいた日」とシングルで発表。","reference":["https://www.uta-net.com/song/4548/","歌ネット・作家クレジット"]}],
     ["ライブ映像","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://www.fellows.tokyo/discography/detail/63/","ASKA公式・Blu-rayの曲順",{"note":"1月22日、日本武道館公演。Blu-ray（POXS-22021）の第9曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://barks.jp/news/666957/","BARKS・公演日と会場"]}],
+    ["配信収録","2012","ASKA","木綿のハンカチーフ（いま歌うシリーズ）","https://www.chage-aska.net/history/2010.php","CHAGE and ASKA公式年表・iTunes配信日",{"note":"3月16日、iTunesで先行配信。","releaseYear":"2012","releaseLabel":"配信"}],
     ["ライブ映像","2013","ASKA","ASKA CONCERT TOUR 12>>13 ROCKET","https://www.fellows.tokyo/discography/detail/53/","ASKA公式・Blu-ray発売日と曲順",{"note":"2012～2013年のツアーでアンコールに歌唱。2021年4月23日発売のBlu-ray（DDLB-0017）第21曲。","performanceYear":"2013","releaseYear":"2021","releaseLabel":"Blu-ray発売"}],
-    ["カバー","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・発売日と曲順",{"note":"3月27日発売。CD（POCS-22022）第3曲。","releaseYear":"2013"}],
+    ["アルバム収録","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・発売日と曲順",{"note":"3月27日発売。CD（POCS-22022）第3曲。","releaseYear":"2013"}],
     ["ライブ映像","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://artist.cdjournal.com/d/aska-concert-tour-2026/4226080253","CDJournal・収録日、発売日とBlu-rayの曲順",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray（DDLB-0028）の第9項。オープニング映像を含めた商品資料での曲順。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/news/detail/737","ASKA公式・収録公演と上映曲目"]}]
   ]},
   {"id":"kimi-wo-nosete-sawada","title":"君をのせて","lyrics":"岩谷時子","music":"宮川泰","writers":[],"note":"沢田研二のソロデビュー曲。ASKAは「NEVER END」でカバーし、2009年と2026年の「昭和が見ていたクリスマス」でも歌唱した。", "versions":[
@@ -4009,11 +4010,22 @@ const songs = [
   ]},
   {"id":"ue-o-muite-arukou","title":"上を向いて歩こう","lyrics":"永六輔","music":"中村八大","writers":[],"note":"坂本九が1961年に発表し、海外では「Sukiyaki」の題で広まった。ASKAは東日本大震災後の「いま歌う」シリーズでカバーを配信し、2013年のアルバム「僕にできること（いま歌うシリーズ）」にも収録した。","versions":[
     ["原曲","1961","坂本九","上を向いて歩こう／あの娘の名前はなんてんかな","https://www.universal-music.co.jp/sakamoto-kyu/song-list/","ユニバーサル ミュージック・発売日と作詞作曲",{"note":"10月15日発売のシングル。"}],
-    ["カバー","2011","ASKA","上を向いて歩こう（いま歌うシリーズ）","https://www.chage-aska.net/history/2010.php","CHAGE and ASKA公式年表・配信と録音の経緯",{"note":"「いま歌う」をテーマに録音し、東日本大震災後にiTunesで配信。公式年表は4月26日付。","releaseYear":"2011","releaseLabel":"配信"}],
+    ["配信収録","2011","ASKA","上を向いて歩こう（いま歌うシリーズ）","https://www.chage-aska.net/history/2010.php","CHAGE and ASKA公式年表・配信と録音の経緯",{"note":"「いま歌う」をテーマに録音し、東日本大震災後にiTunesで配信。公式年表は4月26日付。","releaseYear":"2011","releaseLabel":"配信"}],
     ["アルバム収録","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・CDの曲順と発売日",{"note":"3月27日発売のアルバム第6曲。","releaseYear":"2013"}]
   ]},
   {"id":"ai-no-uta-stardust-revue","title":"愛の歌","lyrics":"STARDUST REVUE","music":"根本要","writers":[],"note":"スターダスト☆レビューが2007年に発表したシングル。2016年、香川県のテアトロンで開かれた同バンドの公演にChageがゲスト出演し、アンコールの最後にこの曲を歌った。","versions":[
     ["原曲","2007","スターダスト☆レビュー","愛の歌","https://s-d-r.jp/discography/%E6%84%9B%E3%81%AE%E6%AD%8C/","スターダスト☆レビュー公式・発売日と作詞作曲",{"note":"7月25日発売のシングル。TBS系「徳光和夫の感動再会“逢いたい”」エンディングテーマ。"}],
     ["ライブ客演","2016","スターダスト☆レビュー（ゲスト歌唱：Chage）","STARDUST REVUE 20回目のテアトロン with んなアホなホーンズ","https://s-d-r.jp/discography/stardust-revue-20%E5%9B%9E%E7%9B%AE%E3%81%AE%E3%83%86%E3%82%A2%E3%83%88%E3%83%AD%E3%83%B3-with-%E3%82%93%E3%81%AA%E3%82%A2%E3%83%9B%E3%81%AA%E3%83%9B%E3%83%BC%E3%83%B3%E3%82%BA/","スターダスト☆レビュー公式・公演日、会場、映像収録",{"note":"7月30日、さぬき市野外音楽広場テアトロン。アンコールの最終曲にChageが歌唱参加。2017年1月25日発売のBlu-ray／DVDに収録。","performanceYear":"2016","releaseYear":"2017","releaseLabel":"Blu-ray／DVD発売","reference":["https://mantan-web.jp/article/20160923dog00m200043000c.html","MANTANWEB・Chageの歌唱とWOWOW放送"]}]
+  ]},
+  {"id":"pari-ni-hitori","title":"巴里にひとり","lyrics":"Georges Sinoué（日本語詞：山上路夫）","music":"G. Costa","writers":[],"note":"沢田研二がフランス語で歌った「Mon Amour, Je Viens Du Bout Du Monde」の日本語版。ASKAは日本語版をカバーし、2011年の「いま歌う」シリーズで配信。2013年にCDにも収録された。","versions":[
+    ["原曲","1974","沢田研二","Mon Amour, Je Viens Du Bout Du Monde","https://www.book-komiyama.co.jp/booklist_detail.php?item_id=100299","小宮山書店・フランス盤の現物と発行年",{"note":"フランス語歌唱のポリドール盤（2121 247）。資料により年の表記が異なるため、ここでは盤資料の1974年表記を採用。"}],
+    ["別題・別歌詞","1975","沢田研二","巴里にひとり","https://utaten.com/lyric/xb15040619/","UtaTen・国内シングルの発売日とクレジット",{"note":"5月21日発売の日本語版。","reference":["https://moma-bd.com/aska.bokuni.htm","アルバム資料・日本語詞クレジット"]}],
+    ["配信収録","2011","ASKA","巴里にひとり（いま歌うシリーズ）","https://www.chage-aska.net/history/2010.php","CHAGE and ASKA公式年表・iTunes配信日",{"note":"7月30日、iTunesで先行配信。","releaseYear":"2011","releaseLabel":"配信"}],
+    ["アルバム収録","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・CDの曲順と一般発売日",{"note":"3月27日一般発売。第2曲。","releaseYear":"2013"}]
+  ]},
+  {"id":"tabibito-yo-kayama","title":"旅人よ","lyrics":"岩谷時子","music":"弾厚作","writers":[],"note":"加山雄三が1966年に「夜空を仰いで」とのカップリングで発表。ASKAは2011年の「いま歌う」シリーズでカバーし、2013年には同シリーズのCDに収めた。","versions":[
+    ["原曲","1966","加山雄三","夜空を仰いで／旅人よ","https://www.kayamayuzo.com/history/","加山雄三公式・シングルの発表年と曲名",{"note":"10月発売。","reference":["https://www.kiokunokiroku.jp/artist/000031","日本音楽制作者連盟・楽曲クレジット"]}],
+    ["配信収録","2011","ASKA","旅人よ（いま歌うシリーズ）","https://www.chage-aska.net/history/2010.php","CHAGE and ASKA公式年表・iTunes配信日",{"note":"10月8日、iTunesで先行配信。","releaseYear":"2011","releaseLabel":"配信"}],
+    ["アルバム収録","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・CDの曲順と一般発売日",{"note":"3月27日一般発売。第10曲。","releaseYear":"2013"}]
   ]}
 ];
