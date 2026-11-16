@@ -24,6 +24,14 @@
 <meta name="twitter:image:alt" content="サイト名と、えんじ色のジャケットからのぞく黒いレコード">
 <link rel="stylesheet" href="visitor-counter.css">
 <script defer src="visitor-counter.js"></script>
+<style>
+@media (max-width: 760px) {
+  .footer { flex-direction: column; align-items: flex-start; gap: 6px; font-size: 11px; }
+  .footer-project { display: grid; gap: 4px; }
+  .footer-separator { display: none; }
+  .footer-credit { letter-spacing: .02em; font-weight: 400; }
+}
+</style>
 </head>
 <body>
 <header class="mast"><div class="shell mast-inner"><a class="brand" href="./"><span class="mark" aria-hidden="true"></span>C&amp;A SONG MAP</a><nav aria-label="サイト内メニュー"><a href="#index" id="find-song">曲を探す</a><a href="#about">このサイトについて</a></nav></div></header>
@@ -74,6 +82,9 @@
     <p>日本時間・同じブラウザは1日1回<br>現在は直近1分の目安</p>
   </div>
 </section>
-<footer class="shell footer"><span>C&amp;A SONG MAP</span><span>UNOFFICIAL FAN PROJECT · Created and curated by Maximum</span></footer>
+<footer class="shell footer">
+  <span>C&amp;A SONG MAP</span>
+  <span class="footer-project"><span>UNOFFICIAL FAN PROJECT</span><span class="footer-separator" aria-hidden="true"> · </span><span class="footer-credit">Created and curated by <strong>Maximum</strong></span></span>
+</footer>
 </body>
 </html>
