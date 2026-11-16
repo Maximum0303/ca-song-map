@@ -3737,9 +3737,12 @@ const songs = [
     ["原曲", "1983", "早見優", "夏色のナンシー", "https://www.universal-music.co.jp/compilation/news/2012-12-tsutsumi-kyohei/", "ユニバーサル ミュージック・オリジナル発売日と作家クレジット", {"note": "4月1日発売。編曲は茂木由多加。"}],
     ["ライブ客演", "2026", "早見優・Chage", "Chage Live Tour 2026「One Love」東京公演", "https://news.joysound.com/article/693306", "JOYSOUND音楽ニュース・公演日、会場と共演曲", {"note": "10月4日、Zepp DiverCity（TOKYO）で「夏色のナンシー」を共演。"}]
   ]},
-  {"id": "miagete-goran-yoru-no-hoshi-wo", "title": "見上げてごらん夜の星を", "lyrics": "永六輔", "music": "いずみたく", "writers": [], "note": "同名ミュージカルの主題歌。坂本九が1963年にシングルで発表し、2026年の公演でASKAと岩崎宏美が共演した。", "versions":[
-    ["原曲", "1963", "坂本九", "見上げてごらん夜の星を／勉強のチャチャチャ", "https://www.sakamoto-kyu.com/Memory-main/Memory-1963.html", "坂本九公式・発売日、品番とクレジット", {"note": "5月1日発売。東芝レコード盤（JP-5217）。編曲は渋谷毅。"}],
-    ["ライブ映像", "2026", "ASKA・岩崎宏美", "ASKA CONCERT 2026 昭和が見ていたクリスマス!?", "https://www.fellows.tokyo/news/detail/737", "ASKA公式・上映曲目、収録日と会場", {"note": "2月13日、東京国際フォーラム ホールA公演。岩崎宏美とデュエット。", "performanceYear":"2026"}]
+  {"id":"miagete-goran-yoru-no-hoshi-wo","title":"見上げてごらん夜の星を","lyrics":"永六輔","music":"いずみたく","writers":[],"note":"同名ミュージカルの主題歌。坂本九が1963年にシングルで発表した。ASKAは2009年と2012年の公演で歌い、2026年には岩崎宏美とデュエットした。", "versions":[
+    ["原曲","1963","坂本九","見上げてごらん夜の星を／勉強のチャチャチャ","https://www.sakamoto-kyu.com/Memory-main/Memory-1963.html","坂本九公式・発売日、品番とクレジット",{"note":"5月1日発売。東芝レコード盤（JP-5217）。編曲は渋谷毅。"}],
+    ["ライブ映像","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.universal-music.co.jp/p/POXS-22020/","ユニバーサル ミュージック・Blu-rayの曲順",{"note":"2009年12月17日・18日、東京国際フォーラム ホールA公演を収録した映像作品の第21曲。本曲の採用日は未確認。DVDは2010年3月24日、Blu-rayは2012年5月23日発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://artist.cdjournal.com/d/-/4210010694","CDJournal・収録公演とDVD発売日"]}],
+    ["ライブ映像","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://www.fellows.tokyo/discography/detail/63/","ASKA公式・Blu-rayの曲順",{"note":"1月22日、日本武道館公演。Blu-ray（POXS-22021）の第23曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://barks.jp/news/666957/","BARKS・公演日と会場"]}],
+    ["カバー","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・発売日と曲順",{"note":"3月27日発売。CD（POCS-22022）第12曲。","releaseYear":"2013"}],
+    ["ライブ映像","2026","ASKA・岩崎宏美","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://artist.cdjournal.com/d/aska-concert-tour-2026/4226080253","CDJournal・収録日、発売日とBlu-rayの曲順",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray（DDLB-0028）の第23項。オープニング映像を含めた商品資料での曲順。 岩崎宏美とのデュエット。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/news/detail/737","ASKA公式・収録公演と上映曲目"]}]
   ]},
   {
     "id": "white-christmas",
@@ -3873,5 +3876,47 @@ const songs = [
         }
       ]
     ]
-  }
+  },
+  {"id":"haikyo-no-hato","title":"廃墟の鳩","lyrics":"山上路夫","music":"村井邦彦","writers":[],"note":"ザ・タイガースの楽曲。ASKAは「昭和が見ていたクリスマス」の3公演で歌唱し、「いま歌うシリーズ」でもカバーを発表した。", "versions":[
+    ["原曲","1968","ザ・タイガース","廃墟の鳩","https://www.universal-music.co.jp/the-tigers/products/upch-9018/","ユニバーサル ミュージック・収録曲",{"note":"1968年に発表。アルバム「ヒューマン・ルネッサンス」にも収録。","reference":["https://www.utagoekissa.com/haikyonohato.html","楽曲資料・作詞と作曲"]}],
+    ["ライブ映像","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.universal-music.co.jp/p/POXS-22020/","ユニバーサル ミュージック・Blu-rayの曲順",{"note":"2009年12月17日・18日、東京国際フォーラム ホールA公演を収録した映像作品の第23曲。本曲の採用日は未確認。DVDは2010年3月24日、Blu-rayは2012年5月23日発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://artist.cdjournal.com/d/-/4210010694","CDJournal・収録公演とDVD発売日"]}],
+    ["配信収録","2011","ASKA","廃墟の鳩（いま歌うシリーズ）","https://aska07.blog44.fc2.com/blog-entry-953.html","当時の配信告知の記録",{"note":"4月22日の記事でiTunes Store配信開始を確認。","releaseYear":"2011","releaseLabel":"配信"}],
+    ["ライブ映像","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://www.fellows.tokyo/discography/detail/63/","ASKA公式・Blu-rayの曲順",{"note":"1月22日、日本武道館公演。Blu-ray（POXS-22021）の第7曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://barks.jp/news/666957/","BARKS・公演日と会場"]}],
+    ["カバー","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・発売日と曲順",{"note":"3月27日発売。CD（POCS-22022）第5曲。","releaseYear":"2013"}],
+    ["ライブ映像","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://artist.cdjournal.com/d/aska-concert-tour-2026/4226080253","CDJournal・収録日、発売日とBlu-rayの曲順",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray（DDLB-0028）の第6項。オープニング映像を含めた商品資料での曲順。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/news/detail/737","ASKA公式・収録公演と上映曲目"]}]
+  ]},
+  {"id":"kimi-wa-bara-yori-utsukushii","title":"君は薔薇より美しい","lyrics":"門谷憲二","music":"ミッキー吉野","writers":[],"note":"布施明の楽曲。ASKAは「My Game is ASKA」のアンコールで歌唱し、2009年と2026年の「昭和が見ていたクリスマス」でも取り上げた。", "versions":[
+    ["原曲","1979","布施明","君は薔薇より美しい／セ・ラ・ヴィ～人生なんてそんなものさ～","https://www.qobuz.com/jp-ja/album/kimi-wa-bara-yori-utsukushii-cest-la-vie-jinsei-nante-sonnamonosa-akira-fuse/ql33b77z0pdvb","Qobuz・キングレコード盤の発売日と作家クレジット",{"note":"1月21日発売。"}],
+    ["ライブ映像","2006","ASKA","ASKA Concert Tour 05>>06 My Game is ASKA","https://www.universal-music.co.jp/p/umbk-1098/","ユニバーサル ミュージック・公演日とDVD曲順",{"note":"3月4日、日本武道館公演のアンコール。7月26日発売のDVD Disc 2第10曲。","performanceYear":"2006","releaseYear":"2006","releaseLabel":"DVD発売"}],
+    ["ライブ映像","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.universal-music.co.jp/p/POXS-22020/","ユニバーサル ミュージック・Blu-rayの曲順",{"note":"2009年12月17日・18日、東京国際フォーラム ホールA公演を収録した映像作品の第4曲。本曲の採用日は未確認。DVDは2010年3月24日、Blu-rayは2012年5月23日発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://artist.cdjournal.com/d/-/4210010694","CDJournal・収録公演とDVD発売日"]}],
+    ["カバー","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・発売日と曲順",{"note":"3月27日発売。CD（POCS-22022）第1曲。","releaseYear":"2013"}],
+    ["ライブ映像","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://artist.cdjournal.com/d/aska-concert-tour-2026/4226080253","CDJournal・収録日、発売日とBlu-rayの曲順",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray（DDLB-0028）の第3項。オープニング映像を含めた商品資料での曲順。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/news/detail/737","ASKA公式・収録公演と上映曲目"]}]
+  ]},
+  {"id":"momen-no-hankachifu","title":"木綿のハンカチーフ","lyrics":"松本隆","music":"筒美京平","writers":[],"note":"太田裕美の楽曲。ASKAは2012年と2026年の「昭和が見ていたクリスマス」や「ROCKET」で歌唱し、「いま歌うシリーズ」にも収録した。", "versions":[
+    ["原曲","1975","太田裕美","心が風邪をひいた日／木綿のハンカチーフ","https://www.sonymusic.co.jp/artist/HiromiOta/discography/SRCL-1812","ソニーミュージック・アルバム曲目",{"note":"1975年にアルバム「心が風邪をひいた日」とシングルで発表。","reference":["https://www.uta-net.com/song/4548/","歌ネット・作家クレジット"]}],
+    ["ライブ映像","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://www.fellows.tokyo/discography/detail/63/","ASKA公式・Blu-rayの曲順",{"note":"1月22日、日本武道館公演。Blu-ray（POXS-22021）の第9曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://barks.jp/news/666957/","BARKS・公演日と会場"]}],
+    ["ライブ映像","2013","ASKA","ASKA CONCERT TOUR 12>>13 ROCKET","https://www.fellows.tokyo/discography/detail/53/","ASKA公式・Blu-ray発売日と曲順",{"note":"2012～2013年のツアーでアンコールに歌唱。2021年4月23日発売のBlu-ray（DDLB-0017）第21曲。","performanceYear":"2013","releaseYear":"2021","releaseLabel":"Blu-ray発売"}],
+    ["カバー","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・発売日と曲順",{"note":"3月27日発売。CD（POCS-22022）第3曲。","releaseYear":"2013"}],
+    ["ライブ映像","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://artist.cdjournal.com/d/aska-concert-tour-2026/4226080253","CDJournal・収録日、発売日とBlu-rayの曲順",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray（DDLB-0028）の第9項。オープニング映像を含めた商品資料での曲順。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/news/detail/737","ASKA公式・収録公演と上映曲目"]}]
+  ]},
+  {"id":"kimi-wo-nosete-sawada","title":"君をのせて","lyrics":"岩谷時子","music":"宮川泰","writers":[],"note":"沢田研二のソロデビュー曲。ASKAは「NEVER END」でカバーし、2009年と2026年の「昭和が見ていたクリスマス」でも歌唱した。", "versions":[
+    ["原曲","1971","沢田研二","君をのせて","https://www.universal-music.co.jp/sawada-kenji/biography/","ユニバーサル ミュージック・ソロデビュー曲",{"note":"1971年にソロシングルで発表。","reference":["https://recordfan.opal.ne.jp/male-singer/men-idols-1970/kenji-sawada","盤資料・作詞と作曲"]}],
+    ["カバー","1995","ASKA","NEVER END","https://www.yamahamusic.co.jp/s/ymc/discography/256","ヤマハミュージックコミュニケーションズ・初版発売日と曲順",{"note":"2月27日発売。第10曲。","releaseYear":"1995"}],
+    ["ライブ映像","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.universal-music.co.jp/p/POXS-22020/","ユニバーサル ミュージック・Blu-rayの曲順",{"note":"2009年12月17日・18日、東京国際フォーラム ホールA公演を収録した映像作品の第5曲。本曲の採用日は未確認。DVDは2010年3月24日、Blu-rayは2012年5月23日発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://artist.cdjournal.com/d/-/4210010694","CDJournal・収録公演とDVD発売日"]}],
+    ["ライブ映像","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://artist.cdjournal.com/d/aska-concert-tour-2026/4226080253","CDJournal・収録日、発売日とBlu-rayの曲順",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray（DDLB-0028）の第8項。オープニング映像を含めた商品資料での曲順。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/news/detail/737","ASKA公式・収録公演と上映曲目"]}]
+  ]},
+  {"id":"you-raise-me-up","title":"You Raise Me Up","lyrics":"Brendan Graham","music":"Rolf Løvland","writers":[],"note":"Secret Gardenの楽曲。原曲の歌唱はBrian Kennedy。ASKAは2023年の「Wonderful World」と2026年の「昭和が見ていたクリスマス」で歌唱した。", "versions":[
+    ["原曲","2001","Secret Garden feat. Brian Kennedy","Once In A Red Moon","https://www.secretgarden.no/music","Secret Garden公式・オリジナルアルバムの発表年",{"note":"2001年発表。Secret Gardenの公式資料では楽曲とアルバムを2001年とする。","reference":["https://music.apple.com/us/song/1509709790","Apple Music・歌唱者クレジット"]}],
+    ["ライブ映像・音源","2023","ASKA","ASKA Premium Concert Tour Wonderful World 2023","https://www.fellows.tokyo/discography/detail/51/","ASKA公式・Blu-rayとライブCDの発売日・曲順",{"note":"9月27日発売のBlu-ray＋ライブCD（DDLB-0023）に収録。Blu-ray第15曲。","performanceYear":"2023","releaseYear":"2023","releaseLabel":"Blu-ray・CD発売"}],
+    ["ライブ映像","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://artist.cdjournal.com/d/aska-concert-tour-2026/4226080253","CDJournal・収録日、発売日とBlu-rayの曲順",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray（DDLB-0028）の第11項。オープニング映像を含めた商品資料での曲順。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/news/detail/737","ASKA公式・収録公演と上映曲目"]}]
+  ]},
+  {"id":"smile-chaplin","title":"Smile","lyrics":"John Turner／Geoffrey Parsons","music":"Charles Chaplin","writers":[],"note":"チャップリンの映画「モダン・タイムス」の旋律に、後年歌詞が付いたスタンダード。ASKAは「昭和が見ていたクリスマス」の3公演で歌唱した。", "versions":[
+    ["原曲","1936","チャールズ・チャップリン（作曲）","モダン・タイムス（映画）","https://www.charliechaplin.com/en/biography/articles/42","チャップリン公式・映画の旋律と作家クレジット",{"note":"映画の終幕で使われた器楽曲。John TurnerとGeoffrey Parsonsの歌詞は1954年に付された。","dateBasis":"映画公開"}],
+    ["原曲","1954","ナット・キング・コール","Smile","https://www.youtube.com/watch?v=dmJpKkNucnI","ナット・キング・コール公式・1954年の歌唱音源",{"note":"1954年の歌唱版。"}],
+    ["カバー","2009","ASKA","STANDARD","https://store.universal-music.co.jp/products/umck1336","ユニバーサル ミュージック・発売日と曲順",{"note":"11月25日発売。第1曲。","releaseYear":"2009"}],
+    ["ライブ映像","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.universal-music.co.jp/p/POXS-22020/","ユニバーサル ミュージック・Blu-rayの曲順",{"note":"2009年12月17日・18日、東京国際フォーラム ホールA公演を収録した映像作品の第1曲。本曲の採用日は未確認。DVDは2010年3月24日、Blu-rayは2012年5月23日発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://artist.cdjournal.com/d/-/4210010694","CDJournal・収録公演とDVD発売日"]}],
+    ["カバー","2011","ASKA","BOOKEND","https://www.billboard-japan.com/goods/detail/238913","Billboard JAPAN・発売日と曲順",{"note":"12月7日発売。第3曲。","releaseYear":"2011"}],
+    ["ライブ映像","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://www.fellows.tokyo/discography/detail/63/","ASKA公式・Blu-rayの曲順",{"note":"1月22日、日本武道館公演。Blu-ray（POXS-22021）の第2曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://barks.jp/news/666957/","BARKS・公演日と会場"]}],
+    ["ライブ映像","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://artist.cdjournal.com/d/aska-concert-tour-2026/4226080253","CDJournal・収録日、発売日とBlu-rayの曲順",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray（DDLB-0028）の第2項。オープニング映像を含めた商品資料での曲順。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/news/detail/737","ASKA公式・収録公演と上映曲目"]}]
+  ]}
 ];
