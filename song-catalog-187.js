@@ -446,6 +446,7 @@ const songs = [
     ["配信収録","2024","CHAGE and ASKA","RED HILL（ストリーミング）","https://chage.jp/information/news/detail-647.php","Chage公式・サブスクリプション解禁の告知",{"note":"10月1日、アルバムのストリーミング解禁。第5曲。","reference":["https://music.apple.com/jp/song/414634850","Apple Music・配信音源と収録アルバム"]}]
   ]},
   { id:'moon-light-blues', title:'MOON LIGHT BLUES', lyrics:'ASKA', music:'ASKA', writers:['ASKA'], note:'ASKA作詞・作曲、瀬尾一三編曲の1984年シングル。1989年の『PRIDE』では原田真二の編曲で再制作。呂方の広東語・北京語版と金城武の北京語版は、歌手・言語・曲名ごとに掲載。', versions:[
+    ["ライブ共演","2006","CHAGE and ASKA with 岡本真夜","Point Green Live 2006","https://www.chage-aska.net/history/2000.php","CHAGE and ASKA公式・共演曲",{"note":"12月23日、国立代々木競技場第一体育館。岡本真夜のステージで3人が共演。","reference":["https://w.atwiki.jp/cavc/pages/453.html","公演資料・岡本真夜のステージと歌唱"]}],
     ['原曲','1984','チャゲ＆飛鳥','MOON LIGHT BLUES','https://www.chage-aska.net/discography/single/moon_light_blues.php','CHAGE and ASKA公式・初出シングルとクレジット',
       {creditSource:"https://www.snowrecords.jp/?pid=111817074", note:'2月22日発売。シングル（L-1647）のA面。'}],
     ["アルバム収録","1984","チャゲ＆飛鳥","INSIDE CHAGE&ASKA V","https://www.chage-aska.net/discography/album/inside.php","CHAGE and ASKA公式・初出アルバムの発売日と曲目",{"note":"3月25日発売。第5曲。シングルとのテイク・ミックスの異同は未照合。","reissue":{"note":"2001年9月19日発売。ヤマハ再発CD（YCCR-00031）第5曲。","url":"https://www.yamahamusic.co.jp/s/ymc/discography/245?ima=0000&link=ROBO004"}}],
@@ -2336,7 +2337,7 @@ const songs = [
     ["ライブ映像", "2011", "ASKA", "ASKA CONCERT TOUR 10>>11 FACES", "https://www.fellows.tokyo/discography/detail/69/", "ASKA公式・DVDの発売日と曲順",
       {"note": "6月1日発売。2011年1月26日の日本武道館公演。映像版第19曲。ライブ音源もiTunesで配信。", "reference": ["https://www.chage-aska.net/history/2010.php", "CHAGE and ASKA公式・映像とライブ音源の発売情報"], "performanceYear":"2011","releaseYear":"2011"}],
     ["ライブ客演", "2011", "ASKA with Bank Band", "ap bank fes '11 Fund for Japan", "https://www.chage-aska.net/history/2010.php", "CHAGE and ASKA公式・出演日と会場",
-      {"note": "7月17日、静岡・つま恋でBank Bandと共演。2012年のDVDと2021年の『沿志奏逢 4』に収録。", "reference": ["https://fes.apbank.jp/11/dvd/", "ap bank公式・出演者名とDVD収録曲"]}],
+      {"note": "7月17日、静岡・つま恋。Bank Bandの演奏で、櫻井和寿が歌い出しを担当し、ASKAに交代。終盤は2人でコーラス。2012年のDVDと2021年の『沿志奏逢 4』に収録。", "reference": ["https://fes.apbank.jp/11/flash_report/0717/aska.php", "ap bank公式・当日の歌唱レポート"]}],
     ["ライブカバー", "2011", "星野源", "SPACE SHOWER TV presents VOICES", "https://music.fanplus.co.jp/liveReport/20110600840fa83a1", "Fanplus Music・観覧レポートとセットリスト",
       {"note": "東京・日比谷野外大音楽堂でギター弾き語り。星野源のステージの第1曲。"}],
     ["ライブ映像", "2012", "ASKA with Bank Band", "ap bank fes '11 Fund for Japan（DVD）", "https://fes.apbank.jp/11/dvd/", "ap bank公式・DVDの発売日と収録曲",
@@ -2607,6 +2608,7 @@ const songs = [
     ["ベスト盤収録","1998","CHAGE&ASKA","Greatest Hits: Asian Special Version","https://www.cdhkonline.com/product-page/chage-aska-greatest-hits-asian-special-version","CDHK Online・香港盤の品番と曲順",{"track":"Natural","note":"香港盤（ARC 00019）の第12曲。6分40秒。初出シングルとのテイク・ミックスの異同は未照合。","reference":["https://musicbrainz.org/release/b24e8c3a-eb75-4f68-84e8-e86a318bbdee","MusicBrainz・香港盤の曲順と収録時間"]}]
   ]},
   {"id":"epilogue-chage-aska", "note":"Chageと田北憲次が作詞、Chageが作曲。1980年のアルバム『風舞』の最後を飾った曲で、CHAGE and ASKAの公演やChageのソロ作品でも取り上げられ、中国語圏でも複数の歌手がカバーしている。","title":"終章（エピローグ）","lyrics":"Chage／田北憲次","music":"Chage","writers":["Chage"],"versions":[
+    ["ライブ共演","2003","CHAGE and ASKA with 小田和正","SOUND CONIFER 229「青春の影」～K.ODA & CHAGE & ASKA～","https://song2.sakura.ne.jp/liverepo/liverepo_20030809_soundconifer229.html","公演レポート・3人の歌唱",{"note":"8月9日、富士急ハイランド コニファーフォレスト。CHAGE、ASKA、小田和正の3人が歌唱。","reference":["https://www.livefans.jp/events/138625","LiveFans・公演情報とセットリスト"]}],
     ["原曲","1980","チャゲ＆飛鳥","風舞","https://www.chage-aska.net/discography/album/kazemai.php","CHAGE and ASKA公式・発売日、曲順と作家クレジット",{"creditSource":"https://www.stereo-records.com/detail.php?itemCd=50115","note":"4月25日発売。第10曲。編曲は瀬尾一三。 所蔵音源の管理データでは5分40秒。","reissue":{"note":"2001年9月19日発売。ヤマハ再発CD（YCCR-00036）第10曲。","url":"https://www.yamahamusic.co.jp/s/ymc/discography/250?ima=0000&link=ROBO004"}}],
     ["ライブ音源","1981","チャゲ＆飛鳥","ライブ・イン田園コロシアム ～The 夏祭り'81","https://www.chage-aska.net/discography/album/live_in_denen_colosseum.php","CHAGE and ASKA公式・発売日と曲順",{creditSource:"https://www.snowrecords.jp/?pid=90302385", "note":"8月1日の東京・田園コロシアム公演。1981年9月10日発売のオリジナル盤は通し第7曲。2009年発売の完全収録盤はDisc 1第8曲で、所蔵音源の管理データでは5分10秒。","reference":["https://books.rakuten.co.jp/rb/6140301/","楽天ブックス・完全収録盤の発売日、曲順と収録時間"], "performanceYear":"1981","releaseYear":"1981"}],
     ["ライブ映像","1982","チャゲ＆飛鳥","THE夏祭り 大阪城LIVE","https://www.chage-aska.net/discography/video/the_natsumatsuri.php","CHAGE and ASKA公式・発売日と曲順",{creditSource:"https://w.atwiki.jp/cavc/pages/99.html", "note":"1982年8月15日の大阪城西の丸庭園公演。1983年7月1日発売の映像作品の第18曲。2009年の『LIVE DVD BOX 1』でもDVD化。","reference":["https://www.yamahamusic.co.jp/s/ymc/discography/507","ヤマハ公式・DVD BOXの発売日と曲順"], "performanceYear":"1982","releaseYear":"1983"}],
@@ -2720,6 +2722,7 @@ const songs = [
     ["ライブ映像","2004","CHAGE and ASKA","CHAGE and ASKA 25th Anniversary Special チャゲ＆飛鳥 熱風コンサート","https://www.chage-aska.net/discography/video/neppu.php","CHAGE and ASKA公式・発売日と収録曲",{"note":"8月28日、東京・お台場野外特設会場公演。2005年3月23日発売のDVD。第10曲のメドレー内で歌唱。","performanceYear":"2004","releaseYear":"2005","releaseLabel":"DVD発売","reference":["https://www.chage-aska.net/history/2000.php","収録公演・作品の補足資料"]}]
   ]},
   {"id":"futari-no-ai-land","title":"ふたりの愛ランド","lyrics":"チャゲ／松井五郎","music":"チャゲ","writers":["Chage"],"note":"石川優子とチャゲによるデュエット。原曲の編曲は平野孝幸。","versions":[
+    ["ライブ共演","2016","石川優子とChage","僕らのポプコンエイジ ～Forever Friends, Forever Cocky Pop～","https://www.oricon.co.jp/news/2071047/","ORICON NEWS・当日の共演レポート",{"note":"4月29日、府中の森芸術劇場 どりーむホール。石川優子とChageがデュエット。","reference":["https://chage.jp/information/live/detail-113.php","Chage公式・公演日と会場"]}],
     ["原曲","1984","石川優子とチャゲ","ふたりの愛ランド／渚の誓い","https://www.kiokunokiroku.jp/artist/000200/archive/005339","日本音楽制作者連盟・発売日と作家クレジット",{"note":"4月21日発売。7インチ盤（RD-4084）のA面。編曲は平野孝幸。JAL沖縄キャンペーンソング。","reference":["https://www.fanfan1.com/products/detail.php?product_id=680909","FanFan・初出7インチ盤の品番と収録曲"]}],
     ["ベスト盤収録","1984","石川優子とチャゲ","COLLECTIONS","https://artist.cdjournal.com/d/-/1140000572","CDJournal・CDの発売日、品番と曲順",{"note":"石川優子名義のベスト盤。LP（RL-3032）ではA面第3曲、10月21日発売のCD（RCD-1008）では第3曲。","reference":["https://omimi.biz/products/detail/42328","おミミの恋人・LPの品番と面別曲順"]}],
     ["ベスト盤収録","1986","石川優子とチャゲ","The Complete Singles","https://artist.cdjournal.com/d/-/1140000581","CDJournal・2枚組CDの発売日、品番と曲順",{"note":"11月21日発売。石川優子名義のシングル集。2枚組CD（RCD-3001～2）のDisc 1第6曲、2枚組LP（RL-2007～8）のB面第2曲。","reference":["https://www.fanfan1.com/products/detail/870494","FanFan・LPの発売日、品番と面別曲順"]}],
@@ -3114,6 +3117,7 @@ const songs = [
     ["配信収録","2023","石川優子とチャゲ","ふたりの愛ランド／渚の誓い（ストリーミング）","https://www.universal-music.co.jp/chage/news/2023-06-30/","ユニバーサルミュージック公式・ストリーミング解禁日",{"note":"6月30日のChage関連作品のストリーミング解禁対象。Apple Music掲載の2曲入りシングルの第2曲。","reference":["https://music.apple.com/jp/album/159192881","Apple Music・シングル収録と配信名義"]}]
   ]},
   {"id":"kokoro-no-ball","title":"心のボール","lyrics":"飛鳥涼（ASKA）","music":"飛鳥涼（ASKA）","writers":["ASKA"],"note":"福岡市制100周年の記念曲。飛鳥涼が作詞・作曲し、徳永英明が歌唱。徳永版の編曲は瀬尾一三、CHAGE and ASKAのセルフカバーは近藤敬三編曲。","versions":[
+    ["ライブ共演","2006","徳永英明 with CHAGE and ASKA","Point Green Live 2006","https://www.chage-aska.net/history/2000.php","CHAGE and ASKA公式・共演曲",{"note":"12月23日、国立代々木競技場第一体育館。徳永英明のステージで、オリジナル歌唱の徳永英明とCHAGE and ASKAが共演。","reference":["https://w.atwiki.jp/cavc/pages/453.html","公演資料・徳永英明のステージと歌唱"]}],
     ["提供音源","1989","徳永英明","MYSELF ～風になりたい～／心のボール","https://www.tokunagaandtonys.com/musics/20156","徳永英明公式・発売日と曲順",{"note":"9月21日発売。アポロンの8cm CD（APDA-1）第2曲。所蔵音源の管理データでは5分03秒。","reference":["https://www.yamahamusic.co.jp/files/34/ymc/seo_superdigest3/","ヤマハミュージックコミュニケーションズ・提供と編曲の解説"]}],
     ["シングル収録","1989","徳永英明","心のボール","https://columbia.jp/tokunagahideaki/prof.html","日本コロムビア公式・福岡市記念曲の制作背景",{"note":"所蔵音源の管理データにある単独盤の第1曲。1989年表記、5分04秒。盤の品番、頒布・発売日、市販シングルとのテイク・ミックスの異同は未照合。"}],
     ["インスト","1989","九州交響楽団","心のボール","https://columbia.jp/tokunagahideaki/prof.html","日本コロムビア公式・福岡市記念曲の制作背景",{"note":"所蔵音源の管理データによる演奏名義。単独盤の第2曲、1989年表記、4分22秒。盤の品番、頒布・発売日、指揮・編曲のクレジットは未照合。"}],
