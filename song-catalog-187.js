@@ -4403,8 +4403,13 @@ const songs = [
     ["原曲","1991","Michael Jackson","Dangerous","https://www.michaeljackson.com/albums/dangerous/","Michael Jackson公式・アルバムと収録曲",{"note":"11月発売。第7曲。"}],
     ["ライブ共演","2017","Chageを含む出演者全員","LIVE SDD 2017","https://fmosaka.net/sdd/live_sdd_2017/set_list.html","FM大阪・公式セットリスト",{"note":"2月19日、大阪城ホール。フィナーレで出演者全員が再登場。SDDクワイアーも加わった。","performanceYear":"2017","reference":["https://www.fmosaka.net/_ct/17049582","FM大阪・当日の公演レポート"]}]
   ]},
-  {"id":"mou-hitotsu-no-love-song","title":"もうひとつのLOVE SONG","lyrics":"Chage","music":"Chage","writers":["Chage"],"note":"Chageの2016年の楽曲。LIVE SDD 2017ではスターダスト☆レビューと共演した。","versions":[
-    ["原曲","2016","Chage","もうひとつのLOVE SONG(Single version) / NとLの野球帽(2016 Single version)","https://chage.jp/discography/chage/single/013.php","Chage公式・配信日と曲目",{"note":"6月22日配信。","reference":["https://chage.jp/information/release/detail-149.php","Chage公式・作詞と作曲"]}],
-    ["ライブ共演","2017","Chage／スターダスト☆レビュー","LIVE SDD 2017","https://fmosaka.net/sdd/live_sdd_2017/set_list.html","FM大阪・公式セットリスト",{"note":"2月19日、大阪城ホール。Chageとスターダスト☆レビューの共演ステージ1曲目。","performanceYear":"2017","reference":["https://www.fmosaka.net/_ct/17049582","FM大阪・当日の公演レポート"]}]
+  {"id":"mou-hitotsu-no-love-song","title":"もうひとつのLOVE SONG","lyrics":"Chage","music":"Chage","writers":["Chage"],"note":"Chageが作詞・作曲し、渡辺等が編曲した2016年の楽曲。Chageは、これまで歌ってきたラブソングを改めて見つめ直す中で生まれた曲だと語っている。6月にシングル版を先行配信し、8月に自身がプロデュースしたミニアルバム『Another Love Song』の冒頭に収録。同年のツアー名にも使われ、翌年のLIVE SDD 2017ではスターダスト☆レビューと共演した。","versions":[
+    ["原曲","2016","Chage","もうひとつのLOVE SONG(Single version) / NとLの野球帽(2016 Single version)","https://chage.jp/discography/chage/single/013.php","Chage公式・配信日と曲目",{"note":"6月22日先行配信。シングル版は配信シングルの第1曲。","reference":["https://chage.jp/information/release/detail-149.php","Chage公式・作詞と作曲"]}],
+    ["アルバム収録","2016","Chage","Another Love Song","https://chage.jp/information/release/detail-149.php","Chage公式・発売日と収録曲",{"note":"8月10日発売。通常盤・初回限定盤ともCD第1曲。編曲：渡辺等。アルバムの公式曲目ではバージョン表記なし。","reference":["https://diskgarage.com/digaonline/interview/10719","DI:GA ONLINE・Chage本人の制作インタビュー"]}],
+    ["映像収録","2016","Chage","Another Love Song（初回限定盤付属DVD）","https://chage.jp/discography/chage/album/009.php","Chage公式・初回限定盤の映像",{"note":"8月10日発売。シングル版のミュージックビデオを収録。","reference":["https://chage.jp/information/release/detail-149.php","Chage公式・MVの音源表記"]}],
+    ["ライブ音源","2016","Chage","Chage Live Tour 2016 ～もうひとつのLOVE SONG～","https://chage.jp/discography/chage/album/010.php","Chage公式・収録公演と曲順",{"note":"9月16日、東京・豊洲PITのツアー最終公演。12月14日発売のライブCD、Disc 2第2曲。","performanceYear":"2016","releaseYear":"2016","releaseLabel":"CD発売"}],
+    ["ライブ共演","2017","Chage／スターダスト☆レビュー","LIVE SDD 2017","https://fmosaka.net/sdd/live_sdd_2017/set_list.html","FM大阪・公式セットリスト",{"note":"2月19日、大阪城ホール。Chageとスターダスト☆レビューの共演ステージ1曲目。","performanceYear":"2017","reference":["https://www.fmosaka.net/_ct/17049582","FM大阪・当日の公演レポート"]}],
+    ["ベスト盤収録","2018","Chage","音道","https://chage.jp/discography/chage/album/011.php","Chage公式・発売日と収録バージョン",{"note":"5月16日発売のソロ活動20周年ベスト盤。第4曲にシングル版を収録。"}],
+    ["ライブ映像","2018","Chage","Chage Live Tour 2018 ◆CRIMSON◆","https://www.universal-music.co.jp/chage/products/upxy-6073/","ユニバーサル ミュージック・収録公演と曲順",{"note":"8月26日、東京・豊洲PIT。ソロデビュー20周年記念ツアーの公演。11月28日発売のDVD・Blu-rayでM-10として収録。","performanceYear":"2018","releaseYear":"2018","releaseLabel":"DVD・Blu-ray発売"}]
   ]}
 ];
