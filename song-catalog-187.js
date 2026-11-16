@@ -4060,5 +4060,22 @@ const songs = [
   {"id":"cant-take-my-eyes-off-you","title":"君の瞳に恋してる","lyrics":"Bob Crewe／Bob Gaudio","music":"Bob Crewe／Bob Gaudio","writers":[],"note":"フランキー・ヴァリが1967年に発表した「Can't Take My Eyes Off You」。Chageは2016年のツアー「もうひとつのLOVE SONG」で歌い、豊洲PITでの最終公演の音源がライブCDになった。","versions":[
     ["原曲","1967","フランキー・ヴァリ","Can't Take My Eyes Off You","https://www.grammy.com/songs/cant-take-my-eyes-off-you-single/","Recording Academy・原曲の歌手とレーベル",{"note":"フィリップスから1967年に発表されたシングル。","reference":["https://www.grammy.com/news/bob-crewe-dies/","Recording Academy・楽曲の発表年"]}],
     ["ライブカバー","2016","Chage","Chage Live Tour 2016 ～もうひとつのLOVE SONG～","https://www.universal-music.co.jp/chage/products/uicz-4376/","ユニバーサル ミュージック・公演日とライブCD曲順",{"note":"9月16日、東京・豊洲PITのツアー最終公演。12月14日発売のライブCD（UICZ-4376）Disc 2の第3曲。","performanceYear":"2016","releaseYear":"2016","releaseLabel":"ライブCD発売","reference":["https://chage.jp/discography/chage/album/010.php","Chage公式・発売日と収録公演"]}]
+  ]},
+  {"id":"gobangai-no-marie-e","title":"五番街のマリーへ","lyrics":"阿久悠","music":"都倉俊一","writers":[],"note":"ペドロ＆カプリシャスが1973年に発表したシングル。高橋まり（高橋真梨子）が歌い、かつて暮らした街にいるマリーの近況を人づてに尋ねる心情を描く。ASKAは2026年の「昭和が見ていたクリスマス!?」でカバーした。","versions":[
+    ["原曲","1973","ペドロ＆カプリシャス（歌唱：高橋まり）","五番街のマリーへ","https://www.aqqq.co.jp/sakuhin_music.html","阿久悠公式・発売日と作家クレジット",{"note":"10月25日発売のシングル。歌唱は高橋まり。","reference":["https://wmg.jp/pedroandcapricious/discography/2469","ワーナーミュージック・ボーカル表記"]}],
+    ["ライブカバー","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?（東京初日）","https://barks.jp/news/1045880/","BARKS・東京初日の公演レポートと曲順",{"note":"2月12日、東京国際フォーラム ホールA公演。","performanceYear":"2026"}],
+    ["ライブカバー","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://www.fellows.tokyo/feature/concert_2026_christmas","ASKA公式・収録公演、曲順、発売日",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray＋ライブCDに収録。Blu-ray本編第6曲。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray＋ライブCD発売"}],
+    ["ライブカバー","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?（大阪公演）","https://music-setlist.hatenablog.jp/entry/2026/02/17/183000_1","大阪公演のセットリスト記録",{"note":"2月16日・17日、グランキューブ大阪。両日分として掲載されたセットリストに歌唱の記録。","performanceYear":"2026","reference":["https://www.livefans.jp/events/1852348","LiveFans・2月16日の公演別セットリスト"]}]
+  ]},
+  {"id":"kanashii-iro-yane","title":"悲しい色やね","lyrics":"康珍化","music":"林哲司","writers":[],"note":"上田正樹が1982年に発表したシングル。関西弁の歌詞に、大阪の海を前にした別れの情景が描かれる。ASKAは2026年の「昭和が見ていたクリスマス!?」でカバーした。","versions":[
+    ["原曲","1982","上田正樹","悲しい色やね","https://otonanoweb.jp/s/magazine/diary/detail/8470?cd=feature&ima=0553","otonano・原盤の発売日と作家クレジット",{"note":"10月21日発売のシングル。"}],
+    ["ライブカバー","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?（東京初日）","https://barks.jp/news/1045880/","BARKS・東京初日の公演レポートと曲順",{"note":"2月12日、東京国際フォーラム ホールA公演。","performanceYear":"2026"}],
+    ["ライブカバー","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://www.fellows.tokyo/feature/concert_2026_christmas","ASKA公式・収録公演、曲順、発売日",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray＋ライブCDに収録。Blu-ray本編第9曲。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray＋ライブCD発売"}],
+    ["ライブカバー","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?（大阪公演）","https://music-setlist.hatenablog.jp/entry/2026/02/17/183000_1","大阪公演のセットリスト記録",{"note":"2月16日・17日、グランキューブ大阪。両日分として掲載されたセットリストに歌唱の記録。","performanceYear":"2026","reference":["https://www.livefans.jp/events/1852348","LiveFans・2月16日の公演別セットリスト"]}]
+  ]},
+  {"id":"ippai-no-coffee-kara","title":"一杯のコーヒーから","lyrics":"藤浦洸","music":"服部良一","writers":[],"note":"霧島昇とミス・コロムビア（松原操）が歌った1939年のデュエット。Chageは2009年に服部良一・克久・隆之の三代コンサートで歌い、同年の草月ホール「茶会」のセットリストにも名を連ねる。","versions":[
+    ["原曲","1939","霧島昇／ミス・コロムビア","一杯のコーヒーから","https://search.showakan.go.jp/search/record/detail.php?id=90002596","昭和館デジタルアーカイブ・原盤と作家クレジット",{"note":"4月発売。日本コロムビアのSP盤（30156）。","reference":["https://5k953foph738.blog.fc2.com/blog-entry-318.html","SP盤資料・発売年月と盤番号"]}],
+    ["ライブカバー","2009","Chage","Super Generation 2009 ～服部良一・克久・隆之 三代コンサート～","https://chage.jp/biography/2009.php","Chage公式年表・公演日、会場、曲名",{"note":"3月7日、宮崎県・都城総合文化ホール 大ホール。「東京ブギウギ」とともにオーケストラをバックに歌唱。","performanceYear":"2009"}],
+    ["ライブカバー","2009","Chage","唱う門には“Chage”来る！「茶会」 Special Live 10days at Sogetsu Hall","https://ca-treasurebox.seesaa.net/article/118135290.html","CA MusicFan・4月22日のセットリスト",{"note":"4月22日・24日、東京・草月ホール。両日のセットリストに歌唱の記録。","performanceYear":"2009","reference":["https://www.livefans.jp/events/306151","LiveFans・4月24日のセットリスト"]}]
   ]}
 ];
