@@ -3985,7 +3985,8 @@ const songs = [
   {"id":"good-night-beatles","title":"Good Night","lyrics":"Lennon–McCartney","music":"Lennon–McCartney","writers":[],"note":"ザ・ビートルズのアルバム「The Beatles」の最後を飾る楽曲。ASKAは「STANDARD」でカバーし、2009年の「昭和が見ていたクリスマス」のアンコールでも歌唱した。","versions":[
     ["原曲","1968","ザ・ビートルズ","The Beatles","https://www.thebeatles.com/good-night","ザ・ビートルズ公式・原曲とクレジット",{"note":"アルバムの最終曲。リードボーカルはリンゴ・スター。"}],
     ["カバー","2009","ASKA","STANDARD","https://store.universal-music.co.jp/products/umck1336","ユニバーサル ミュージック・CDの曲順",{"note":"11月25日発売。第5曲。","releaseYear":"2009"}],
-    ["ライブカバー","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.universal-music.co.jp/p/POXS-22020/","ユニバーサル ミュージック・Blu-rayの曲順",{"note":"12月17日・18日に東京国際フォーラム ホールAで開催された公演の映像作品。アンコールの最終曲。本曲の採用日は未確認。DVDは2010年、Blu-rayは2012年発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://artist.cdjournal.com/d/-/4210010694","CDJournal・DVDの発売情報"]}]
+    ["ライブカバー","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.universal-music.co.jp/p/POXS-22020/","ユニバーサル ミュージック・Blu-rayの曲順",{"note":"12月17日・18日に東京国際フォーラム ホールAで開催された公演の映像作品。アンコールの最終曲。本曲の採用日は未確認。DVDは2010年、Blu-rayは2012年発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://artist.cdjournal.com/d/-/4210010694","CDJournal・DVDの発売情報"]}],
+    ["再収録","2011","ASKA","BOOKEND","https://www.billboard-japan.com/goods/detail/238913","Billboard JAPAN・発売日と収録曲",{"note":"12月7日発売。第12曲。『STANDARD』のスタジオ音源を再収録。","releaseYear":"2011","reference":["https://www.moma-bd.com/aska.bookend.htm","作品資料・既発音源の再収録"]}]
   ]},
   {"id":"ikigai-yuki-saori","title":"生きがい","lyrics":"山上路夫","music":"渋谷毅","writers":[],"note":"由紀さおりが1970年に発表したシングル。別れた相手の日常を思い浮かべ、離れても続く思いを歌う。ASKAは2009年の「昭和が見ていたクリスマス」で取り上げ、2013年の昭和歌謡カバー集「僕にできること（いま歌うシリーズ）」でも歌っている。","versions":[
     ["原曲","1970","由紀さおり","生きがい","https://syowa-kayo.net/9186/","昭和音楽図鑑・発売日と作詞作曲",{"note":"11月5日発売のシングル。"}],
@@ -4077,5 +4078,178 @@ const songs = [
     ["原曲","1939","霧島昇／ミス・コロムビア","一杯のコーヒーから","https://search.showakan.go.jp/search/record/detail.php?id=90002596","昭和館デジタルアーカイブ・原盤と作家クレジット",{"note":"4月発売。日本コロムビアのSP盤（30156）。","reference":["https://5k953foph738.blog.fc2.com/blog-entry-318.html","SP盤資料・発売年月と盤番号"]}],
     ["ライブカバー","2009","Chage","Super Generation 2009 ～服部良一・克久・隆之 三代コンサート～","https://chage.jp/biography/2009.php","Chage公式年表・公演日、会場、曲名",{"note":"3月7日、宮崎県・都城総合文化ホール 大ホール。「東京ブギウギ」とともにオーケストラをバックに歌唱。","performanceYear":"2009"}],
     ["ライブカバー","2009","Chage","唱う門には“Chage”来る！「茶会」 Special Live 10days at Sogetsu Hall","https://ca-treasurebox.seesaa.net/article/118135290.html","CA MusicFan・4月22日のセットリスト",{"note":"4月22日・24日、東京・草月ホール。両日のセットリストに歌唱の記録。","performanceYear":"2009","reference":["https://www.livefans.jp/events/306151","LiveFans・4月24日のセットリスト"]}]
+  ]},
+  {"id":"saraba-koibito","title":"さらば恋人","lyrics":"北山修","music":"筒美京平","writers":[],"note":"堺正章が1971年に発表したソロ曲。去っていく側が相手への気持ちを残したまま別れを告げる歌で、ASKAが昭和歌謡のカバー集で取り上げた。","versions":[
+    ["原曲","1971","堺正章","さらば恋人","https://columbia.jp/artist-info/sakaimasaaki/discography/COCP-32841-2.html","原曲の資料",{"note":"堺正章のソロシングル。"}],
+    ["カバー","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","公式資料・作品情報",{"note":"3月27日一般発売。第4曲。","releaseYear":"2013"}]
+  ]},
+  {"id":"aoi-hoshikuzu","title":"蒼い星くず","lyrics":"岩谷時子","music":"弾厚作","writers":[],"note":"加山雄三が「夕陽は赤く」と組み合わせて発表した曲。ASKAはアルバム『僕にできること』でカバーした。","versions":[
+    ["原曲","1966","加山雄三","夕陽は赤く／蒼い星くず","https://www.kayamayuzo.com/history/","原曲の資料",{"note":"1966年にシングルで発表。"}],
+    ["カバー","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","公式資料・作品情報",{"note":"3月27日一般発売。第8曲。","releaseYear":"2013"}]
+  ]},
+  {"id":"nanairo-no-shiawase","title":"七色のしあわせ","lyrics":"岩谷時子","music":"いずみたく","writers":[],"note":"ピンキーとキラーズの1969年のシングル。ASKAは同じ作家コンビによる「恋の季節」もライブで歌っており、この曲は昭和歌謡のカバー集に収めた。","versions":[
+    ["原曲","1969","ピンキーとキラーズ","七色のしあわせ","https://news.kingrecords.co.jp/2025/12/48462/","原曲の資料",{"note":"キングレコードのシングル。"}],
+    ["カバー","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","公式資料・作品情報",{"note":"3月27日一般発売。第9曲。","releaseYear":"2013"}]
+  ]},
+  {"id":"love-is-a-many-splendored-thing","title":"Love Is a Many-Splendored Thing","lyrics":"Paul Francis Webster","music":"Sammy Fain","writers":[],"note":"1955年の映画『慕情』の主題歌。ASKAは『BOOKEND』の冒頭に収め、2012年の日本武道館公演でも1曲目に歌った。","versions":[
+    ["原曲","1955","映画『慕情』のサウンドトラック","Love Is a Many-Splendored Thing","https://www.oscars.org/oscars/ceremonies/1956","原曲の資料",{"note":"映画用に書かれた主題歌。第28回アカデミー賞歌曲賞。","dateBasis":"映画公開"}],
+    ["カバー","2011","ASKA","BOOKEND","https://www.billboard-japan.com/goods/detail/238913","公式資料・作品情報",{"note":"12月7日発売。第1曲。","releaseYear":"2011"}],
+    ["ライブカバー","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://artist.cdjournal.com/d/-/4212080005","公演・収録資料",{"note":"1月21日・22日に日本武道館で開催された公演の映像作品。Blu-ray第1曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/discography/detail/63/","ASKA公式・収録曲"]}]
+  ]},
+  {"id":"have-yourself-a-merry-little-christmas","title":"Have Yourself a Merry Little Christmas","lyrics":"Hugh Martin／Ralph Blane","music":"Hugh Martin／Ralph Blane","writers":[],"note":"ジュディ・ガーランドが映画『若草の頃』で歌ったクリスマス曲。ASKAは『BOOKEND』でカバーした。","versions":[
+    ["原曲","1944","ジュディ・ガーランド","Meet Me in St. Louis（若草の頃）","https://blogs.loc.gov/loc/2021/12/the-st-louis-story-behind-have-yourself-a-merry-little-christmas/","原曲の資料",{"note":"1944年公開の映画の劇中歌。","dateBasis":"映画公開"}],
+    ["カバー","2011","ASKA","BOOKEND","https://www.billboard-japan.com/goods/detail/238913","公式資料・作品情報",{"note":"12月7日発売。第2曲。","releaseYear":"2011"}]
+  ]},
+  {"id":"let-it-snow","title":"Let It Snow! Let It Snow! Let It Snow!","lyrics":"Sammy Cahn","music":"Jule Styne","writers":[],"note":"サミー・カーンとジュール・スタインによる冬のスタンダード。ASKAは『BOOKEND』で録音し、2012年の日本武道館公演でも取り上げた。","versions":[
+    ["原曲","1945","ヴォーン・モンロー","Let It Snow! Let It Snow! Let It Snow!","https://www.worldradiohistory.com/Archive-All-Music/Billboard/40s/1946/BB-1946-01-12.pdf","原曲の資料",{"note":"1945年の初期録音。翌年1月のBillboardに掲載。","dateBasis":"録音"}],
+    ["カバー","2011","ASKA","BOOKEND","https://www.billboard-japan.com/goods/detail/238913","公式資料・作品情報",{"note":"12月7日発売。第4曲。","releaseYear":"2011"}],
+    ["ライブカバー","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://artist.cdjournal.com/d/-/4212080005","公演・収録資料",{"note":"1月21日・22日に日本武道館で開催された公演の映像作品。Blu-ray第4曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/discography/detail/63/","ASKA公式・収録曲"]}]
+  ]},
+  {"id":"my-life-billy-joel","title":"My Life","lyrics":"Billy Joel","music":"Billy Joel","writers":[],"note":"ビリー・ジョエルのアルバム『52nd Street』に収録された曲。ASKAのスタジオ版は『BOOKEND』、ライブ版は2012年のクリスマス公演の映像作品で聴ける。","versions":[
+    ["原曲","1978","ビリー・ジョエル","52nd Street","https://www.billyjoel.com/song/my-life-10/","原曲の資料",{"note":"1978年のアルバム収録曲。"}],
+    ["カバー","2011","ASKA","BOOKEND","https://www.billboard-japan.com/goods/detail/238913","公式資料・作品情報",{"note":"12月7日発売。第7曲。","releaseYear":"2011"}],
+    ["ライブカバー","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://artist.cdjournal.com/d/-/4212080005","公演・収録資料",{"note":"1月21日・22日に日本武道館で開催された公演の映像作品。Blu-ray第3曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/discography/detail/63/","ASKA公式・収録曲"]}]
+  ]},
+  {"id":"what-a-wonderful-world","title":"What a Wonderful World","lyrics":"Bob Thiele／George David Weiss","music":"Bob Thiele／George David Weiss","writers":[],"note":"ルイ・アームストロングが1967年に録音した「この素晴らしき世界」。ASKAは『BOOKEND』に収録し、2012年のクリスマス公演でも歌った。","versions":[
+    ["原曲","1967","ルイ・アームストロング","What a Wonderful World","https://www.louisarmstronghouse.org/timeline/1967/","原曲の資料",{"note":"1967年にABC Recordsで録音。"}],
+    ["カバー","2011","ASKA","BOOKEND","https://www.billboard-japan.com/goods/detail/238913","公式資料・作品情報",{"note":"12月7日発売。第11曲。","releaseYear":"2011"}],
+    ["ライブカバー","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://artist.cdjournal.com/d/-/4212080005","公演・収録資料",{"note":"1月21日・22日に日本武道館で開催された公演の映像作品。Blu-ray第13曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/discography/detail/63/","ASKA公式・収録曲"]}]
+  ]},
+  {"id":"fly-me-to-the-moon","title":"Fly Me to the Moon","lyrics":"Bart Howard","music":"Bart Howard","writers":[],"note":"バート・ハワードの曲。ケイ・バラードが「In Other Words」の題で初録音した。ASKAは2009年のクリスマス公演で取り上げた。","versions":[
+    ["原曲","1954","ケイ・バラード","In Other Words","https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/descriptions-and-essays/?loclr=blogloc","原曲の資料",{"note":"1954年の初録音。後に「Fly Me to the Moon」の題で広まった。"}],
+    ["ライブカバー","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.fellows.tokyo/discography/detail/70/","公演・収録資料",{"note":"12月17日・18日に東京国際フォーラム ホールAで開催された公演の映像作品。第2曲。2010年3月24日DVD発売、2012年5月23日Blu-ray発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://www.universal-music.co.jp/p/POXS-22020/","ユニバーサル ミュージック・Blu-rayの発売日と曲順"]}]
+  ]},
+  {"id":"over-the-rainbow","title":"Over the Rainbow","lyrics":"E. Y. Harburg","music":"Harold Arlen","writers":[],"note":"1939年の映画『オズの魔法使』でジュディ・ガーランドが歌った「虹の彼方に」。ASKAは2009年のクリスマス公演でカバーした。","versions":[
+    ["原曲","1939","ジュディ・ガーランド","The Wizard of Oz（オズの魔法使）","https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/descriptions-and-essays/","原曲の資料",{"note":"映画の劇中歌。同年、ガーランド歌唱のデッカ盤も発売。","dateBasis":"映画公開"}],
+    ["ライブカバー","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.fellows.tokyo/discography/detail/70/","公演・収録資料",{"note":"12月17日・18日に東京国際フォーラム ホールAで開催された公演の映像作品。第10曲。2010年3月24日DVD発売、2012年5月23日Blu-ray発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://www.universal-music.co.jp/p/POXS-22020/","ユニバーサル ミュージック・Blu-rayの発売日と曲順"]}]
+  ]},
+  {"id":"sekai-ni-merry-xmas","title":"世界にMerry X'mas","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"note":"CHAGE&ASKAの『GUYS』に収録されたASKA作のクリスマス曲。ASKAはソロで歌い直して『STANDARD』に収録し、その音源は『BOOKEND』にも入った。","versions":[
+    ["原曲","1992","CHAGE&ASKA","GUYS","https://www.chage-aska.net/discography/album/guys.php","原曲の資料",{"note":"11月7日発売のアルバム収録曲。"}],
+    ["セルフカバー","2009","ASKA","STANDARD","https://www.universal-music.co.jp/chage-and-aska/products/umck-1336/","公式資料・作品情報",{"note":"11月25日発売。第3曲。","releaseYear":"2009"}],
+    ["ライブ映像","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.fellows.tokyo/discography/detail/70/","公演・収録資料",{"note":"12月17日・18日に東京国際フォーラム ホールAで開催された公演の映像作品。第18曲。2010年3月24日DVD発売、2012年5月23日Blu-ray発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://www.universal-music.co.jp/p/POXS-22020/","ユニバーサル ミュージック・Blu-rayの発売日と曲順"]}],
+    ["再収録","2011","ASKA","BOOKEND","https://www.billboard-japan.com/goods/detail/238913","公式資料・作品情報",{"note":"12月7日発売。第6曲。『STANDARD』のスタジオ音源を再収録。","releaseYear":"2011"}],
+    ["ライブ映像","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://artist.cdjournal.com/d/-/4212080005","公演・収録資料",{"note":"1月21日・22日に日本武道館で開催された公演の映像作品。Blu-ray第22曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/discography/detail/63/","ASKA公式・収録曲"]}]
+  ]},
+  {"id":"atarashii-rhapsody","title":"新しいラプソディー","lyrics":"井上陽水","music":"井上陽水","writers":[],"note":"陽水自身が詞と曲を手がけた楽曲。Chageが2025年のカバー集『Vandange_1958』に収めた。","versions":[
+    ["原曲","1986","井上陽水","新しいラプソディー","https://yosui.jp/discography/package/single/","原曲の資料",{"note":"5月21日発売のシングル。"}],
+    ["カバー","2025","Chage","Vandange_1958","https://chage.jp/discography/chage/album/023.php","公式資料・作品情報",{"note":"6月18日配信。第1曲。","releaseYear":"2025"}]
+  ]},
+  {"id":"kimi-wa-tennenshoku","title":"君は天然色","lyrics":"松本隆","music":"大瀧詠一","writers":[],"note":"松本隆と大瀧詠一による楽曲。Chageが2025年のカバー集『Vandange_1958』に収めた。","versions":[
+    ["原曲","1981","大滝詠一","君は天然色／カナリア諸島にて","https://www.sonymusic.co.jp/artist/EiichiOhtaki/info/527850","原曲の資料",{"note":"3月21日発売。『A LONG VACATION』にも収録。"}],
+    ["カバー","2025","Chage","Vandange_1958","https://chage.jp/discography/chage/album/023.php","公式資料・作品情報",{"note":"6月18日配信。第2曲。","releaseYear":"2025"}]
+  ]},
+  {"id":"ruby-no-yubiwa","title":"ルビーの指環","lyrics":"松本隆","music":"寺尾聰","writers":[],"note":"松本隆作詞、寺尾聰作曲のシングル。Chageが2025年のカバー集『Vandange_1958』に収めた。","versions":[
+    ["原曲","1981","寺尾聰","ルビーの指環","https://www.jacompa.or.jp/record/","原曲の資料",{"note":"2月5日発売のシングル。第23回日本レコード大賞受賞曲。","reference":["https://syowa-kayo.net/315/","昭和音楽図鑑・発売日とクレジット"]}],
+    ["カバー","2025","Chage","Vandange_1958","https://chage.jp/discography/chage/album/023.php","公式資料・作品情報",{"note":"6月18日配信。第3曲。","releaseYear":"2025"}]
+  ]},
+  {"id":"kimi-wa-kaze","title":"君は風","lyrics":"佐々木幸男","music":"佐々木幸男","writers":[],"note":"佐々木幸男がポプコンで披露し、翌年シングルで発表した曲。Chageが2025年のカバー集『Vandange_1958』に収めた。","versions":[
+    ["ライブ歌唱","1976","佐々木幸男","第11回ポピュラーソングコンテスト","https://www.yamaha-mf.or.jp/history/e-history/popcon/pop11.html","公演・収録資料",{"note":"5月16日、つま恋エキシビションホール。佐々木幸男が自身の曲で出場。","performanceYear":"1976"}],
+    ["原曲","1977","佐々木幸男","君は風","https://www.popcon.jp/artists/archive004.html","原曲の資料",{"note":"1977年のデビューシングル。"}],
+    ["カバー","2025","Chage","Vandange_1958","https://chage.jp/discography/chage/album/023.php","公式資料・作品情報",{"note":"6月18日配信。第4曲。","releaseYear":"2025"}]
+  ]},
+  {"id":"ihoujin-kubota","title":"異邦人","lyrics":"久保田早紀","music":"久保田早紀","writers":[],"note":"久保田早紀のデビュー曲。Chageが2025年のカバー集『Vandange_1958』に収めた。","versions":[
+    ["原曲","1979","久保田早紀","異邦人","https://www.sonymusic.co.jp/Music/Info/hitstyle/mhcl_779.html","原曲の資料",{"note":"10月1日発売のデビューシングル。"}],
+    ["カバー","2025","Chage","Vandange_1958","https://chage.jp/discography/chage/album/023.php","公式資料・作品情報",{"note":"6月18日配信。第5曲。","releaseYear":"2025"}]
+  ]},
+  {"id":"banzai-ulfuls","title":"バンザイ ～好きでよかった～","lyrics":"トータス松本","music":"トータス松本","writers":[],"note":"トータス松本が詞と曲を手がけたウルフルズの曲。Chageが2025年のカバー集『Vandange_1958』に収めた。","versions":[
+    ["原曲","1996","ウルフルズ","バンザイ","https://www.ulfuls.com/discography/?ym=199601","原曲の資料",{"note":"1月24日発売のアルバム第3曲。2月7日にシングル発売。"}],
+    ["カバー","2025","Chage","Vandange_1958","https://chage.jp/discography/chage/album/023.php","公式資料・作品情報",{"note":"6月18日配信。第6曲。","releaseYear":"2025"}]
+  ]},
+  {"id":"akujo-nakajima","title":"悪女","lyrics":"中島みゆき","music":"中島みゆき","writers":[],"note":"中島みゆきが詞と曲を手がけたシングル。Chageが2025年のカバー集『Vandange_1958』に収めた。","versions":[
+    ["原曲","1981","中島みゆき","悪女","https://www.miyuki.jp/s/y10/discography/S10A-0196?ima=00000","原曲の資料",{"note":"10月21日発売のシングル。"}],
+    ["カバー","2025","Chage","Vandange_1958","https://chage.jp/discography/chage/album/023.php","公式資料・作品情報",{"note":"6月18日配信。第7曲。","releaseYear":"2025"}]
+  ]},
+  {"id":"machi-no-akari","title":"街の灯り","lyrics":"阿久悠","music":"浜圭介","writers":[],"note":"阿久悠と浜圭介による堺正章のシングル。Chageが2025年のカバー集『Vandange_1958』に収めた。","versions":[
+    ["原曲","1973","堺正章","街の灯り","https://www.suzuki-onlineshop.jp/products/detail/3140","原曲の資料",{"note":"6月25日発売のシングル。"}],
+    ["カバー","2025","Chage","Vandange_1958","https://chage.jp/discography/chage/album/023.php","公式資料・作品情報",{"note":"6月18日配信。第8曲。","releaseYear":"2025"}]
+  ]},
+  {"id":"toki-no-nagare-ni-mi-wo-makase","title":"時の流れに身をまかせ","lyrics":"荒木とよひさ","music":"三木たかし","writers":[],"note":"荒木とよひさと三木たかしによるテレサ・テンの曲。Chageが2025年のカバー集『Vandange_1958』に収めた。","versions":[
+    ["原曲","1986","テレサ・テン","時の流れに身をまかせ","https://hiptankrecords.com/?pid=136014219","原曲の資料",{"note":"2月21日発売のシングル。"}],
+    ["カバー","2025","Chage","Vandange_1958","https://chage.jp/discography/chage/album/023.php","公式資料・作品情報",{"note":"6月18日配信。第9曲。","releaseYear":"2025"}]
+  ]},
+  {"id":"tsuki-no-akari-kuwana","title":"月のあかり","lyrics":"下田逸郎","music":"桑名正博","writers":[],"note":"下田逸郎の詞に桑名正博が曲を付けた楽曲。Chageが2025年のカバー集『Vandange_1958』に収めた。","versions":[
+    ["原曲","1978","桑名正博","テキーラ・ムーン","https://www.kiokunokiroku.jp/artist/000043","原曲の資料",{"note":"1978年のアルバム収録曲。"}],
+    ["カバー","2025","Chage","Vandange_1958","https://chage.jp/discography/chage/album/023.php","公式資料・作品情報",{"note":"6月18日配信。第10曲。","releaseYear":"2025"}]
+  ]},
+  {"id":"love-is-over-ouyang","title":"ラヴ・イズ・オーヴァー","lyrics":"伊藤薫","music":"伊藤薫","writers":[],"note":"欧陽菲菲が歌った伊藤薫の作品。Chageが2025年のカバー集『Vandange_1958 Vol.2』に収めた。","versions":[
+    ["原曲","1979","欧陽菲菲","うわさのディスコ・クィーン","https://newikis.com/ja/%E3%83%A9%E3%83%B4%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%82%AA%E3%83%BC%E3%83%B4%E3%82%A1%E3%83%BC","原曲の資料",{"note":"7月1日発売のシングルB面。翌年、A面として発売。"}],
+    ["カバー","2025","Chage","Vandange_1958 Vol.2","https://chage.jp/information/release/detail-744.php","公式資料・作品情報",{"note":"8月27日配信。第1曲。","releaseYear":"2025"}]
+  ]},
+  {"id":"wine-red-no-kokoro","title":"ワインレッドの心","lyrics":"井上陽水","music":"玉置浩二","writers":[],"note":"井上陽水の詞と玉置浩二の曲による安全地帯のシングル。Chageが2025年のカバー集『Vandange_1958 Vol.2』に収めた。","versions":[
+    ["原曲","1983","安全地帯","ワインレッドの心","https://saltmoderate.com/discography/detail/64/","原曲の資料",{"note":"11月25日発売のシングル。"}],
+    ["カバー","2025","Chage","Vandange_1958 Vol.2","https://chage.jp/information/release/detail-744.php","公式資料・作品情報",{"note":"8月27日配信。第2曲。","releaseYear":"2025"}]
+  ]},
+  {"id":"boku-no-jinsei-nanshou","title":"僕の人生の今は何章目ぐらいだろう","lyrics":"トータス松本","music":"トータス松本","writers":[],"note":"トータス松本が吉田拓郎に提供した楽曲。Chageが2025年のカバー集『Vandange_1958 Vol.2』に収めた。","versions":[
+    ["原曲","1998","吉田拓郎","Hawaiian Rhapsody","https://www.billboard-japan.com/goods/detail/309706","原曲の資料",{"note":"10月31日発売のアルバム。トータス松本からの提供曲。"}],
+    ["セルフカバー","1999","ウルフルズ","サンキュー・フォー・ザ・ミュージック","https://www.uta-net.com/song/29884/","公式資料・作品情報",{"note":"4月21日発売。作者トータス松本が在籍するバンドの録音。","releaseYear":"1999"}],
+    ["カバー","2025","Chage","Vandange_1958 Vol.2","https://chage.jp/information/release/detail-744.php","公式資料・作品情報",{"note":"8月27日配信。第3曲。","releaseYear":"2025"}]
+  ]},
+  {"id":"tadoritsuitara-itsumo-amefuri","title":"たどりついたらいつも雨ふり","lyrics":"吉田拓郎","music":"吉田拓郎","writers":[],"note":"吉田拓郎がモップスに提供した曲。Chageは『feedback』で「あの時君は若かった」とつなげて歌った。","versions":[
+    ["原曲","1972","モップス","モップスと16人の仲間","https://www.universal-music.co.jp/chage/feedback/","原曲の資料",{"note":"7月発売のアルバムに収録。"}],
+    ["カバー","2019","Chage","feedback","https://www.universal-music.co.jp/chage/feedback/","公式資料・作品情報",{"note":"8月7日発売。第2曲のメドレー収録（前半）。","releaseYear":"2019"}]
+  ]},
+  {"id":"ano-toki-kimi-wa-wakakatta","title":"あの時君は若かった","lyrics":"菅原芙美恵","music":"かまやつひろし","writers":[],"note":"ザ・スパイダースが1968年に発表。Chageは『feedback』で「たどりついたらいつも雨ふり」から続くメドレーとして歌った。","versions":[
+    ["原曲","1968","ザ・スパイダース","あの時君は若かった","https://kotobank.jp/word/%E3%81%82%E3%81%AE%E6%99%82%E5%90%9B%E3%81%AF%E8%8B%A5%E3%81%8B%E3%81%A3%E3%81%9F-1814283","原曲の資料",{"note":"1968年3月発売のシングル。"}],
+    ["カバー","2019","Chage","feedback","https://www.universal-music.co.jp/chage/feedback/","公式資料・作品情報",{"note":"8月7日発売。第2曲のメドレー収録（後半）。","releaseYear":"2019"}]
+  ]},
+  {"id":"sukisa-sukisa-sukisa","title":"好きさ 好きさ 好きさ","lyrics":"Chris White（日本語詞：漣健児）","music":"Chris White","writers":[],"note":"ザ・ゾンビーズの「I Love You」をザ・カーナビーツが日本語でカバー。Chageは日本語版を「悲しき願い」とつなげて歌った。","versions":[
+    ["原曲","1965","ザ・ゾンビーズ","I Love You","https://www.universal-music.co.jp/chage/feedback/","原曲の資料",{"note":"ザ・カーナビーツ版の英語原曲。"}],
+    ["別題・別歌詞","1967","ザ・カーナビーツ","好きさ好きさ好きさ","https://www.jorf.co.jp/tabjun/2020/07/16/%E7%AC%AC178%E5%9B%9E%E3%80%80%E4%BB%A4%E5%92%8C%EF%BC%92%E5%B9%B47%E6%9C%8811%E6%97%A5%E6%94%BE%E9%80%81/","ラジオ日本・発売日と日本語詞",{"note":"6月1日発売の日本語カバー。"}],
+    ["カバー","2019","Chage","feedback","https://www.universal-music.co.jp/chage/feedback/","公式資料・作品情報",{"note":"8月7日発売。第5曲のメドレー収録（前半）。","releaseYear":"2019"}]
+  ]},
+  {"id":"kanashiki-negai","title":"悲しき願い","lyrics":"Bennie Benjamin／Gloria Caldwell／Sol Marcus（日本語詞：タカオカンベ）","music":"Bennie Benjamin／Gloria Caldwell／Sol Marcus","writers":[],"note":"ニーナ・シモンの「Don't Let Me Be Misunderstood」に始まり、アニマルズや尾藤イサオの版でも知られる。Chageは尾藤版をもとに『feedback』で歌った。","versions":[
+    ["原曲","1964","ニーナ・シモン","Don't Let Me Be Misunderstood","https://www.universal-music.co.jp/chage/feedback/","原曲の資料",{"note":"ニーナ・シモンによる原曲。"}],
+    ["別題・別歌詞","1965","尾藤イサオ","悲しき願い","https://www.universal-music.co.jp/chage/feedback/","ユニバーサル ミュージック・楽曲解説",{"note":"Chageがカバーのもとにした日本語版。","reference":["https://tokyocollectors.shop-pro.jp/?pid=189827334","国内シングル盤資料"]}],
+    ["カバー","2019","Chage","feedback","https://www.universal-music.co.jp/chage/feedback/","公式資料・作品情報",{"note":"8月7日発売。第5曲のメドレー収録（後半）。","releaseYear":"2019"}]
+  ]},
+  {"id":"futari-dake-carol","title":"二人だけ","lyrics":"大倉洋一","music":"矢沢永吉","writers":[],"note":"キャロルのシングル「0時5分の最終列車」のカップリング。Chageは『feedback』の最後に収め、青春時代に聴いた曲として紹介した。","versions":[
+    ["原曲","1973","キャロル","0時5分の最終列車","https://utaten.com/lyric/ja00001715/","原曲の資料",{"note":"キャロルのシングルB面。"}],
+    ["カバー","2019","Chage","feedback","https://www.universal-music.co.jp/chage/feedback/","公式資料・作品情報",{"note":"8月7日発売。第6曲。単独トラック。","releaseYear":"2019"}]
+  ]},
+  {"id":"romancing-yard","title":"ロマンシングヤード","lyrics":"秋谷銀四郎","music":"CHAGE","writers":["Chage"],"note":"CHAGE&ASKAの1987年のシングル曲。Chageは2015年と2024年にソロで歌い直し、2024年版はファン投票で選ばれた。","versions":[
+    ["原曲","1987","CHAGE&ASKA","ロマンシングヤード／Mr.ASIA","https://www.chage-aska.net/discography/single/romancing_yard.php","原曲の資料",{"note":"10月5日発売。"}],
+    ["アルバム収録","1988","CHAGE&ASKA","RHAPSODY","https://www.chage-aska.net/discography/album/phapsody.php","C&Aのアルバム収録。",{}],
+    ["リミックス","1992","CHAGE&ASKA","SUPER BEST II","https://www.chage-aska.net/discography/album/super_best2.php","ベスト盤用ミックス。",{}],
+    ["セルフカバー","2015","Chage","hurray!","https://www.billboard-japan.com/goods/detail/498697","Billboard JAPAN・発売日と収録曲",{"note":"「ロマンシング ヤード 2015」として収録。","releaseYear":"2015"}],
+    ["ライブ音源","2016","Chage","Chage Live Tour 2016 ～もうひとつのLOVE SONG～","https://www.universal-music.co.jp/chage/products/uicz-4376/","公演・収録資料",{"note":"9月16日、豊洲PIT。12月14日発売のライブCD Disc 2第6曲。","performanceYear":"2016","releaseYear":"2016","releaseLabel":"ライブCD発売"}],
+    ["セルフカバー","2024","Chage","飾りのない歌","https://www.universal-music.co.jp/chage/products/uicz-4681/","公式資料・作品情報",{"note":"8月28日発売。第4曲。スタジオ・ライブ形式で録音した「-1/6 ver.-」。","releaseYear":"2024"}]
+  ]},
+  {"id":"sugoku-komarunda","title":"すごくこまるんだ","lyrics":"青木せい子","music":"CHAGE","writers":["Chage"],"note":"C&Aのアルバム『SEE YA』で発表された曲。Chageがファン投票で選ばれた曲を歌い直した『飾りのない歌』に収録した。","versions":[
+    ["原曲","1990","CHAGE&ASKA","SEE YA","https://www.chage-aska.net/discography/album/see_ya.php","原曲の資料",{"note":"8月29日発売のアルバムに収録。"}],
+    ["セルフカバー","2024","Chage","飾りのない歌","https://www.universal-music.co.jp/chage/products/uicz-4681/","公式資料・作品情報",{"note":"8月28日発売。第5曲。スタジオ・ライブ形式で録音した「-1/6 ver.-」。","releaseYear":"2024"}]
+  ]},
+  {"id":"yuuki-no-kotoba","title":"勇気の言葉","lyrics":"澤池隆","music":"CHAGE／村上啓介","writers":["Chage"],"note":"MULTI MAXのシングル曲。CHAGEと村上啓介が作曲し、Chageは2024年の『飾りのない歌』でソロ版を録音した。","versions":[
+    ["原曲","1993","MULTI MAX","勇気の言葉","https://www.universal-music.co.jp/chage/news/2024-07-31/","原曲の資料",{"note":"4月7日発売。"}],
+    ["アルバム収録","1993","MULTI MAX","RE-BIRTH","https://www.yamahamusic.co.jp/s/ymc/discography/209?ima=0000&link=ROBO004","6月9日発売のアルバムに収録。",{}],
+    ["セルフカバー","2024","Chage","飾りのない歌","https://www.universal-music.co.jp/chage/products/uicz-4681/","公式資料・作品情報",{"note":"8月28日発売。第8曲。スタジオ・ライブ形式で録音した「-1/6 ver.-」。","releaseYear":"2024"}]
+  ]},
+  {"id":"aisubeki-bakachintachi-e","title":"愛すべきばかちんたちへ","lyrics":"CHAGE／ASKA","music":"CHAGE／ASKA","writers":["Chage","ASKA"],"note":"チャゲ＆飛鳥の二人が作詞・作曲を共作した曲。Chageは2017年にソロで再録し、博多華丸・大吉が博多弁の台詞で参加した。","versions":[
+    ["原曲","1982","チャゲ＆飛鳥","黄昏の騎士","https://www.chage-aska.net/discography/album/tasogarenokishi.php","原曲の資料",{"note":"2月14日発売のアルバム第10曲。"}],
+    ["セルフカバー","2017","Chage","たった一度の人生ならば／愛すべきばかちんたちへ","https://www.universal-music.co.jp/chage/news/2017-04-11_news/","公式資料・作品情報",{"note":"5月3日発売。博多華丸・大吉が台詞で参加。","releaseYear":"2017"}]
+  ]},
+  {"id":"lennon-no-miscast","title":"レノンのミスキャスト","lyrics":"澤地隆","music":"CHAGE","writers":["Chage"],"note":"C&Aの『RHAPSODY』収録曲。Chageの『Many Happy Returns』ではキマグレンが参加し、2025年の『Instinto』には別のライブ音源が収録された。","versions":[
+    ["原曲","1988","CHAGE&ASKA","RHAPSODY","https://www.chage-aska.net/discography/album/phapsody.php","原曲の資料",{"note":"3月5日発売のアルバム第5曲。"}],
+    ["セルフカバー","2009","Chage with キマグレン","Many Happy Returns","https://www.universal-music.co.jp/chage/products/umck-1299/","公式資料・作品情報",{"note":"3月25日発売。第9曲。キマグレンが参加。 ラップにKUREIが参加。","releaseYear":"2009","reference":["https://wee-s.jp/discography/4395/","録音参加者のクレジット"],"creditedAs":"Chage with キマグレン"}],
+    ["ライブ音源","2025","Chage","Instinto（Disc 2「Billboard Live 64 to 67」）","https://chage.jp/information/release/detail-746.php","公演・収録資料",{"note":"「Billboard Live 66 to 67」のライブ音源。10月8日発売のCD Disc 2第10曲。","performanceYear":"2025","releaseYear":"2025","releaseLabel":"CD発売"}]
+  ]},
+  {"id":"kokuhaku-chage-aska","title":"告白","lyrics":"青木せい子","music":"CHAGE","writers":["Chage"],"note":"C&Aのシングル「SAY YES」のカップリング。Chageは『Many Happy Returns』で加藤いづみを迎えて歌い直した。","versions":[
+    ["原曲","1991","CHAGE&ASKA","SAY YES","https://www.chage-aska.net/discography/single/say_yes.php","原曲の資料",{"note":"7月24日発売のシングル第2曲。"}],
+    ["セルフカバー","2009","Chage with 加藤いづみ","Many Happy Returns","https://www.universal-music.co.jp/chage/products/umck-1299/","公式資料・作品情報",{"note":"3月25日発売。第11曲。加藤いづみが歌唱参加。","releaseYear":"2009","reference":["https://wee-s.jp/discography/4395/","録音参加者のクレジット"],"creditedAs":"Chage with 加藤いづみ"}],
+    ["ライブ音源","2024","Chage","Instinto（Disc 2「Billboard Live 64 to 67」）","https://chage.jp/information/release/detail-746.php","公演・収録資料",{"note":"「Billboard Live 65 to 66」のライブ音源。10月8日発売のCD Disc 2第8曲。","performanceYear":"2024","releaseYear":"2025","releaseLabel":"CD発売"}]
+  ]},
+  {"id":"boku-wa-dou-kana","title":"僕はどうかな","lyrics":"澤地隆","music":"渡辺等","writers":[],"note":"Chageが『Many Happy Returns』で夏川りみを迎えた曲。澤地隆が詞を、同作の演奏にも参加した渡辺等が曲を手がけた。","versions":[
+    ["客演","2009","Chage with 夏川りみ","Many Happy Returns","https://www.universal-music.co.jp/chage/products/umck-1299/","公式資料・作品情報",{"note":"3月25日発売。第7曲。夏川りみが歌唱参加。","releaseYear":"2009"}]
+  ]},
+  {"id":"tokyo-tower-chage","title":"トウキョータワー","lyrics":"CHAGE","music":"CHAGE","writers":["Chage"],"note":"CHAGEの1998年のソロデビューシングル。2009年にスガ シカオを迎えて歌い直し、2023年のソロ25周年EPには別のリミックスが収録された。","versions":[
+    ["原曲","1998","CHAGE","トウキョータワー","https://www.universal-music.co.jp/chage/release-history/","原曲の資料",{"note":"9月30日発売のソロデビューシングル。","reference":["https://www.uta-net.com/song/145253/","歌ネット・作詞作曲"]}],
+    ["共演再録","2009","Chage with スガ シカオ","Many Happy Returns","https://www.universal-music.co.jp/chage/products/umck-1299/","公式資料・作品情報",{"note":"3月25日発売。第8曲。スガ シカオが歌唱参加。","releaseYear":"2009"}],
+    ["リミックス","2023","Chage","青い空だけじゃない","https://chage.jp/information/release/detail-564.php","Chage公式・25周年EP",{"note":"8月30日発売。25th Ver.とRadio Editを収録。"}]
+  ]},
+  {"id":"hello-goodby-chage","title":"Hello Goodby","lyrics":"松井五郎","music":"村上啓介","writers":[],"note":"松井五郎が作詞、村上啓介が作曲したChageの楽曲。『Many Happy Returns』に村上啓介との共演で収録された。","versions":[
+    ["客演","2009","Chage with 村上啓介","Many Happy Returns","https://www.universal-music.co.jp/chage/products/umck-1299/","公式資料・作品情報",{"note":"3月25日発売。第10曲。村上啓介が歌唱とギターで参加。","releaseYear":"2009","reference":["https://w.atwiki.jp/cavc/pages/269.html","アルバム資料・作詞作曲"]}]
+  ]},
+  {"id":"taaimonai-boku-no-uta","title":"他愛もない僕の唄だけど","lyrics":"上隅信雄","music":"上隅信雄","writers":[],"note":"児雷也こと上隅信雄が詞と曲を手がけた作品。Chageは、ポプコンの先輩にあたる上隅のこの曲を『Many Happy Returns』でカバーした。","versions":[
+    ["原曲","1977","児雷也","他愛もない僕の唄だけど","https://minkara.carview.co.jp/userid/507066/blog/34159419/","原曲の資料",{"note":"第13回ポプコン出場曲。1977年にシングルで発表。"}],
+    ["カバー","2009","Chage","Many Happy Returns","https://www.universal-music.co.jp/chage/products/umck-1299/","公式資料・作品情報",{"note":"3月25日発売。第12曲。","releaseYear":"2009"}]
   ]}
 ];
