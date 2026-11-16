@@ -3427,6 +3427,7 @@ const songs = [
       {note:'12月25日に各国の配信サービスへ追加されたと発表。第7曲。Qobuzでは7分12秒で、S.E.N.S.とRyo Asukaを作曲者、S.E.N.S.を編曲・演奏者として記載。', reference:['https://www.qobuz.com/gb-en/album/kyara-original-nhk-documentary-the-silkroad-of-the-sea-soundtrack-iii-sens/j2v9nqd1cgmrc','Qobuz・配信版の曲順、表示時間とクレジット']}]
   ]},
   {id:'hyakka-ryoran', title:'百花繚乱', lyrics:'ASKA', music:'ASKA', writers:['ASKA'], note:'ASKA作詞・作曲。アルバム『Breath of Bless』の発売前に「higher ground」ツアーで歌唱。2025年には、もにゅそでがハーモニーとラップを取り入れたカバーを配信した。', versions:[
+    ["ライブ歌唱","2022","ASKA（演奏：葉加瀬太郎）","葉加瀬太郎 音楽祭 2022","https://prtimes.jp/main/html/rd/p/000001944.000012949.html","キョードーメディアス・公演レポート",{"note":"6月5日、明治神宮。ASKAが歌唱し、葉加瀬太郎が演奏に参加。","performanceYear":"2022"}],
     ['ライブ歌唱','2019','ASKA','billboard classics ASKA premium ensemble concert -higher ground-','https://dailysetlist.net/archives/167197','日刊セットリスト・ツアー初日の曲目',
       {note:'12月10日、京都コンサートホール公演で歌唱。掲載セットリストでは第14曲。', reference:['https://tabunsakatsu.hatenablog.com/entry/2019/12/11/000143','観覧記・京都公演の日付と会場']}],
     ['原曲','2020','ASKA','Breath of Bless（ハイレゾ先行配信）','https://av.watch.impress.co.jp/docs/news/1239410.html','AV Watch・ハイレゾ先行配信の開始日と収録曲',
@@ -4333,5 +4334,9 @@ const songs = [
     ["ライブカバー","2023","ASKA（ピアノ：デイヴィッド・フォスター）","ASKA featuring DAVID FOSTER PREMIUM CONCERT 2023","https://barks.jp/news/966287/","BARKS・公演レポート",{"note":"3月16日、ぴあアリーナMM。「PRIDE」とのメドレー。","performanceYear":"2023"}],
     ["ライブ映像","2023","ASKA（ピアノ：デイヴィッド・フォスター）","ASKA featuring DAVID FOSTER PREMIUM CONCERT 2023（Blu-ray）","https://www.fellows.tokyo/discography/detail/50/","ASKA公式・Blu-rayと収録曲",{"note":"3月16日のぴあアリーナMM公演を2024年1月17日に発売。「PRIDE」とのメドレー。","performanceYear":"2023","releaseYear":"2024","releaseLabel":"映像発売"}],
     ["ライブカバー","2024","ASKA（ピアノ：デイヴィッド・フォスター）","HITMAN DAVID FOSTER & FRIENDS 2024","https://www.nikkansports.com/entertainment/news/202406220000978.html","日刊スポーツ・当日の公演レポート",{"note":"6月22日、大宮ソニックシティ 大ホール。「PRIDE」とのメドレー。","performanceYear":"2024"}]
+  ]},
+  {"id":"uta-ni-naritai","title":"歌になりたい","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"note":"ASKAのソロシングル。2022年の葉加瀬太郎 音楽祭では、葉加瀬太郎の演奏とともに披露した。","versions":[
+    ["原曲","2019","ASKA","歌になりたい","https://www.youtube.com/watch?v=OeIxiCe1OTY","ASKA公式・シングル告知",{"note":"2019年にシングルCDで発売。"}],
+    ["ライブ歌唱","2022","ASKA（演奏：葉加瀬太郎）","葉加瀬太郎 音楽祭 2022","https://prtimes.jp/main/html/rd/p/000001944.000012949.html","キョードーメディアス・公演レポート",{"note":"6月5日、明治神宮。ASKAが歌唱し、葉加瀬太郎が演奏に参加。","performanceYear":"2022"}]
   ]}
 ];
