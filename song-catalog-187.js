@@ -868,6 +868,7 @@ const songs = [
     ["ライブ音源","2023","ASKA","ASKA Premium Concert Tour Wonderful World 2023","https://www.fellows.tokyo/discography/detail/51/","ASKA公式・ライブCDとBlu-rayの発売日と曲順",{"note":"9月27日発売。ライブCDのDisc 1とBlu-rayでいずれも第2トラック。2023年5月25日の東京国際フォーラム ホールA公演。","reference":["https://archive.fellows.tokyo/special/tour2023_release/","ASKA公式・収録公演の日付と会場"], "performanceYear":"2023","releaseYear":"2023"}]
   ]},
   { id:"yah-yah-yah", title:"YAH YAH YAH", lyrics:"ASKA", music:"ASKA", writers:["ASKA"], note:"1993年の両A面シングルから、アルバム版、セルフカバー、ライブ、他の歌手や演奏家によるカバーまでを掲載。", versions:[
+    ["ライブ共演","2017","Chage／スターダスト☆レビュー","LIVE SDD 2017","https://fmosaka.net/sdd/live_sdd_2017/set_list.html","FM大阪・公式セットリスト",{"note":"2月19日、大阪城ホール。根本要がASKAのパートを担当。","performanceYear":"2017","reference":["https://www.fmosaka.net/_ct/17049582","FM大阪・当日の公演レポート"]}],
     ["ライブ共演","2019","ASKA／スターダスト☆レビュー／KAN／大黒摩季","札幌限定！みんなのプレミアム熟成ライブ","https://www.livefans.jp/events/1148406","LiveFans・曲別の出演者と曲順",{"note":"9月23日、札幌文化芸術劇場hitaru。アンコール1曲目に出演4組で共演。","performanceYear":"2019","reference":["https://www.stv.jp/radio/kan/senkyoku/u3f86t000005vqn8.html","STVラジオ・KANによる公演案内"]}],
     ["ライブ共演","2022","ASKA／佐藤竹善／スターダスト☆レビュー／森高千里／川崎鷹也","SOUND ALIVE presents 横浜合同演奏会2022","https://yokooto.jp/wp-content/uploads/2023/03/83dbc6d02a3e419cc244172d50575ceb.pdf","横浜音祭り公式報告・オールキャストのアンコール",{"note":"9月18日、パシフィコ横浜 国立大ホール。アンコール1曲目に出演者全員で披露。","performanceYear":"2022","reference":["https://ameblo.jp/lm-event/entry-12765119385.html","観覧記録・アンコールの曲順"]}],
     ["ライブ客演","2002","ASKA","小田和正 K.ODA TOUR 2002『Kira Kira』","https://w.atwiki.jp/cavc/pages/337.html","C&A公演年表・ASKAの飛び入り歌唱",{"note":"6月22日、名古屋国際会議場 センチュリーホール。ASKAが飛び入りで歌唱。","performanceYear":"2002","reference":["https://www.livefans.jp/events/223492","LiveFans・公演日と会場"]}],
@@ -2623,6 +2624,7 @@ const songs = [
     ["ベスト盤収録","1998","CHAGE&ASKA","Greatest Hits: Asian Special Version","https://www.cdhkonline.com/product-page/chage-aska-greatest-hits-asian-special-version","CDHK Online・香港盤の品番と曲順",{"track":"Natural","note":"香港盤（ARC 00019）の第12曲。6分40秒。初出シングルとのテイク・ミックスの異同は未照合。","reference":["https://musicbrainz.org/release/b24e8c3a-eb75-4f68-84e8-e86a318bbdee","MusicBrainz・香港盤の曲順と収録時間"]}]
   ]},
   {"id":"epilogue-chage-aska", "note":"Chageと田北憲次が作詞、Chageが作曲。1980年のアルバム『風舞』の最後を飾った曲で、CHAGE and ASKAの公演やChageのソロ作品でも取り上げられ、中国語圏でも複数の歌手がカバーしている。","title":"終章（エピローグ）","lyrics":"Chage／田北憲次","music":"Chage","writers":["Chage"],"versions":[
+    ["ライブ共演","2017","Chage／スターダスト☆レビュー","LIVE SDD 2017","https://fmosaka.net/sdd/live_sdd_2017/set_list.html","FM大阪・公式セットリスト",{"note":"2月19日、大阪城ホール。Chageがスターダスト☆レビューと共演。","performanceYear":"2017","reference":["https://www.fmosaka.net/_ct/17049582","FM大阪・当日の公演レポート"]}],
     ["ライブ共演","2003","CHAGE and ASKA with 小田和正","SOUND CONIFER 229「青春の影」～K.ODA & CHAGE & ASKA～","https://song2.sakura.ne.jp/liverepo/liverepo_20030809_soundconifer229.html","公演レポート・3人の歌唱",{"note":"8月9日、富士急ハイランド コニファーフォレスト。CHAGE、ASKA、小田和正の3人が歌唱。","reference":["https://www.livefans.jp/events/138625","LiveFans・公演情報とセットリスト"]}],
     ["原曲","1980","チャゲ＆飛鳥","風舞","https://www.chage-aska.net/discography/album/kazemai.php","CHAGE and ASKA公式・発売日、曲順と作家クレジット",{"creditSource":"https://www.stereo-records.com/detail.php?itemCd=50115","note":"4月25日発売。第10曲。編曲は瀬尾一三。 所蔵音源の管理データでは5分40秒。","reissue":{"note":"2001年9月19日発売。ヤマハ再発CD（YCCR-00036）第10曲。","url":"https://www.yamahamusic.co.jp/s/ymc/discography/250?ima=0000&link=ROBO004"}}],
     ["ライブ音源","1981","チャゲ＆飛鳥","ライブ・イン田園コロシアム ～The 夏祭り'81","https://www.chage-aska.net/discography/album/live_in_denen_colosseum.php","CHAGE and ASKA公式・発売日と曲順",{creditSource:"https://www.snowrecords.jp/?pid=90302385", "note":"8月1日の東京・田園コロシアム公演。1981年9月10日発売のオリジナル盤は通し第7曲。2009年発売の完全収録盤はDisc 1第8曲で、所蔵音源の管理データでは5分10秒。","reference":["https://books.rakuten.co.jp/rb/6140301/","楽天ブックス・完全収録盤の発売日、曲順と収録時間"], "performanceYear":"1981","releaseYear":"1981"}],
@@ -4042,6 +4044,7 @@ const songs = [
     ["アルバム収録","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・CDの曲順と発売日",{"note":"3月27日発売のアルバム第6曲。","releaseYear":"2013"}]
   ]},
   {"id":"ai-no-uta-stardust-revue","title":"愛の歌","lyrics":"STARDUST REVUE","music":"根本要","writers":[],"note":"スターダスト☆レビューが2007年に発表したシングル。2016年、香川県のテアトロンで開かれた同バンドの公演にChageがゲスト出演し、アンコールの最後にこの曲を歌った。","versions":[
+    ["ライブ共演","2017","スターダスト☆レビュー／Chage／渡辺美里","LIVE SDD 2017","https://fmosaka.net/sdd/live_sdd_2017/set_list.html","FM大阪・公式セットリスト",{"note":"2月19日、大阪城ホール。スターダスト☆レビューの共演ステージの締めくくりに3組で披露。","performanceYear":"2017","reference":["https://www.fmosaka.net/_ct/17049582","FM大阪・当日の公演レポート"]}],
     ["ライブ共演","2019","ASKA／スターダスト☆レビュー／KAN／大黒摩季","札幌限定！みんなのプレミアム熟成ライブ","https://www.livefans.jp/events/1148406","LiveFans・曲別の出演者と曲順",{"note":"9月23日、札幌文化芸術劇場hitaru。本編最後に出演4組で共演。","performanceYear":"2019","reference":["https://www.stv.jp/radio/kan/senkyoku/u3f86t000005vqn8.html","STVラジオ・KANによる公演案内"]}],
     ["ライブ共演","2022","ASKAを含む出演者（全員歌唱）","SOUND ALIVE presents 横浜合同演奏会2022","https://ameblo.jp/lm-event/entry-12765119385.html","観覧記録・本編最後の歌唱",{"note":"9月18日、パシフィコ横浜 国立大ホール。本編最後に出演者全員で披露。","performanceYear":"2022","reference":["https://yokooto.jp/wp-content/uploads/2023/03/83dbc6d02a3e419cc244172d50575ceb.pdf","横浜音祭り公式報告・公演情報と曲目"]}],
     ["ライブ共演","2019","ASKA／スターダスト☆レビュー／杉山清貴／KAN","SOUND ALIVE presents 横浜合同演奏会","https://ameblo.jp/mjkozou/entry-12526219117.html","観覧記録・当日の歌唱",{"note":"9月16日、パシフィコ横浜 国立大ホール。4組で歌唱。","performanceYear":"2019","reference":["https://yokooto.jp/program/19164/","横浜音祭り公式・公演日と出演者"]}],
@@ -4391,5 +4394,17 @@ const songs = [
   {"id":"to-u-bank-band","title":"to U","lyrics":"櫻井和寿","music":"小林武史","writers":[],"note":"Bank Band with Salyuの楽曲。ap bank fes ’08のフィナーレにASKAが参加した。","versions":[
     ["原曲","2006","Bank Band with Salyu","to U","https://www.apbank.jp/project/release/","ap bank公式・シングルと作家",{"note":"7月19日発売。"}],
     ["ライブ共演","2008","Bank Band／初日ゲスト（ASKAほか）","ap bank fes ’08","https://fes.apbank.jp/08/report/1.html","ap bank公式・フィナーレ曲",{"note":"7月19日、静岡県掛川市・つま恋。初日のフィナーレにASKAが参加したと観覧記録にある。個別の歌唱パートは未確認。","performanceYear":"2008","reference":["https://ameblo.jp/lilysan2/entry-12883290496.html","観覧記録・フィナーレでのASKAの参加"]}]
+  ]},
+  {"id":"nagisa-ni-matsuwaru-etc","title":"渚にまつわるエトセトラ","lyrics":"井上陽水","music":"奥田民生","writers":[],"note":"PUFFYの楽曲。2003年の札幌公演「蝦夷カニ合戦」では、アンコールの全員セッションでCHAGE and ASKAが歌った。","versions":[
+    ["原曲","1997","PUFFY","渚にまつわるエトセトラ","https://www.sonymusic.co.jp/artist/Puffy/discography/ESDB-3749","ソニーミュージック公式・発売日と作家",{"note":"4月16日発売。"}],
+    ["ライブ共演","2003","CHAGE and ASKAを含む出演者全員","MIX2003 Super Session 5ホヤーズ「Crab Kingdom～蝦夷カニ合戦～」","https://plaza.rakuten.co.jp/yosshii/11003/","観覧記録・アンコールと歌唱順",{"note":"10月13日、Zepp Sapporo。アンコールで全員が共演し、冒頭はASKA、一青窈、CHAGEの順に歌い継いだ。","performanceYear":"2003","reference":["https://www.chage-aska.net/history/2000.php","CHAGE and ASKA公式・公演日と会場"]}]
+  ]},
+  {"id":"heal-the-world","title":"Heal the World","lyrics":"Michael Jackson","music":"Michael Jackson","writers":[],"note":"マイケル・ジャクソンの楽曲。LIVE SDD 2017のフィナーレではChageを含む出演者全員が共演した。","versions":[
+    ["原曲","1991","Michael Jackson","Dangerous","https://www.michaeljackson.com/albums/dangerous/","Michael Jackson公式・アルバムと収録曲",{"note":"11月発売。第7曲。"}],
+    ["ライブ共演","2017","Chageを含む出演者全員","LIVE SDD 2017","https://fmosaka.net/sdd/live_sdd_2017/set_list.html","FM大阪・公式セットリスト",{"note":"2月19日、大阪城ホール。フィナーレで出演者全員が再登場。SDDクワイアーも加わった。","performanceYear":"2017","reference":["https://www.fmosaka.net/_ct/17049582","FM大阪・当日の公演レポート"]}]
+  ]},
+  {"id":"mou-hitotsu-no-love-song","title":"もうひとつのLOVE SONG","lyrics":"Chage","music":"Chage","writers":["Chage"],"note":"Chageの2016年の楽曲。LIVE SDD 2017ではスターダスト☆レビューと共演した。","versions":[
+    ["原曲","2016","Chage","もうひとつのLOVE SONG(Single version) / NとLの野球帽(2016 Single version)","https://chage.jp/discography/chage/single/013.php","Chage公式・配信日と曲目",{"note":"6月22日配信。","reference":["https://chage.jp/information/release/detail-149.php","Chage公式・作詞と作曲"]}],
+    ["ライブ共演","2017","Chage／スターダスト☆レビュー","LIVE SDD 2017","https://fmosaka.net/sdd/live_sdd_2017/set_list.html","FM大阪・公式セットリスト",{"note":"2月19日、大阪城ホール。Chageとスターダスト☆レビューの共演ステージ1曲目。","performanceYear":"2017","reference":["https://www.fmosaka.net/_ct/17049582","FM大阪・当日の公演レポート"]}]
   ]}
 ];
