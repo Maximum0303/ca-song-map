@@ -4032,6 +4032,7 @@ const songs = [
     ["ライブ映像","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://www.fellows.tokyo/feature/concert_2026_christmas","ASKA公式・公演日、曲順、発売日",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray＋ライブCDに収録。Blu-rayの本編第3曲。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray＋ライブCD発売"}]
   ]},
   {"id":"ue-o-muite-arukou","title":"上を向いて歩こう","lyrics":"永六輔","music":"中村八大","writers":[],"note":"坂本九が1961年に発表し、海外では「Sukiyaki」の題で広まった。ASKAは東日本大震災後の「いま歌う」シリーズでカバーを配信し、2013年のアルバム「僕にできること（いま歌うシリーズ）」にも収録した。","versions":[
+    ["ライブ共演","2002","CHAGE and ASKAを含む出演者全員","STAR STOCK ’02","https://plaza.rakuten.co.jp/notatall1227/15001/","観覧記録・出演者全員の歌唱",{"note":"8月17日、福岡・海の中道海浜公園 大芝生広場。公演の最後に出演者全員でアカペラ歌唱。","performanceYear":"2002","reference":["https://www.chage-aska.net/history/2000.php","CHAGE and ASKA公式・公演日と会場"]}],
     ["原曲","1961","坂本九","上を向いて歩こう／あの娘の名前はなんてんかな","https://www.universal-music.co.jp/sakamoto-kyu/song-list/","ユニバーサル ミュージック・発売日と作詞作曲",{"note":"10月15日発売のシングル。"}],
     ["配信収録","2011","ASKA","上を向いて歩こう（いま歌うシリーズ）","https://www.chage-aska.net/history/2010.php","CHAGE and ASKA公式年表・配信と録音の経緯",{"note":"「いま歌う」をテーマに録音し、東日本大震災後にiTunesで配信。公式年表は4月26日付。","releaseYear":"2011","releaseLabel":"配信"}],
     ["アルバム収録","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・CDの曲順と発売日",{"note":"3月27日発売のアルバム第6曲。","releaseYear":"2013"}]
@@ -4338,5 +4339,22 @@ const songs = [
   {"id":"uta-ni-naritai","title":"歌になりたい","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"note":"ASKAのソロシングル。2022年の葉加瀬太郎 音楽祭では、葉加瀬太郎の演奏とともに披露した。","versions":[
     ["原曲","2019","ASKA","歌になりたい","https://www.youtube.com/watch?v=OeIxiCe1OTY","ASKA公式・シングル告知",{"note":"2019年にシングルCDで発売。"}],
     ["ライブ歌唱","2022","ASKA（演奏：葉加瀬太郎）","葉加瀬太郎 音楽祭 2022","https://prtimes.jp/main/html/rd/p/000001944.000012949.html","キョードーメディアス・公演レポート",{"note":"6月5日、明治神宮。ASKAが歌唱し、葉加瀬太郎が演奏に参加。","performanceYear":"2022"}]
+  ]},
+  {"id":"tokio-sawada","title":"TOKIO","lyrics":"糸井重里","music":"加瀬邦彦","writers":[],"note":"沢田研二のシングル曲。2002年のアースデー・コンサートではCHAGE and ASKAを含む出演者全員が最後に歌った。","versions":[
+    ["原曲","1980","沢田研二","TOKIO","https://kotobank.jp/word/tokio-2435155","デジタル大辞泉プラス・歌唱と作家",{"note":"1980年発売。"}],
+    ["ライブ共演","2002","CHAGE and ASKAを含む出演者全員","コスモ アースコンシャス アクト アースデー・コンサート","https://plaza.rakuten.co.jp/notatall1227/15001/","観覧記録・出演者全員の歌唱",{"note":"4月22日、日本武道館。CHAGE and ASKAのステージ後、出演者全員で歌唱。","performanceYear":"2002","reference":["https://www.tfm.co.jp/company/pdf/news000054.pdf","TOKYO FM・歴代公演と出演者"]}]
+  ]},
+  {"id":"seishun-no-kage","title":"青春の影","lyrics":"財津和夫","music":"財津和夫","writers":[],"note":"チューリップの楽曲。2003年のSOUND CONIFER 229では、小田和正とCHAGE and ASKAがアンコールの最後に歌った。","versions":[
+    ["原曲","1974","チューリップ","青春の影","https://www.jvcmusic.co.jp/-/Profile/A010054.html","ビクターエンタテインメント・作品年",{"note":"1974年発売のシングル。"}],
+    ["ライブ共演","2003","小田和正／CHAGE and ASKA","SOUND CONIFER 229「青春の影」～K.ODA & CHAGE & ASKA～","https://song2.sakura.ne.jp/liverepo/liverepo_20030809_soundconifer229.html","観覧記録・アンコールの歌唱者",{"note":"8月9日、富士急ハイランド コニファーフォレスト。最後に3人で歌唱し、2番の歌詞を公演に合わせて替えた。","performanceYear":"2003","reference":["https://www.chage-aska.net/history/2000.php","CHAGE and ASKA公式・公演日と会場"]}]
+  ]},
+  {"id":"tabidachi-no-uta-kamijo","title":"出発の歌 ～失なわれた時を求めて～","lyrics":"及川恒平","music":"小室等","writers":[],"note":"上條恒彦と六文銭の楽曲。『僕らのポプコンエイジ』では、2018年の府中公演と2019年の岸和田公演の最後にChageを含む出演者全員で歌った。","versions":[
+    ["原曲","1971","上條恒彦＋六文銭","出発の歌 ～失なわれた時を求めて～","https://www.yamaha-mf.or.jp/history/e-history/nemu_pf/nemu_pf3.html","ヤマハ音楽振興会・歌唱と作家",{"note":"1971年の合歓ポピュラーフェスティバルでグランプリ。同年にシングル発売。"}],
+    ["ライブ共演","2018","Chageを含む出演者全員","僕らのポプコンエイジ2018（府中公演）","https://yob-tky.net/zaidan-dosokai_tsushin35_for_web.pdf","ヤマハ音楽振興会 同窓会通信 第35号・曲目と歌唱者",{"note":"5月6日、府中の森芸術劇場 どりーむホール。最後の曲を出演者全員で歌唱。","performanceYear":"2018"}],
+    ["ライブ共演","2019","Chageを含む出演者全員","僕らのポプコンエイジ2019 in 関西（岸和田公演）","https://164715.seesaa.net/article/201906article_3.html","観覧記録・最後の曲と歌唱者",{"note":"6月2日、岸和田市立浪切ホール 大ホール。出演者全員で歌唱。","performanceYear":"2019","reference":["https://chage.jp/information/live/detail-322.php","Chage公式・公演日と会場"]}]
+  ]},
+  {"id":"hoshi-no-yoru-shionoya","title":"星の夜","lyrics":"吉田美奈子","music":"塩谷哲","writers":[],"note":"塩谷哲の楽曲。『Cross your fingers 24』のアンコールでASKAを含む出演者が共演した。","versions":[
+    ["原曲","1998","塩谷哲 WITH FRIENDS","星の夜","https://artist.cdjournal.com/d/-/3198101284","CDJournal・シングル発売日と収録曲",{"note":"11月21日発売。第1曲はトゥインクル・ミックス。"}],
+    ["ライブ共演","2024","ASKAを含む出演者全員","佐藤竹善 Presents Cross your fingers 24","https://cocolo.jp/site/pickup_detail/2563","FM COCOLO・公演レポートと歌唱者",{"note":"5月26日、大阪・オリックス劇場。アンコールの最後に全員で共演。塩谷哲、大儀見元、ジュスカ・グランペールは演奏。","performanceYear":"2024","reference":["https://cocolo.jp/service/homepage/index/6210/60443","FM COCOLO・放送セットリスト（ALL CAST SESSION）"]}]
   ]}
 ];
