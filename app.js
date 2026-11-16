@@ -15,6 +15,24 @@ const filters = document.querySelectorAll('[data-writer]');
 const compactScreen = matchMedia('(max-width: 760px)');
 const badges = {'原曲':'original', '海外カバー':'cover', '別題・別歌詞':'self', 'ライブ客演':'duet', '提供音源':'original', 'セルフカバー':'self', 'カバー':'cover', '共演再録':'duet', '客演':'duet', 'ライブカバー':'cover', 'インスト':'instrumental', 'カラオケ':'instrumental', '英語歌唱版':'cover', 'ライブ映像':'self', 'ライブ歌唱':'self', 'ライブ音源':'self', '映像収録':'self', 'アルバム収録':'original', 'リミックス':'original', 'クラブMIX':'cover', 'アルバム版':'cover', '放送歌唱映像':'self', 'ラジオ歌唱':'self', '再録':'original', '再収録':'original', 'ベスト盤収録':'original'};
 const duoNamePattern = /\bchage\s*(?:[&＆]|and)\s*asu?ka\b|チャゲ\s*(?:[&＆]|と)\s*飛鳥/gi;
+const recordingTypes = new Set([
+  '原曲', '提供音源', 'スタジオ音源', 'スタジオ歌唱', 'セルフカバー', 'カバー',
+  '海外カバー', '海外カバー再収録', '再録', '再録音源', '再収録', '共演再録',
+  'LP収録', 'アルバム収録', 'アルバム版', 'オムニバス収録', 'サントラ収録',
+  'シングル収録', 'シングル版', 'ベスト盤収録', 'ボックス収録', '海外ベスト盤収録',
+  '海外盤収録', '配信収録', 'インスト', 'カラオケ', 'クラブMIX', 'リミックス',
+  'ロングバージョン', '別アレンジ', '別バージョン', '別ミックス', '別題・別歌詞',
+  '日本語版', '英語歌唱版',
+]);
+const versionFilters = [
+  { id: 'recording', label: '音源・再収録', matches: ([type, , , , , , meta]) =>
+    recordingTypes.has(type) && !meta?.performanceYear && !meta?.broadcastYear },
+  { id: 'live', label: 'ライブ・映像・放送', matches: ([type, , , , , , meta]) =>
+    /^(?:ライブ|放送)|^(?:イベント歌唱|テレビ放送|ラジオ歌唱|ミュージックビデオ|映像収録)$/.test(type)
+    || Boolean(meta?.performanceYear || meta?.broadcastYear) },
+  { id: 'cover', label: '他の歌手によるカバー', matches: ([type]) =>
+    /^(?:海外|ライブ)?カバー(?:（形態未確認）|再収録)?$/.test(type) },
+];
 
 // Editions and tours in the transition years are classified by their documented dates.
 const duoNamesByTransitionWork = {
@@ -145,22 +163,33 @@ function showDetail() {
   }
 
   const { song, number, firstYear, versions } = selected;
+  const filterOptions = versionFilters.map(filter => ({
+    ...filter, count: versions.filter(({ row }) => filter.matches(row)).length,
+  })).filter(filter => filter.count > 0 && filter.count < versions.length);
   detailContent.innerHTML = `
     <p class="eyebrow">No. ${String(number).padStart(2,'0')}</p>
     <h3>${song.title}</h3>
     <p class="credit">初出年　${firstYear ? yearText(firstYear) : "未確認"}</p>
     <p class="credit">作詞　${song.lyrics}　／　作曲　${song.music}</p>
     ${song.note ? `<p class="note">${song.note}</p>` : ''}
-    <p class="version-heading">収録・公演記録 <span>${versions.length}件</span></p>
-    <ol class="timeline">${versions.map(({ row, date }) => {
+    <div class="version-toolbar">
+      <h4 class="version-heading">収録・公演記録 <span id="version-count" role="status">${versions.length}件</span></h4>
+      ${filterOptions.length ? `<label class="select-label version-filter">記録の種類
+        <select aria-controls="version-timeline">
+          <option value="">すべて</option>
+          ${filterOptions.map(({ id, label, count }) => `<option value="${id}">${label}（${count}件）</option>`).join('')}
+        </select>
+      </label>` : ''}
+    </div>
+    <ol class="timeline" id="version-timeline">${versions.map(({ row, date }) => {
       const [type, year, artist, release, url, source, meta] = row;
       const relatedYears = versionYearLabels(row, date);
       return `
       <li><details class="version">
         <summary>
           <span class="version-date">${/^\d{4}$/.test(date.year) ? `<time datetime="${date.year}">${date.year}</time>` : date.year}<small>${date.label}</small></span>
-          <span class="version-summary">
-            <span class="version-title"><strong>${displayArtist(year, artist, release)}</strong> <span class="badge ${badges[type]}">${type}</span></span>
+          <span class="version-title"><strong>${displayArtist(year, artist, release)}</strong> <span class="badge ${badges[type]}">${type}</span></span>
+          <span class="version-work">
             <span class="version-release">${meta?.track ? `「${meta.track}」 · ` : ''}『${release}』</span>
             ${relatedYears.length ? `<span class="version-release">${relatedYears.join(' ／ ')}</span>` : ''}
           </span>
@@ -174,6 +203,17 @@ function showDetail() {
         </div>
       </details></li>`;
     }).join('')}</ol>`;
+  const filterControl = detailContent.querySelector('.version-filter select');
+  filterControl?.addEventListener('change', () => {
+    const filter = filterOptions.find(({ id }) => id === filterControl.value);
+    const timeline = detailContent.querySelector('#version-timeline');
+    versions.forEach(({ row }, index) => {
+      timeline.children[index].hidden = Boolean(filter && !filter.matches(row));
+    });
+    detailContent.querySelector('#version-count').textContent = filter
+      ? `${filter.count}件 / 全${versions.length}件`
+      : `${versions.length}件`;
+  });
 }
 
 function renderCatalog() {
