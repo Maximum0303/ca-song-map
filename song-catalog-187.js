@@ -2767,7 +2767,9 @@ const songs = [
     ["再録音源","2011","葛城ユキ","STAY","https://www.billboard-japan.com/goods/detail/59822","Billboard JAPAN・発売日、曲名と曲順",{"note":"6月29日発売のシングル（PSSC-9）第2曲。所蔵音源の管理データでは3分57秒。","track":"ボヘミアン ～acoustic version～"}],
     ["カバー","2018","水雲-MIZMO-","歌謡抄～雲の巻～","https://ototoy.jp/_/default/p/174009","OTOTOY・配信日と曲順",{"note":"11月7日発売。第4曲。所蔵音源の管理データでは3分23秒。"}],
     ["再収録","2022","葛城ユキ","魂を追いかけて (+1)","https://www.universal-music.co.jp/p/upcy-7795/","ユニバーサル ミュージック公式・発売日、曲順と復刻仕様",{"note":"11月30日発売のSHM-CD（UPCY-7795）第5曲。1996年のアルバムをリマスターして復刻。所蔵音源の管理データでは3分29秒。","track":"ボヘミアン（ニューバージョン）"}],
-    ["カバー","2025","SHOW-YA","無限","https://show-ya.jp/post-0005751/","SHOW-YA公式・発売日と曲順",{"note":"10月8日発売。第6曲。所蔵音源の管理データでは3分23秒。"}]
+    ["カバー","2025","SHOW-YA","無限","https://show-ya.jp/post-0005751/","SHOW-YA公式・発売日と曲順",{"note":"10月8日発売。第6曲。所蔵音源の管理データでは3分23秒。"}],
+    ["ライブ公演","1998","ASKA","ASKA CONCERT TOUR “kicks”","https://www.livefans.jp/events/322567","LiveFans・横浜公演のセットリスト",{"note":"7月19日、横浜アリーナ公演のアンコール。ツアー中は公演ごとにアンコールの曲順が異なった。","performanceYear":"1998","reference":["https://w.atwiki.jp/cavc/pages/409.html","公演記録・アンコールの構成"]}],
+    ["ライブ映像","2009","ASKA","ASKA CONCERT TOUR 2009 WALK","https://www.fellows.tokyo/discography/detail/71/","ASKA公式・DVD曲順",{"note":"6月28日、NHKホール公演のアンコール。11月25日発売のDVDの第21曲。","performanceYear":"2009","releaseYear":"2009","releaseLabel":"DVD発売","reference":["https://www.cdjapan.co.jp/product/POBD-22007","CDJapan・収録公演とアンコールの曲順"]}]
   ]},
   {"id":"marcel-bashi-otomo-yuko","title":"マルセル橋","lyrics":"飛鳥涼（ASKA）","music":"井上大輔","writers":["ASKA"],"note":"飛鳥涼（ASKA）が大友裕子に作詞を提供した楽曲。作曲は井上大輔、編曲は平野孝幸。大友裕子のシングル「ボヘミアン」のB面で初出。","versions":[
     ["提供音源","1982","大友裕子","ボヘミアン","https://www.fellows.tokyo/feature/disco_offer","ASKA公式・提供先、発売日と作家クレジット",{"note":"9月21日発売。EXPRESSの7インチ（ETP-17406）B面。編曲は平野孝幸。","reference":["https://pedia.3rd-in.co.jp/wiki/%E3%83%9C%E3%83%98%E3%83%9F%E3%82%A2%E3%83%B3%20(%E6%9B%B2)","シングル資料・B面曲と編曲クレジット"]}],
@@ -3920,5 +3922,28 @@ const songs = [
     ["カバー","2011","ASKA","BOOKEND","https://www.billboard-japan.com/goods/detail/238913","Billboard JAPAN・発売日と曲順",{"note":"12月7日発売。第3曲。","releaseYear":"2011"}],
     ["ライブ映像","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://www.fellows.tokyo/discography/detail/63/","ASKA公式・Blu-rayの曲順",{"note":"1月22日、日本武道館公演。Blu-ray（POXS-22021）の第2曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://barks.jp/news/666957/","BARKS・公演日と会場"]}],
     ["ライブ映像","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://artist.cdjournal.com/d/aska-concert-tour-2026/4226080253","CDJournal・収録日、発売日とBlu-rayの曲順",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray（DDLB-0028）の第2項。オープニング映像を含めた商品資料での曲順。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray発売","reference":["https://www.fellows.tokyo/news/detail/737","ASKA公式・収録公演と上映曲目"]}]
+  ]},
+  {"id":"koi-no-kisetsu","title":"恋の季節","lyrics":"岩谷時子","music":"いずみたく","writers":[],"note":"ピンキーとキラーズの楽曲。ASKAは2009年の「WALK」のアンコールと2026年の「昭和が見ていたクリスマス!?」で歌唱した。","versions":[
+    ["原曲","1968","ピンキーとキラーズ","恋の季節","https://www.iwatanitokiko.org/profile/history.html","岩谷時子音楽文化振興財団・発表年"],
+    ["ライブカバー","2009","ASKA","ASKA CONCERT TOUR 2009 WALK","https://www.fellows.tokyo/discography/detail/71/","ASKA公式・DVD曲順",{"note":"6月28日、NHKホール公演のアンコール。11月25日発売のDVDの第20曲。","performanceYear":"2009","releaseYear":"2009","releaseLabel":"DVD発売","reference":["https://www.cdjapan.co.jp/product/POBD-22007","CDJapan・収録公演とアンコールの曲順"]}],
+    ["ライブカバー","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://www.fellows.tokyo/feature/concert_2026_christmas","ASKA公式・収録公演、収録曲、発売日",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray＋ライブCDに収録。公式曲順の第15曲。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray＋ライブCD発売"}]
+  ]},
+  {"id":"ano-kane-wo-narasu-no-wa-anata","title":"あの鐘を鳴らすのはあなた","lyrics":"阿久悠","music":"森田公一","writers":[],"note":"和田アキ子の楽曲。ASKAは「FACES」のアンコールと2012年・2026年の「昭和が見ていたクリスマス!?」で歌唱した。","versions":[
+    ["原曲","1972","和田アキ子","あの鐘を鳴らすのはあなた","https://www.teichiku.co.jp/artist/wada/discography/TECA-10053.html","テイチク・原曲と作家クレジット"],
+    ["ライブカバー","2010","ASKA","ASKA CONCERT TOUR 10>>11 FACES","https://w.atwiki.jp/cavc/pages/458.html","公演記録・初日のセットリスト",{"note":"10月30日、川口総合文化センター リリア メインホール公演。アンコールの1曲目。","performanceYear":"2010"}],
+    ["ライブ映像","2011","ASKA","ASKA CONCERT TOUR 10>>11 FACES","https://www.universal-music.co.jp/p/pobd-22028/","ユニバーサル ミュージック・DVDの収録公演と曲順",{"note":"1月26日、日本武道館公演のアンコール。6月1日発売のDVDの第18曲。","performanceYear":"2011","releaseYear":"2011","releaseLabel":"DVD発売"}],
+    ["ライブカバー","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://www.billboard-japan.com/goods/detail/359200","Billboard JAPAN・Blu-rayの収録曲と発売日",{"note":"1月21日・22日に日本武道館で開催された公演の映像作品に収録。Blu-rayは10月17日発売。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売"}],
+    ["ライブカバー","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://www.fellows.tokyo/feature/concert_2026_christmas","ASKA公式・収録公演、収録曲、発売日",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray＋ライブCDに収録。公式曲順の第16曲。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray＋ライブCD発売"}]
+  ]},
+  {"id":"young-man-ymca","title":"YOUNG MAN（Y.M.C.A.）","lyrics":"あまがいりゅうじ（日本語詞）","music":"Jacques Morali","writers":[],"note":"ヴィレッジ・ピープル「Y.M.C.A.」の日本語版として西城秀樹が発表した楽曲。ASKAは西城秀樹版を2019年の日本武道館公演のアンコールと2026年の「昭和が見ていたクリスマス!?」で歌唱した。","versions":[
+    ["原曲","1979","西城秀樹","YOUNG MAN（Y.M.C.A.）","https://syowa-kayo.net/405/","昭和歌謡の記録・日本語版の発売日とクレジット",{"note":"日本語版シングルは2月21日発売。"}],
+    ["ライブ音源","2019","ASKA","Made in ASKA -40年のありったけ- in 日本武道館","https://www.fellows.tokyo/discography/detail/27/","ASKA公式・ライブCDの曲順と発売日",{"note":"4月23日、日本武道館公演のアンコール。7月17日発売のライブCDの通し第20曲。","performanceYear":"2019","releaseYear":"2019","releaseLabel":"ライブCD発売"}],
+    ["ライブ映像","2019","ASKA","Made in ASKA -40年のありったけ- in 日本武道館","https://www.fellows.tokyo/discography/detail/55/","ASKA公式・Blu-rayの曲順と発売日",{"note":"4月23日、日本武道館公演のアンコール。8月21日発売のBlu-rayに収録。","performanceYear":"2019","releaseYear":"2019","releaseLabel":"Blu-ray発売"}],
+    ["ライブカバー","2026","ASKA","ASKA CONCERT 2026 昭和が見ていたクリスマス!?","https://www.fellows.tokyo/feature/concert_2026_christmas","ASKA公式・収録公演、収録曲、発売日",{"note":"2月13日、東京国際フォーラム ホールA公演。9月23日発売のBlu-ray＋ライブCDに収録。公式曲順の第19曲。","performanceYear":"2026","releaseYear":"2026","releaseLabel":"Blu-ray＋ライブCD発売"}]
+  ]},
+  {"id":"good-night-beatles","title":"Good Night","lyrics":"Lennon–McCartney","music":"Lennon–McCartney","writers":[],"note":"ザ・ビートルズのアルバム「The Beatles」の最後を飾る楽曲。ASKAは「STANDARD」でカバーし、2009年の「昭和が見ていたクリスマス」のアンコールでも歌唱した。","versions":[
+    ["原曲","1968","ザ・ビートルズ","The Beatles","https://www.thebeatles.com/good-night","ザ・ビートルズ公式・原曲とクレジット",{"note":"アルバムの最終曲。リードボーカルはリンゴ・スター。"}],
+    ["カバー","2009","ASKA","STANDARD","https://store.universal-music.co.jp/products/umck1336","ユニバーサル ミュージック・CDの曲順",{"note":"11月25日発売。第5曲。","releaseYear":"2009"}],
+    ["ライブカバー","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.universal-music.co.jp/p/POXS-22020/","ユニバーサル ミュージック・Blu-rayの曲順",{"note":"12月17日・18日に東京国際フォーラム ホールAで開催された公演の映像作品。アンコールの最終曲。本曲の採用日は未確認。DVDは2010年、Blu-rayは2012年発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://artist.cdjournal.com/d/-/4210010694","CDJournal・DVDの発売情報"]}]
   ]}
 ];
