@@ -119,7 +119,7 @@ const catalogSongs = songs.flatMap((song, index) => {
   const firstYear = first?.date.year || '';
   const firstVersion = first?.row || song.versions[0];
   const fields = [song.title, song.lyrics, song.music, ...song.versions.flatMap(
-    ([type, year, artist, work, , , meta]) => [type, year, artist, work, meta?.track, meta?.note, meta?.creditedAs, meta?.performanceYear, meta?.broadcastYear, meta?.releaseYear]
+    ([type, year, artist, work, , , meta]) => [type, year, artist, work, meta?.track, meta?.note, meta?.creditedAs, meta?.reissue?.note, meta?.performanceYear, meta?.broadcastYear, meta?.releaseYear]
   )].filter(Boolean).join(' ');
   return [{ song, number: index + 1, firstYear, firstVersion, versions, text: normalize(fields + ' ' + normalizeArtistAliases(fields)) }];
 });
@@ -196,6 +196,8 @@ function showDetail() {
         </summary>
         <div class="version-info">
           ${meta?.note ? `<p>${meta.note}</p>` : ''}
+          ${meta?.reissue ? `<p>${meta.reissue.note} <a class="source" style="display:inline" href="${meta.reissue.url}" target="_blank" rel="noopener">ヤマハ公式・再発CD ↗</a></p>` : ''}
+          ${meta?.reissue?.reference ? `<a class="source" href="${meta.reissue.reference[0]}" target="_blank" rel="noopener">${meta.reissue.reference[1]} ↗</a>` : ''}
           ${meta?.creditedAs ? `<p>資料上の名義　${meta.creditedAs}</p>` : ''}
           <a class="source" href="${url}" target="_blank" rel="noopener">${source} ↗</a>
           ${meta?.reference ? `<a class="source" href="${meta.reference[0]}" target="_blank" rel="noopener">${meta.reference[1]} ↗</a>` : ''}
