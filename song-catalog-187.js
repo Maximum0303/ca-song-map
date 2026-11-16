@@ -868,6 +868,7 @@ const songs = [
     ["ライブ音源","2023","ASKA","ASKA Premium Concert Tour Wonderful World 2023","https://www.fellows.tokyo/discography/detail/51/","ASKA公式・ライブCDとBlu-rayの発売日と曲順",{"note":"9月27日発売。ライブCDのDisc 1とBlu-rayでいずれも第2トラック。2023年5月25日の東京国際フォーラム ホールA公演。","reference":["https://archive.fellows.tokyo/special/tour2023_release/","ASKA公式・収録公演の日付と会場"], "performanceYear":"2023","releaseYear":"2023"}]
   ]},
   { id:"yah-yah-yah", title:"YAH YAH YAH", lyrics:"ASKA", music:"ASKA", writers:["ASKA"], note:"1993年の両A面シングルから、アルバム版、セルフカバー、ライブ、他の歌手や演奏家によるカバーまでを掲載。", versions:[
+    ["ライブ共演","2019","ASKA／スターダスト☆レビュー／KAN／大黒摩季","札幌限定！みんなのプレミアム熟成ライブ","https://www.livefans.jp/events/1148406","LiveFans・曲別の出演者と曲順",{"note":"9月23日、札幌文化芸術劇場hitaru。アンコール1曲目に出演4組で共演。","performanceYear":"2019","reference":["https://www.stv.jp/radio/kan/senkyoku/u3f86t000005vqn8.html","STVラジオ・KANによる公演案内"]}],
     ["ライブ共演","2022","ASKA／佐藤竹善／スターダスト☆レビュー／森高千里／川崎鷹也","SOUND ALIVE presents 横浜合同演奏会2022","https://yokooto.jp/wp-content/uploads/2023/03/83dbc6d02a3e419cc244172d50575ceb.pdf","横浜音祭り公式報告・オールキャストのアンコール",{"note":"9月18日、パシフィコ横浜 国立大ホール。アンコール1曲目に出演者全員で披露。","performanceYear":"2022","reference":["https://ameblo.jp/lm-event/entry-12765119385.html","観覧記録・アンコールの曲順"]}],
     ["ライブ客演","2002","ASKA","小田和正 K.ODA TOUR 2002『Kira Kira』","https://w.atwiki.jp/cavc/pages/337.html","C&A公演年表・ASKAの飛び入り歌唱",{"note":"6月22日、名古屋国際会議場 センチュリーホール。ASKAが飛び入りで歌唱。","performanceYear":"2002","reference":["https://www.livefans.jp/events/223492","LiveFans・公演日と会場"]}],
     ["ライブ映像","2008","ASKA with Bank Band","ap bank fes ’08（DVD）","https://fes.apbank.jp/08/dvd/index.html","ap bank公式・DVD曲目",{"note":"7月19日、静岡・つま恋。Bank Bandの演奏でASKAが歌唱。Disc 1第12曲。","performanceYear":"2008","releaseYear":"2009","releaseLabel":"映像発売"}],
@@ -3793,6 +3794,7 @@ const songs = [
     ["カバー", "2009", "Chage with 谷村新司", "Many Happy Returns", "https://wee-s.jp/discography/4395/", "制作会社Wee’s・発売日、曲順と共演者", {"note": "3月25日発売。ChageのCD（UMCK-1299）第3曲。"}]
   ]},
   {"id": "konya-dake-kitto", "title": "今夜だけきっと", "lyrics": "根本要／手島昭", "music": "根本要", "writers": [], "note": "スターダスト☆レビューの楽曲を、Chageが根本要とカバーした。", "versions":[
+    ["ライブ共演","2019","ASKA／スターダスト☆レビュー／KAN／大黒摩季","札幌限定！みんなのプレミアム熟成ライブ","https://www.livefans.jp/events/1148406","LiveFans・曲別の出演者と曲順",{"note":"9月23日、札幌文化芸術劇場hitaru。アンコール2曲目に出演4組で共演。","performanceYear":"2019","reference":["https://www.stv.jp/radio/kan/senkyoku/u3f86t000005vqn8.html","STVラジオ・KANによる公演案内"]}],
     ["ライブ共演","2022","ASKA／佐藤竹善／スターダスト☆レビュー／森高千里／川崎鷹也","SOUND ALIVE presents 横浜合同演奏会2022","https://yokooto.jp/wp-content/uploads/2023/03/83dbc6d02a3e419cc244172d50575ceb.pdf","横浜音祭り公式報告・オールキャストのアンコール",{"note":"9月18日、パシフィコ横浜 国立大ホール。アンコール2曲目に出演者全員で披露。","performanceYear":"2022","reference":["https://ameblo.jp/lm-event/entry-12765119385.html","観覧記録・アンコールの曲順"]}],
     ["ライブ共演","2018","Chage公演・KAN参加","Chageソロデビュー20周年＆CRIMSON YEAR記念イベント","https://www.stv.jp/radio/kan/senkyoku/u3f86t000004ja1z.html","STVラジオ・KAN本人による公演回顧",{"note":"9月15日、Zepp Tokyo。KAN本人が共演を回顧。根本要も同公演のゲスト。","performanceYear":"2018","reference":["https://chage.jp/information/live/detail-289.php","Chage公式・公演日とゲスト"]}],
     ["ライブ共演","2019","ASKA／スターダスト☆レビュー／杉山清貴／KAN","SOUND ALIVE presents 横浜合同演奏会","https://ameblo.jp/mjkozou/entry-12526219117.html","観覧記録・当日の歌唱",{"note":"9月16日、パシフィコ横浜 国立大ホール。4組で歌唱。","performanceYear":"2019","reference":["https://yokooto.jp/program/19164/","横浜音祭り公式・公演日と出演者"]}],
@@ -4040,6 +4042,7 @@ const songs = [
     ["アルバム収録","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・CDの曲順と発売日",{"note":"3月27日発売のアルバム第6曲。","releaseYear":"2013"}]
   ]},
   {"id":"ai-no-uta-stardust-revue","title":"愛の歌","lyrics":"STARDUST REVUE","music":"根本要","writers":[],"note":"スターダスト☆レビューが2007年に発表したシングル。2016年、香川県のテアトロンで開かれた同バンドの公演にChageがゲスト出演し、アンコールの最後にこの曲を歌った。","versions":[
+    ["ライブ共演","2019","ASKA／スターダスト☆レビュー／KAN／大黒摩季","札幌限定！みんなのプレミアム熟成ライブ","https://www.livefans.jp/events/1148406","LiveFans・曲別の出演者と曲順",{"note":"9月23日、札幌文化芸術劇場hitaru。本編最後に出演4組で共演。","performanceYear":"2019","reference":["https://www.stv.jp/radio/kan/senkyoku/u3f86t000005vqn8.html","STVラジオ・KANによる公演案内"]}],
     ["ライブ共演","2022","ASKAを含む出演者（全員歌唱）","SOUND ALIVE presents 横浜合同演奏会2022","https://ameblo.jp/lm-event/entry-12765119385.html","観覧記録・本編最後の歌唱",{"note":"9月18日、パシフィコ横浜 国立大ホール。本編最後に出演者全員で披露。","performanceYear":"2022","reference":["https://yokooto.jp/wp-content/uploads/2023/03/83dbc6d02a3e419cc244172d50575ceb.pdf","横浜音祭り公式報告・公演情報と曲目"]}],
     ["ライブ共演","2019","ASKA／スターダスト☆レビュー／杉山清貴／KAN","SOUND ALIVE presents 横浜合同演奏会","https://ameblo.jp/mjkozou/entry-12526219117.html","観覧記録・当日の歌唱",{"note":"9月16日、パシフィコ横浜 国立大ホール。4組で歌唱。","performanceYear":"2019","reference":["https://yokooto.jp/program/19164/","横浜音祭り公式・公演日と出演者"]}],
     ["原曲","2007","スターダスト☆レビュー","愛の歌","https://s-d-r.jp/discography/%E6%84%9B%E3%81%AE%E6%AD%8C/","スターダスト☆レビュー公式・発売日と作詞作曲",{"note":"7月25日発売のシングル。TBS系「徳光和夫の感動再会“逢いたい”」エンディングテーマ。"}],
@@ -4368,5 +4371,25 @@ const songs = [
   {"id":"ginza-kankan-musume","title":"銀座カンカン娘","lyrics":"佐伯孝夫","music":"服部良一","writers":[],"note":"高峰秀子の楽曲。2001年の小岩井農場の野外イベントで、CHAGE and ASKAを含む出演者全員が歌った。","versions":[
     ["原曲","1949","高峰秀子","銀座カンカン娘","https://search.showakan.go.jp/search/record/detail.php?id=90330756","昭和館・音盤資料",{}],
     ["ライブ共演","2001","CHAGE and ASKAを含む出演者全員","KOIWAI ROCK FARM 2001","https://yuzuevent.seesaa.net/article/12879914.html","公演セットリスト・出演者全員のセッション",{"track":"銀座（小岩井）カンカン娘","note":"8月11日、岩手・小岩井農場。終盤の全員参加セッションで披露。","performanceYear":"2001","reference":["https://www.livefans.jp/events/936029","LiveFans・公演日と会場"]}]
+  ]},
+  {"id":"jidai-nakajima","title":"時代","lyrics":"中島みゆき","music":"中島みゆき","writers":[],"note":"中島みゆきの楽曲。僕らのポプコンエイジ・オンライン2020のフィナーレに出演者全員で歌唱","versions":[
+    ["原曲","1975","中島みゆき","時代","https://www.yamaha-meh.co.jp/business/artist/nakajima_miyuki.html","ヤマハ・世界歌謡祭の記録",{"note":"1975年の世界歌謡祭グランプリ曲。"}],
+    ["ライブ共演","2020","Chage／相曽晴日／石川優子／辛島美登里／三浦和人","僕らのポプコンエイジ・オンライン2020","https://l-tike.com/concert/mevent/?mid=548953","ローチケ・生配信当日レポート",{"note":"10月18日の生配信公演。フィナーレに出演者全員で歌唱。","performanceYear":"2020","reference":["https://chage.jp/information/live/detail-406.php","Chage公式・開催日と出演者"]}]
+  ]},
+  {"id":"musoubana","title":"夢想花","lyrics":"円広志","music":"円広志","writers":[],"note":"円広志の楽曲。僕らのポプコンエイジ・オンライン2020のオープニングに出演者全員で歌唱","versions":[
+    ["原曲","1978","円広志","夢想花","https://syowa-kayo.net/562/","昭和音楽図鑑・発売日と作家",{"note":"11月21日発売。"}],
+    ["ライブ共演","2020","Chage／相曽晴日／石川優子／辛島美登里／三浦和人","僕らのポプコンエイジ・オンライン2020","https://l-tike.com/concert/mevent/?mid=548953","ローチケ・生配信当日レポート",{"note":"10月18日の生配信公演。オープニングに出演者全員で歌唱。","performanceYear":"2020","reference":["https://chage.jp/information/live/detail-406.php","Chage公式・開催日と出演者"]}]
+  ]},
+  {"id":"anata-kosaka","title":"あなた","lyrics":"小坂明子","music":"小坂明子","writers":[],"note":"小坂明子の楽曲。僕らのポプコンエイジ・オンライン2021のフィナーレに出演者全員で歌唱","versions":[
+    ["原曲","1973","小坂明子","あなた","https://www.yamahamusic.co.jp/s/ymc/discography/401?link=ROBO004","ヤマハ・ポプコンのシングル集",{"note":"小坂明子のデビュー曲。"}],
+    ["ライブ共演","2021","Chage／相曽晴日／石川優子／伊丹哲也／高原兄","僕らのポプコンエイジ・オンライン2021","https://ca-treasurebox.seesaa.net/category/1111128-1.html","公演セットリスト・曲順と歌唱者",{"note":"5月23日の生配信公演。フィナーレに出演者全員で歌唱。","performanceYear":"2021","reference":["https://chage.jp/information/live/detail-432.php","Chage公式・開催日と出演者"]}]
+  ]},
+  {"id":"country-girl-taniyama","title":"カントリーガール","lyrics":"谷山浩子","music":"谷山浩子","writers":[],"note":"谷山浩子の楽曲。僕らのポプコンエイジ・オンライン2021のオープニングに出演者全員で歌唱","versions":[
+    ["原曲","1980","谷山浩子","カントリーガール","https://www.taniyamahiroko.com/s/y06/discography/no-number09?ima=0000","谷山浩子公式・発売日と作家",{"note":"3月21日発売。"}],
+    ["ライブ共演","2021","Chage／相曽晴日／石川優子／伊丹哲也／高原兄","僕らのポプコンエイジ・オンライン2021","https://ca-treasurebox.seesaa.net/category/1111128-1.html","公演セットリスト・曲順と歌唱者",{"note":"5月23日の生配信公演。オープニングに出演者全員で歌唱。","performanceYear":"2021","reference":["https://chage.jp/information/live/detail-432.php","Chage公式・開催日と出演者"]}]
+  ]},
+  {"id":"to-u-bank-band","title":"to U","lyrics":"櫻井和寿","music":"小林武史","writers":[],"note":"Bank Band with Salyuの楽曲。ap bank fes ’08のフィナーレにASKAが参加した。","versions":[
+    ["原曲","2006","Bank Band with Salyu","to U","https://www.apbank.jp/project/release/","ap bank公式・シングルと作家",{"note":"7月19日発売。"}],
+    ["ライブ共演","2008","Bank Band／初日ゲスト（ASKAほか）","ap bank fes ’08","https://fes.apbank.jp/08/report/1.html","ap bank公式・フィナーレ曲",{"note":"7月19日、静岡県掛川市・つま恋。初日のフィナーレにASKAが参加したと観覧記録にある。個別の歌唱パートは未確認。","performanceYear":"2008","reference":["https://ameblo.jp/lilysan2/entry-12883290496.html","観覧記録・フィナーレでのASKAの参加"]}]
   ]}
 ];
