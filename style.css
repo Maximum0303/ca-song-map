@@ -29,6 +29,7 @@
 .results-heading h2{font-size:16px}
 #count{margin:0;color:var(--muted);font-size:12px;text-align:right}
 .results{min-height:0;overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable;position:relative}
+.catalog-decade{margin:0;padding:5px 12px;border-bottom:1px solid var(--line);background:#efe6d9;color:var(--accent);font-size:12px;font-weight:750}
 .song{border:0;border-bottom:1px solid var(--line);background:none;display:grid;grid-template-columns:48px minmax(0,1fr) auto;gap:9px;align-items:center;text-align:left;width:100%;padding:9px 12px;color:var(--ink)}
 .song:hover{background:#eee7db}.song:focus-visible{outline-offset:-3px}
 .song[aria-current=true]{background:#ece1d3;box-shadow:inset 3px 0 var(--accent)}

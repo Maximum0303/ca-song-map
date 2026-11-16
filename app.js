@@ -229,9 +229,16 @@ function renderCatalog() {
     ? `${matches.length}件 / 全${catalogSongs.length}曲`
     : `${catalogSongs.length}曲`;
   clearSearch.hidden = !query && !writer && !decade.value && sort.value === 'oldest';
+  const groupByDecade = sort.value === 'oldest' || sort.value === 'newest';
+  let previousDecade = null;
   results.innerHTML = matches.length ? matches.map(({ song, number, firstYear, firstVersion }) => {
     const [, year, artist, work] = firstVersion;
-    return `<button type="button" class="song" data-song="${song.id}" aria-controls="detail">
+    const decadeLabel = firstYear ? `${firstYear.slice(0, 3)}0年代` : '初出年未確認';
+    const heading = groupByDecade && decadeLabel !== previousDecade
+      ? `<h3 class="catalog-decade">${decadeLabel}</h3>`
+      : '';
+    previousDecade = decadeLabel;
+    return `${heading}<button type="button" class="song" data-song="${song.id}" aria-controls="detail">
       <span class="song-index"><span class="year">${firstYear || "未確認"}</span><small>No. ${number}</small></span>
       <span><strong>${song.title}</strong><small>${displayArtist(year, artist, work)} · ${song.versions.length}件</small></span>
       <span class="arrow" aria-hidden="true">›</span>
