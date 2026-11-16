@@ -3562,6 +3562,10 @@ const songs = [
       {note:'3月5日発売。公式掲載のCDでは第2曲。'}],
     ['カバー','1998','メタルフォーク','メタルフォークジャンボリー','https://www.oricon.co.jp/release/album/jp/p/-1486/','オリコン・オリジナルCDの発売日',
       {note:'3月21日発売。ソニー・ミュージックレコーズ盤（SRCL-4187）第13曲。所蔵音源の管理データでは1分18秒。', reference:['https://s.awa.fm/track/2e13dc083e41f1474518','AWA・配信音源の歌唱者と曲順']}],
+    ['ライブ映像','1999','CHAGE&ASKA','CONCERT TOUR 電光石火 ～TUG OF C&A PRESENTS PREVIEW in 幕張メッセ～','https://w.atwiki.jp/cavc/pages/417.html','C&A映像情報メディア管理センター・セットリストとDVD曲順',
+      {note:'8月29日、幕張メッセイベントホールでのファンクラブ限定プレビュー公演。アンコール1曲目。2019年10月の「CHAGE and ASKA LIVE DVD BOX 4」Disc 2第17曲。',performanceYear:'1999',releaseYear:'2019',releaseLabel:'DVD発売',reference:['https://www.chage-aska.net/information/2019082301.php','CHAGE and ASKA公式・DVD BOX 4の収録作品']}],
+    ['ライブ歌唱','1999','CHAGE&ASKA','CONCERT TOUR 電光石火','https://w.atwiki.jp/cavc/pages/418.html','C&A映像情報メディア管理センター・ツアーのセットリスト',
+      {note:'9月3日・4日のマリンメッセ福岡公演、および9月22日〜11月10日の広島・仙台・札幌・東京・大阪・名古屋公演のセットリストに、アンコール1曲目として記録。',performanceYear:'1999',reference:['https://www.chage-aska.net/history/1990.php','CHAGE and ASKA公式年表・ツアー日程']}],
     ['ライブ映像','2004','CHAGE and ASKA','CHAGE and ASKA 25th Anniversary Special チャゲ＆飛鳥 熱風コンサート','https://www.chage-aska.net/discography/video/neppu.php','CHAGE and ASKA公式・DVD発売日と収録曲',
       {note:'8月28日のお台場野外特設会場公演。2005年3月23日発売のDVD（UMBK-1079／80）で第2曲。', reference:['https://www.chage-aska.net/history/2000.php','CHAGE and ASKA公式・公演日と会場'], "performanceYear":"2004","releaseYear":"2005"}]
   ]},
