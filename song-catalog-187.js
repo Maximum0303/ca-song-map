@@ -2260,6 +2260,7 @@ const songs = [
       {track:'ノクターン（オリジナル・カラオケ）', note:'2月22日発売の2枚組CD（WPCL-13451/2）Disc 2の第2曲。Qobuzのカラオケ付き配信では4分19秒。', reference:['https://www.qobuz.com/jp-ja/album/d404me-4-including-original-karaoke-tracks-2023-lucquer-master-sound-akina-nakamori/m23lvsivgjagb','Qobuz・カラオケの曲名と収録時間']}]
   ]},
   {"id": "hajimari-wa-itsumo-ame", "title": "はじまりはいつも雨", "lyrics": "飛鳥涼（ASKA）", "music": "飛鳥涼（ASKA）", "writers": ["ASKA"], "note": "ASKAの1991年のソロシングル。編曲は澤近泰輔。シングル版、『SCENE II』収録版、『12』のセルフカバー、公演ごとのライブ録音、他アーティストのカバーを区別して掲載。", "versions": [
+    ["ライブ映像","2010","EXILE ATSUSHI","EXH SPECIAL EXILE ATSUSHI PREMIUM LIVE SOLO","https://exile.jp/discography/detail.php?id=1007339","EXILE公式・DVD発売日と曲順",{"note":"2010年3月24日発売のDVD（RZBD-46490）第5曲。2009年10月10日放送のTBS系「EXH～EXILE HOUSE～」特別企画に由来するソロライブ。DVDには未放送曲も含まれ、本曲の放送有無と収録日は未確認。","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://www.oricon.co.jp/news/73544/full/","オリコン・特番放送日とDVDの収録内容"]}],
     ["原曲", "1991", "ASKA", "はじまりはいつも雨（シングル）", "https://www.fellows.tokyo/discography/detail/22/", "ASKA公式・初出シングルと曲目",
       {"note": "3月6日発売。第1曲。飛鳥涼作詞・作曲、澤近泰輔編曲。"}],
     ["アルバム版", "1991", "ASKA", "SCENE II", "https://www.fellows.tokyo/discography/detail/48/", "ASKA公式・アルバムの発売日と曲目",
@@ -3189,6 +3190,7 @@ const songs = [
       {note:'4月1日発売。VODL-41626の第2曲。'}]
   ]},
   { id:'taiyo-to-hokori-no-nakade', title:'太陽と埃の中で', lyrics:'ASKA', music:'ASKA', writers:['ASKA'], note:'CHAGE&ASKAのアルバム『SEE YA』で初出し、翌年にシングル化。初出時の編曲はASKAとJess Bailey。『SUPER BEST II』のリミックス、C&Aの『STAMP』とASKAソロの『Wonderful world』でのセルフカバー、ライブや他アーティストのカバーも掲載。', versions:[
+    ["ライブ映像","2013","平井堅","Ken’s Bar Ⅲ（初回生産限定盤A付属DVD）","https://kenhirai.jp/discography/album/date/2014.05/","平井堅公式・公演日、発売日と曲目",{"note":"2013年5月30日、日本武道館「Ken’s Bar 15th Anniversary Special!!! Vol.1」の第2部3曲目。全国の映画館で同時生中継された映像を、2014年5月28日発売の初回生産限定盤A（BVCL-590/591）の付属DVDに収録。","performanceYear":"2013","releaseYear":"2014","releaseLabel":"DVD発売","reference":["https://www.sonymusic.co.jp/artist/KenHirai/info/439546","ソニーミュージック・付属DVDの収録内容"]}],
     ['原曲','1990','CHAGE&ASKA','SEE YA','https://www.chage-aska.net/discography/album/see_ya.php','CHAGE and ASKA公式・発売日、曲順とクレジット',
       {creditSource:"https://www.fanfan1.com/products/detail/808623", note:'8月29日発売。第11曲。所蔵音源の管理データでは5分38秒。'}],
     ['映像収録','1990','CHAGE&ASKA','SEE YA（映像作品）','https://www.chage-aska.net/discography/video/see_ya.php','CHAGE and ASKA公式・VTRと曲順',
