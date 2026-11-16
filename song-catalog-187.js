@@ -3985,5 +3985,20 @@ const songs = [
     ["原曲","1968","ザ・ビートルズ","The Beatles","https://www.thebeatles.com/good-night","ザ・ビートルズ公式・原曲とクレジット",{"note":"アルバムの最終曲。リードボーカルはリンゴ・スター。"}],
     ["カバー","2009","ASKA","STANDARD","https://store.universal-music.co.jp/products/umck1336","ユニバーサル ミュージック・CDの曲順",{"note":"11月25日発売。第5曲。","releaseYear":"2009"}],
     ["ライブカバー","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.universal-music.co.jp/p/POXS-22020/","ユニバーサル ミュージック・Blu-rayの曲順",{"note":"12月17日・18日に東京国際フォーラム ホールAで開催された公演の映像作品。アンコールの最終曲。本曲の採用日は未確認。DVDは2010年、Blu-rayは2012年発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://artist.cdjournal.com/d/-/4210010694","CDJournal・DVDの発売情報"]}]
+  ]},
+  {"id":"ikigai-yuki-saori","title":"生きがい","lyrics":"山上路夫","music":"渋谷毅","writers":[],"note":"由紀さおりが1970年に発表したシングル。別れた相手の日常を思い浮かべ、離れても続く思いを歌う。ASKAは2009年の「昭和が見ていたクリスマス」で取り上げ、2013年の昭和歌謡カバー集「僕にできること（いま歌うシリーズ）」でも歌っている。","versions":[
+    ["原曲","1970","由紀さおり","生きがい","https://syowa-kayo.net/9186/","昭和音楽図鑑・発売日と作詞作曲",{"note":"11月5日発売のシングル。"}],
+    ["ライブ映像","2009","ASKA","ASKA THE MELODY YOU HEARD THAT NIGHT 昭和が見ていたクリスマス","https://www.fellows.tokyo/discography/detail/70/","ASKA公式・DVDの曲順と発売日",{"note":"12月17日・18日に東京国際フォーラム ホールAで開催された公演の映像作品。第6曲。DVDは2010年3月24日、Blu-rayは2012年10月17日発売。","performanceYear":"2009","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://www.fellows.tokyo/discography/detail/64/","ASKA公式・Blu-rayの曲順と発売日"]}],
+    ["カバー","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・CDの曲順と発売日",{"note":"3月27日発売のアルバム第7曲。","releaseYear":"2013"}]
+  ]},
+  {"id":"koko-ni-sachi-ari","title":"ここに幸あり","lyrics":"高橋掬太郎","music":"飯田三郎","writers":[],"note":"大津美子が歌った、松竹映画「こゝに幸あり」の主題歌。1956年に発表された。ASKAは2012年の日本武道館公演で歌い、翌年の「僕にできること（いま歌うシリーズ）」にもスタジオ版を収めた。","versions":[
+    ["原曲","1956","大津美子","ここに幸あり","https://search.showakan.go.jp/search/record/detail.php?id=90010874","昭和館デジタルアーカイブ・原盤と作詞作曲",{"note":"キングレコードのSP盤 C1321。松竹映画の主題歌。","reference":["https://www.city.nemuro.hokkaido.jp/lifeinfo/kakuka/kyoikuiinkai/sougoubunka/1/5/1624.html","根室市・飯田三郎略年譜（発表年）"]}],
+    ["ライブ映像","2012","ASKA","ASKA CONCERT 2012 昭和が見ていたクリスマス!? Prelude to The Bookend","https://www.fellows.tokyo/discography/detail/63/","ASKA公式・Blu-rayの曲順と発売日",{"note":"1月21日・22日に日本武道館で開催された公演の映像作品。5月23日発売のBlu-ray第10曲。","performanceYear":"2012","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://billboard-japan.com/goods/detail/359200","Billboard JAPAN・公演日と曲順"]}],
+    ["カバー","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・CDの曲順と発売日",{"note":"3月27日発売のアルバム第11曲。","releaseYear":"2013"}]
+  ]},
+  {"id":"seppun-original-love","title":"接吻","lyrics":"田島貴男","music":"田島貴男","writers":[],"note":"ORIGINAL LOVEが1993年に「接吻 kiss」の題で発表したシングル。日本テレビ系ドラマ「大人のキス」の主題歌。Chageは2023年の65歳のバースデーライブで歌い、2025年にはスタジオ版をカバー集「Vandange_1958」の最後に収めた。","versions":[
+    ["原曲","1993","ORIGINAL LOVE","接吻 kiss","https://originallove.com/discography/581","Original Love公式・シングルの発売日",{"note":"11月10日発売の5枚目のシングル。","track":"接吻 kiss","reference":["https://www.at-elise.com/elise/JPDPDO03110/","ドレミ楽譜出版社・ドラマ主題歌と作詞作曲"]}],
+    ["ライブ映像","2023","Chage","Chage Billboard Live “64 to 65”","https://chage.jp/discography/chage/album/017.php","Chage公式・公演日、収録曲、発売日",{"note":"1月6日、Billboard Live TOKYO公演。8月30日発売の「青い空だけじゃない」付属Blu-ray／DVDに収録。映像の第11曲。","performanceYear":"2023","releaseYear":"2023","releaseLabel":"Blu-ray／DVD発売","reference":["https://news.tv.rakuten.co.jp/2023/01/chage-archive.html","Rakuten TV・見逃し配信と当日のセットリスト"]}],
+    ["カバー","2025","Chage","Vandange_1958","https://chage.jp/information/release/detail-727.php","Chage公式・配信日と曲順",{"note":"6月18日配信開始。カバー集の第11曲。","releaseYear":"2025"}]
   ]}
 ];
