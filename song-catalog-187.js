@@ -3636,7 +3636,7 @@ const songs = [
       {track:'SLOW DOWN', note:'1月25日発売とされるクロスの7インチシングル。盤資料では編曲は矢島賢。アルバム版とのテイク・ミックスの異同は未照合。', reference:['https://ja.wikid.org/%E7%94%B0%E4%B8%AD%E6%98%8C%E4%B9%8B','田中昌之のディスコグラフィー・シングル発売日']}],
     ['セルフカバー','1987','チャゲ＆飛鳥','Mr.ASIA','https://www.chage-aska.net/discography/album/mr_asia.php','CHAGE and ASKA公式・発売日、曲順と編曲クレジット',
       {track:'スローダウン', note:'5月21日発売。第6曲。編曲は佐藤準。', reference:['https://www.moma-bd.com/ca.mrasia.htm','アルバム資料・田中昌之への提供曲のセルフカバー']}],
-    ['ライブ歌唱','1987','チャゲ＆飛鳥','CONCERT TOUR ’87 Mr.ASIA','https://www.livefans.jp/events/329202','LiveFans・公演日、会場と投稿セットリスト',
+    ['ライブ歌唱','1987','チャゲ＆飛鳥','We Shall Return','https://www.livefans.jp/events/329202','LiveFans・ツアー名、公演日、会場と投稿セットリスト',
       {track:'スローダウン',note:'6月14日、東京・国立代々木競技場第一体育館。投稿セットリストに歌唱記録がある。',reference:['https://www.livefans.jp/events/329195','LiveFans・5月22日の中津文化会館公演の歌唱記録']}],
     ['再収録','2001','CHAGE and ASKA','Mr.ASIA（ヤマハ再発CD）','https://www.yamahamusic.co.jp/s/ymc/discography/236','ヤマハミュージックコミュニケーションズ・再発日、品番と曲順',
       {track:'スローダウン',note:'7月18日発売。ヤマハ盤CD（YCCR-00022）第6曲。'}]
