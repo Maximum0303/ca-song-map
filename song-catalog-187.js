@@ -614,6 +614,9 @@ const songs = [
     ["ライブ映像","1993","CHAGE&ASKA","夢の番人 SPECIAL EVENT 1993 GUYS","https://www.chage-aska.net/discography/video/yumenobannin_special_event.php","CHAGE and ASKA公式・発売日と収録曲",{"note":"国立代々木競技場第一体育館公演を収録。1999年12月20日発売のVTR。公式収録曲リストの第7曲。","performanceYear":"1993","releaseYear":"1999","releaseLabel":"VTR発売","reference":["https://www.chage-aska.net/discography/video/yumenobannin_special_event_bluray.php","収録公演・作品の補足資料"]}]
   ]},
   {"id":"say-yes","title":"SAY YES","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"note":"ASKA作詞・作曲、十川ともじ編曲。1991年のシングル表題曲で、フジテレビ系ドラマ『101回目のプロポーズ』の主題歌。2026年には続編『102回目のプロポーズ』にも起用。", "versions": [
+    ["ライブ共演","2014","玉置浩二 with ASKA","玉置浩二 GOLD TOUR 2014","https://www.daily.co.jp/gossip/2014/05/23/0006986518.shtml","デイリースポーツ・飛び入り共演",{"note":"4月29日、東京国際フォーラム ホールC。飛び入りしたASKAと玉置浩二がワンコーラスをデュエット。","performanceYear":"2014","reference":["https://www.livefans.jp/events/215475","LiveFans・公演日と会場"]}],
+    ["ライブ共演","2019","ASKA／スターダスト☆レビュー／杉山清貴／KAN","SOUND ALIVE presents 横浜合同演奏会","https://ameblo.jp/mjkozou/entry-12526219117.html","観覧記録・当日の歌唱",{"note":"9月16日、パシフィコ横浜 国立大ホール。4組で歌唱。","performanceYear":"2019","reference":["https://yokooto.jp/program/19164/","横浜音祭り公式・公演日と出演者"]}],
+    ["ライブ客演","2024","ASKA（演奏：塩谷哲・大儀見元）","佐藤竹善 Presents Cross your fingers 24","https://www.billboard-japan.com/d_news/detail/138198/2","Billboard JAPAN・公演レポート",{"note":"5月26日、大阪・オリックス劇場。ASKAが歌唱。塩谷哲がピアノ、大儀見元がパーカッションで参加。","performanceYear":"2024","reference":["https://cocolo.jp/service/homepage/index/6210/60443","FM COCOLO・歌唱者とセットリスト"]}],
     ["原曲","1991","CHAGE&ASKA","SAY YES","https://www.chage-aska.net/discography/single/say_yes.php","CHAGE and ASKA公式・原曲の収録情報",{creditSource:"https://tokyocollectors.shop-pro.jp/?pid=190932152", "note":"7月24日発売。シングル表題曲。"}],
     ["カラオケ","1991","CHAGE&ASKA（作品名義）","SAY YES","https://www.chage-aska.net/discography/single/say_yes.php","CHAGE and ASKA公式",{"note":"シングル第3曲。","track":"SAY YES（カラオケバージョン）"}],
     ["アルバム収録","1991","CHAGE&ASKA","TREE","https://www.chage-aska.net/discography/album/tree.php","CHAGE and ASKA公式",{"creditSource":"https://musicbrainz.org/release-group/8ecd96ac-915a-33f8-bab8-d6e4ecdc95d0","note":"10月10日発売。第2曲。シングル版との音源の異同は未照合。","reissue":{"note":"2001年6月20日発売。ヤマハ再発CD（YCCR-00015）第2曲。","url":"https://www.yamahamusic.co.jp/s/ymc/discography/227?ima=0000&link=ROBO004"}}],
@@ -779,6 +782,7 @@ const songs = [
       {note:'9月22日、Zepp Namba。ゲストのシシド・カフカが歌唱。日付は公演日。この曲でのChageの歌唱参加と、音源・映像の発売は未確認。', reference:['https://chage.jp/information/live/detail-817.php','Chage公式・公演日とゲスト情報']}]
   ]},
   { id:"walk", title:"WALK", lyrics:"ASKA", music:"ASKA", writers:["ASKA"], note:"原曲の編曲はASKA／BLACK EYES。1989年のシングルを起点に、エンディングを追加した『THE STORY of BALLAD』版、CHAGE and ASKAの『STAMP』版、ASKAの『12』版などがある。", versions:[
+    ["ライブ映像","2024","澤野弘之 feat. ASKA","澤野弘之 LIVE [nZk]008（『bLACKbLUE』初回盤Blu-ray）","https://www.sonymusic.co.jp/Music/Info/hiroyukisawano/bLACKbLUE/","ソニーミュージック公式・曲目と歌唱者",{"note":"6月2日、NHKホール。10月2日発売。澤野弘之の公演でASKAがゲスト歌唱。","performanceYear":"2024","releaseYear":"2024","releaseLabel":"映像発売"}],
     ["原曲","1989","チャゲ＆飛鳥","WALK","https://www.chage-aska.net/discography/single/walk.php","CHAGE and ASKA公式・初出日と楽曲クレジット",
       {creditSource:"https://jp.mercari.com/item/m99829194034", "note":"3月8日発売。当時の名義はチャゲ＆飛鳥。初出8cm CD（S10A-247）第1曲。","reference":["https://www.suruga-ya.jp/kaitori/kaitori_detail/250020126","駿河屋・初出CDの発売日、品番と曲順"]}],
     ["映像収録","1989","チャゲ＆飛鳥","WALK（ライブ＆ドキュメンタリー）","https://www.chage-aska.net/discography/video/walk_dvd.php","CHAGE and ASKA公式・作品の内容と曲順",
@@ -864,6 +868,11 @@ const songs = [
     ["ライブ音源","2023","ASKA","ASKA Premium Concert Tour Wonderful World 2023","https://www.fellows.tokyo/discography/detail/51/","ASKA公式・ライブCDとBlu-rayの発売日と曲順",{"note":"9月27日発売。ライブCDのDisc 1とBlu-rayでいずれも第2トラック。2023年5月25日の東京国際フォーラム ホールA公演。","reference":["https://archive.fellows.tokyo/special/tour2023_release/","ASKA公式・収録公演の日付と会場"], "performanceYear":"2023","releaseYear":"2023"}]
   ]},
   { id:"yah-yah-yah", title:"YAH YAH YAH", lyrics:"ASKA", music:"ASKA", writers:["ASKA"], note:"1993年の両A面シングルから、アルバム版、セルフカバー、ライブ、他の歌手や演奏家によるカバーまでを掲載。", versions:[
+    ["ライブ客演","2002","ASKA","小田和正 K.ODA TOUR 2002『Kira Kira』","https://w.atwiki.jp/cavc/pages/337.html","C&A公演年表・ASKAの飛び入り歌唱",{"note":"6月22日、名古屋国際会議場 センチュリーホール。ASKAが飛び入りで歌唱。","performanceYear":"2002","reference":["https://www.livefans.jp/events/223492","LiveFans・公演日と会場"]}],
+    ["ライブ映像","2008","ASKA with Bank Band","ap bank fes ’08（DVD）","https://fes.apbank.jp/08/dvd/index.html","ap bank公式・DVD曲目",{"note":"7月19日、静岡・つま恋。Bank Bandの演奏でASKAが歌唱。Disc 1第12曲。","performanceYear":"2008","releaseYear":"2009","releaseLabel":"映像発売"}],
+    ["ライブ共演","2018","Chage with KAN","Chageソロデビュー20周年＆CRIMSON YEAR記念イベント","https://www.stv.jp/radio/kan/senkyoku/u3f86t000004ja1z.html","STVラジオ・KAN本人による公演回顧",{"note":"9月15日、Zepp Tokyo。アンコールでKANがASKAのパートを担当。","performanceYear":"2018","reference":["https://chage.jp/information/live/detail-289.php","Chage公式・公演日とゲスト"]}],
+    ["ライブ共演","2019","ASKA／スターダスト☆レビュー／杉山清貴／KAN","SOUND ALIVE presents 横浜合同演奏会","https://ameblo.jp/mjkozou/entry-12526219117.html","観覧記録・当日の歌唱",{"note":"9月16日、パシフィコ横浜 国立大ホール。4組で歌唱。","performanceYear":"2019","reference":["https://yokooto.jp/program/19164/","横浜音祭り公式・公演日と出演者"]}],
+    ["ライブ歌唱","2024","ASKA（ピアノ：デイヴィッド・フォスター）","HITMAN DAVID FOSTER & FRIENDS 2024","https://www.nikkansports.com/entertainment/news/202406220000978.html","日刊スポーツ・当日の公演レポート",{"note":"6月22日、大宮ソニックシティ 大ホール。フォスターのピアノ伴奏でASKAが歌唱。","performanceYear":"2024"}],
     ["原曲","1993","CHAGE&ASKA","YAH YAH YAH／夢の番人","https://www.chage-aska.net/discography/single/yah_yah_yah.php","CHAGE and ASKA公式・発売日と楽曲クレジット",{creditSource:"https://www.suruga-ya.jp/product/detail/250020147", "note":"3月3日発売。両A面シングルの第1曲。編曲はASKA／十川ともじ。フジテレビ系ドラマ『振り返れば奴がいる』主題歌。"}],
     ["インスト","1993","ASKA・S.E.N.S.（共同プロデュース）","「振り返れば奴がいる」オリジナルサウンドトラック","https://www.sens-company.com/sens/disco/details/details_sa010_yha_yha_yha.html","S.E.N.S.公式・発売日、共同プロデュースと曲順",{"track":"YAH YAH YAH（Piano Version）","note":"3月10日発売。第6曲。主題歌のインストゥルメンタル。"}],
     ["インスト","1993","ASKA・S.E.N.S.（共同プロデュース）","「振り返れば奴がいる」オリジナルサウンドトラック","https://www.sens-company.com/sens/disco/details/details_sa010_yha_yha_yha.html","S.E.N.S.公式・発売日、共同プロデュースと曲順",{"track":"YAH YAH YAH（夢 Version）","note":"3月10日発売。第12曲。主題歌のインストゥルメンタル。"}],
@@ -1543,6 +1552,7 @@ const songs = [
     ["リミックス","2018","ASKA","SCENE II -Remix ver.-","https://www.yamahamusic.co.jp/s/ymc/discography/979","ヤマハ・リミックス盤の発売日と曲目",{"note":"11月21日発売。第8曲。『SCENE II』のリミックス盤。","reference":["https://music.apple.com/us/song/1440448328","Apple Music・配信版の曲名表記"]}]
   ]},
   {"id":"pride","title":"PRIDE","lyrics":"ASKA","music":"ASKA","writers":["ASKA"],"note":"ASKAが作詞・作曲し、澤近泰輔が編曲。CHAGE and ASKAの1989年のアルバム『PRIDE』で初出。ASKAのセルフカバーとライブ、李國祥の広東語版、堂本剛・浦田直也のカバーを掲載。", "versions": [
+    ["ライブ歌唱","2024","ASKA（ピアノ：デイヴィッド・フォスター）","HITMAN DAVID FOSTER & FRIENDS 2024","https://www.nikkansports.com/entertainment/news/202406220000978.html","日刊スポーツ・当日の公演レポート",{"note":"6月22日、大宮ソニックシティ 大ホール。シカゴの「Hard to Say I’m Sorry（素直になれなくて）」とつないだメドレー。","performanceYear":"2024"}],
     ["原曲","1989","CHAGE&ASUKA","PRIDE","https://www.chage-aska.net/discography/album/pride.php","CHAGE and ASKA公式・初出アルバムの発売日とクレジット",{"creditSource":"https://note.com/plue_dapple/n/n364af4b16dac","note":"8月25日発売。Disc 1の第2曲。編曲は澤近泰輔。","reissue":{"note":"2001年7月11日発売。ヤマハ再発CD（YCCR-00019）Disc 1第2曲。","url":"https://www.yamahamusic.co.jp/s/ymc/discography/229?ima=0000&link=ROBO004"}}],
     ["映像収録","1990","CHAGE&ASUKA","HISTORY II ～PRIDE～","https://www.chage-aska.net/discography/video/history_two.php","CHAGE and ASKA公式・VTR発売日と曲目",{creditSource:"https://w.atwiki.jp/cavc/pages/99.html", "note":"3月7日発売。第13曲。曲に使われた映像素材の収録日・会場は未照合。","reference":["https://w.atwiki.jp/cavc/pages/201.html","C&A映像情報メディア管理センター・作品の構成"]}],
     ["海外カバー","1991","李國祥","Blue","https://www.mulanci.org/lyric/tl308869/","Mulanci・アルバム曲目と作曲者",{"note":"6月発売のアルバムの第3曲。広東語歌唱。","track":"從前","reference":["https://note.com/60cloudviewroad/n/nb9ec3fc28544","広東語カバーソング事典・原曲との対応"]}],
@@ -2154,6 +2164,7 @@ const songs = [
   ]},
   { id:'dera-shiera-mu', title:'デェラ・シエラ・ム', lyrics:'ASKA／根本要', music:'ASKA／根本要', writers:['ASKA'],
     note:'CHAGE and ASKAとスターダスト☆レビューの共演曲。ASKAと根本要が作詞・作曲・編曲を共作した。2002年8月17日に福岡・海の中道海浜公園の「STAR STOCK ’02」で共演したことが制作のきっかけ。', versions:[
+    ["ライブ共演","2018","Chage with KAN","Chageソロデビュー20周年＆CRIMSON YEAR記念イベント","https://www.stv.jp/radio/kan/senkyoku/u3f86t000004ja1z.html","STVラジオ・KAN本人による公演回顧",{"note":"9月15日、Zepp Tokyo。KANがASKAのパートを担当。この公演には根本要もゲスト出演。","performanceYear":"2018","reference":["https://chage.jp/information/live/detail-289.php","Chage公式・公演日とゲスト"]}],
     ['原曲','2003','CHAGE and ASKA／STARDUST REVUE','デェラ・シエラ・ム（シングル）','https://www.chage-aska.net/discography/single/dera_shiera_mu.php','CHAGE and ASKA公式・発売日、曲順、クレジットとタイアップ',
       {note:'9月10日発売。通常盤（UMCK-5100）と初回限定盤（UMCK-9040）のCD第1曲。フジテレビのケータイサイトのイメージソング。第2曲はレコーディング風景のスタジオノイズ。', reference:['https://www.universal-music.co.jp/p/umck-9040/','ユニバーサル公式・両形態と制作の経緯']}],
     ['ライブ歌唱','2003','スターダスト☆レビュー with CHAGE and ASKA','楽園音楽祭2003（テアトロン）','https://www.livefans.jp/events/234397','LiveFans・当日の投稿セットリスト',
@@ -2271,6 +2282,7 @@ const songs = [
       {track:'ノクターン（オリジナル・カラオケ）', note:'2月22日発売の2枚組CD（WPCL-13451/2）Disc 2の第2曲。Qobuzのカラオケ付き配信では4分19秒。', reference:['https://www.qobuz.com/jp-ja/album/d404me-4-including-original-karaoke-tracks-2023-lucquer-master-sound-akina-nakamori/m23lvsivgjagb','Qobuz・カラオケの曲名と収録時間']}]
   ]},
   {"id": "hajimari-wa-itsumo-ame", "title": "はじまりはいつも雨", "lyrics": "飛鳥涼（ASKA）", "music": "飛鳥涼（ASKA）", "writers": ["ASKA"], "note": "ASKAの1991年のソロシングル。編曲は澤近泰輔。シングル版、『SCENE II』収録版、『12』のセルフカバー、公演ごとのライブ録音、他アーティストのカバーを区別して掲載。", "versions": [
+    ["ライブ共演","2024","ASKA with 佐藤竹善","佐藤竹善 Presents Cross your fingers 24","https://cocolo.jp/service/homepage/index/6210/60443","FM COCOLO・公演と歌唱者",{"note":"5月26日、大阪・オリックス劇場。ASKAと佐藤竹善がデュエット。","performanceYear":"2024"}],
     ["ライブ映像","2010","EXILE ATSUSHI","EXH SPECIAL EXILE ATSUSHI PREMIUM LIVE SOLO","https://exile.jp/discography/detail.php?id=1007339","EXILE公式・DVD発売日と曲順",{"note":"2010年3月24日発売のDVD（RZBD-46490）第5曲。2009年10月10日放送のTBS系「EXH～EXILE HOUSE～」特別企画に由来するソロライブ。DVDには未放送曲も含まれ、本曲の放送有無と収録日は未確認。","releaseYear":"2010","releaseLabel":"DVD発売","reference":["https://www.oricon.co.jp/news/73544/full/","オリコン・特番放送日とDVDの収録内容"]}],
     ["原曲", "1991", "ASKA", "はじまりはいつも雨（シングル）", "https://www.fellows.tokyo/discography/detail/22/", "ASKA公式・初出シングルと曲目",
       {"note": "3月6日発売。第1曲。飛鳥涼作詞・作曲、澤近泰輔編曲。"}],
@@ -2402,6 +2414,7 @@ const songs = [
   ]}
 ,
   {id:'paradise-ginga',title:'パラダイス銀河',lyrics:'飛鳥涼（ASKA）',music:'飛鳥涼（ASKA）',writers:['ASKA'],note:'飛鳥涼（ASKA）が作詞・作曲を提供した光GENJIの3枚目のシングル。オリジナルの編曲は佐藤準。1988年の第30回日本レコード大賞を受賞。',versions:[
+    ["ライブ歌唱","2022","ASKA","葉加瀬太郎 音楽祭 2022","https://prtimes.jp/main/html/rd/p/000001944.000012949.html","キョードーメディアス・当日の公演レポート",{"note":"6月5日、明治神宮。光GENJIへの提供曲をASKAが自身のステージの1曲目に歌唱。","performanceYear":"2022"}],
     ['提供音源','1988','光GENJI','パラダイス銀河','https://starto.jp/s/p/discography/S10A-9','STARTO公式・初出シングルの発売日と曲順',
       {note:'3月9日発売。シングルの第1曲。カップリングは「LONG RUN」。',reference:['https://www.jacompa.or.jp/record/30.php','日本作曲家協会・大賞受賞と作詞・作曲・編曲クレジット']}],
     ['映像収録','1988','光GENJI','光GENJI FIRST LIVE','https://starto.jp/s/p/discography/PCBP-50842?lang=en','STARTO公式・初版とDVDの発売日、曲順',
@@ -2722,6 +2735,7 @@ const songs = [
     ["ライブ映像","2004","CHAGE and ASKA","CHAGE and ASKA 25th Anniversary Special チャゲ＆飛鳥 熱風コンサート","https://www.chage-aska.net/discography/video/neppu.php","CHAGE and ASKA公式・発売日と収録曲",{"note":"8月28日、東京・お台場野外特設会場公演。2005年3月23日発売のDVD。第10曲のメドレー内で歌唱。","performanceYear":"2004","releaseYear":"2005","releaseLabel":"DVD発売","reference":["https://www.chage-aska.net/history/2000.php","収録公演・作品の補足資料"]}]
   ]},
   {"id":"futari-no-ai-land","title":"ふたりの愛ランド","lyrics":"チャゲ／松井五郎","music":"チャゲ","writers":["Chage"],"note":"石川優子とチャゲによるデュエット。原曲の編曲は平野孝幸。","versions":[
+    ["ライブ共演","2016","石川優子とChage","僕らのポプコンエイジ ～Forever Friends, Forever Cocky Pop～（さいたま公演）","https://hidakann.fc2.net/blog-date-201605.html","観覧レポート・当日のデュエット",{"note":"5月21日、さいたま市文化センター 大ホール。石川優子とChageがデュエット。","performanceYear":"2016","reference":["https://chage.jp/information/live/detail-124.php","Chage公式・日程と出演者"]}],
     ["ライブ共演","2016","石川優子とChage","僕らのポプコンエイジ ～Forever Friends, Forever Cocky Pop～","https://www.oricon.co.jp/news/2071047/","ORICON NEWS・当日の共演レポート",{"note":"4月29日、府中の森芸術劇場 どりーむホール。石川優子とChageがデュエット。","reference":["https://chage.jp/information/live/detail-113.php","Chage公式・公演日と会場"]}],
     ["原曲","1984","石川優子とチャゲ","ふたりの愛ランド／渚の誓い","https://www.kiokunokiroku.jp/artist/000200/archive/005339","日本音楽制作者連盟・発売日と作家クレジット",{"note":"4月21日発売。7インチ盤（RD-4084）のA面。編曲は平野孝幸。JAL沖縄キャンペーンソング。","reference":["https://www.fanfan1.com/products/detail.php?product_id=680909","FanFan・初出7インチ盤の品番と収録曲"]}],
     ["ベスト盤収録","1984","石川優子とチャゲ","COLLECTIONS","https://artist.cdjournal.com/d/-/1140000572","CDJournal・CDの発売日、品番と曲順",{"note":"石川優子名義のベスト盤。LP（RL-3032）ではA面第3曲、10月21日発売のCD（RCD-1008）では第3曲。","reference":["https://omimi.biz/products/detail/42328","おミミの恋人・LPの品番と面別曲順"]}],
@@ -3175,6 +3189,7 @@ const songs = [
     ["ライブ客演","2026","シシド・チャゲ","シシド・カフカ Presents 高崎ゴールデンナイトショー","https://note.com/masshironouni/n/nf3db0e22264b","観覧記・共演と公演セットリスト",{"note":"10月9日の群馬・高崎芸術劇場 スタジオシアター公演。シシド・カフカとゲストのChageが披露。","reference":["https://takasakiongakusai.jp/concert/shishido/","高崎音楽祭公式・公演日、会場と出演者"]}]
   ]},
   {"id":"seiten-wo-homeru-nara","title":"晴天を誉めるなら夕暮れを待て","lyrics":"飛鳥涼（ASKA）","music":"飛鳥涼（ASKA）","writers":["ASKA"],"note":"ASKAの4枚目のソロシングルで、東芝EMI移籍第1弾。編曲は十川知司（現・十川ともじ）。","versions":[
+    ["ライブ映像","2010","KAN公演・ゲスト歌唱：ASKA","BAND LIVE TOUR 2010 ルックスだけでひっぱって","https://up-front-works.jp/release/3416/?pc=pc","アップフロントワークス公式・DVDと歌唱者",{"note":"4月17日、Zepp Osaka。KANの公演にゲスト出演したASKAが歌唱。9月22日発売のDVD、Disc 2第6曲。","performanceYear":"2010","releaseYear":"2010","releaseLabel":"映像発売"}],
     ["原曲","1995","ASKA","晴天を誉めるなら夕暮れを待て","https://www.fellows.tokyo/discography/detail/21/","ASKA公式・シングルの発売日と曲順",{"note":"1月1日発売。東芝EMIの8cm CD（TODT-3370）第1曲。所蔵音源の管理データには5分16秒と5分17秒の表記があり、同じシングルの記録に併記。","reference":["https://contents.oricon.co.jp/prof/245800/products/271567/1/","オリコン・品番と曲順"]}],
     ["カラオケ","1995","ASKA（作品名義）","晴天を誉めるなら夕暮れを待て","https://ototoy.jp/_/default/p/2483473","OTOTOY・カラオケ版の曲順と時間",{"note":"1月1日発売の8cm CD第3曲。所蔵音源の管理データとOTOTOYでは5分13秒。","track":"晴天を誉めるなら夕暮れを待て（オリジナル・カラオケ）"}],
     ["アルバム収録","1995","ASKA","NEVER END","https://www.fellows.tokyo/discography/detail/47/","ASKA公式・アルバムの発売日と曲順",{"note":"2月27日発売。第1曲。イントロがシングルより長く、フェードアウトに代わって演奏の終わりが次曲につながるアルバム版。所蔵音源の管理データでは5分47秒。","reference":["https://moma-bd.com/aska.neverend.htm","アルバム資料・シングル版との違い"],"reissue":{"note":"2001年6月20日発売。ヤマハ再発CD（YCCR-00017）第1曲。","url":"https://www.yamahamusic.co.jp/s/ymc/discography/256?ima=0000&link=ROBO004"}}],
@@ -3776,6 +3791,8 @@ const songs = [
     ["カバー", "2009", "Chage with 谷村新司", "Many Happy Returns", "https://wee-s.jp/discography/4395/", "制作会社Wee’s・発売日、曲順と共演者", {"note": "3月25日発売。ChageのCD（UMCK-1299）第3曲。"}]
   ]},
   {"id": "konya-dake-kitto", "title": "今夜だけきっと", "lyrics": "根本要／手島昭", "music": "根本要", "writers": [], "note": "スターダスト☆レビューの楽曲を、Chageが根本要とカバーした。", "versions":[
+    ["ライブ共演","2018","Chage公演・KAN参加","Chageソロデビュー20周年＆CRIMSON YEAR記念イベント","https://www.stv.jp/radio/kan/senkyoku/u3f86t000004ja1z.html","STVラジオ・KAN本人による公演回顧",{"note":"9月15日、Zepp Tokyo。KAN本人が共演を回顧。根本要も同公演のゲスト。","performanceYear":"2018","reference":["https://chage.jp/information/live/detail-289.php","Chage公式・公演日とゲスト"]}],
+    ["ライブ共演","2019","ASKA／スターダスト☆レビュー／杉山清貴／KAN","SOUND ALIVE presents 横浜合同演奏会","https://ameblo.jp/mjkozou/entry-12526219117.html","観覧記録・当日の歌唱",{"note":"9月16日、パシフィコ横浜 国立大ホール。4組で歌唱。","performanceYear":"2019","reference":["https://yokooto.jp/program/19164/","横浜音祭り公式・公演日と出演者"]}],
     ["原曲", "1986", "スターダスト☆レビュー", "今夜だけきっと", "https://s-d-r.jp/discography/%E4%BB%8A%E5%A4%9C%E3%81%A0%E3%81%91%E3%81%8D%E3%81%A3%E3%81%A8-2/", "スターダスト☆レビュー公式・発売日と作家クレジット", {"note": "6月25日発売。シングル表題曲。"}],
     ["カバー", "2009", "Chage with 根本要", "Many Happy Returns", "https://wee-s.jp/discography/4395/", "制作会社Wee’s・発売日、曲順と共演者", {"note": "3月25日発売。ChageのCD（UMCK-1299）第5曲。"}]
   ]},
@@ -4019,6 +4036,7 @@ const songs = [
     ["アルバム収録","2013","ASKA","僕にできること（いま歌うシリーズ）","https://www.fellows.tokyo/discography/detail/35/","ASKA公式・CDの曲順と発売日",{"note":"3月27日発売のアルバム第6曲。","releaseYear":"2013"}]
   ]},
   {"id":"ai-no-uta-stardust-revue","title":"愛の歌","lyrics":"STARDUST REVUE","music":"根本要","writers":[],"note":"スターダスト☆レビューが2007年に発表したシングル。2016年、香川県のテアトロンで開かれた同バンドの公演にChageがゲスト出演し、アンコールの最後にこの曲を歌った。","versions":[
+    ["ライブ共演","2019","ASKA／スターダスト☆レビュー／杉山清貴／KAN","SOUND ALIVE presents 横浜合同演奏会","https://ameblo.jp/mjkozou/entry-12526219117.html","観覧記録・当日の歌唱",{"note":"9月16日、パシフィコ横浜 国立大ホール。4組で歌唱。","performanceYear":"2019","reference":["https://yokooto.jp/program/19164/","横浜音祭り公式・公演日と出演者"]}],
     ["原曲","2007","スターダスト☆レビュー","愛の歌","https://s-d-r.jp/discography/%E6%84%9B%E3%81%AE%E6%AD%8C/","スターダスト☆レビュー公式・発売日と作詞作曲",{"note":"7月25日発売のシングル。TBS系「徳光和夫の感動再会“逢いたい”」エンディングテーマ。"}],
     ["ライブ客演","2016","スターダスト☆レビュー（ゲスト歌唱：Chage）","STARDUST REVUE 20回目のテアトロン with んなアホなホーンズ","https://s-d-r.jp/discography/stardust-revue-20%E5%9B%9E%E7%9B%AE%E3%81%AE%E3%83%86%E3%82%A2%E3%83%88%E3%83%AD%E3%83%B3-with-%E3%82%93%E3%81%AA%E3%82%A2%E3%83%9B%E3%81%AA%E3%83%9B%E3%83%BC%E3%83%B3%E3%82%BA/","スターダスト☆レビュー公式・公演日、会場、映像収録",{"note":"7月30日、さぬき市野外音楽広場テアトロン。アンコールの最終曲にChageが歌唱参加。2017年1月25日発売のBlu-ray／DVDに収録。","performanceYear":"2016","releaseYear":"2017","releaseLabel":"Blu-ray／DVD発売","reference":["https://mantan-web.jp/article/20160923dog00m200043000c.html","MANTANWEB・Chageの歌唱とWOWOW放送"]}]
   ]},
@@ -4283,5 +4301,37 @@ const songs = [
   {"id":"taaimonai-boku-no-uta","title":"他愛もない僕の唄だけど","lyrics":"上隅信雄","music":"上隅信雄","writers":[],"note":"児雷也こと上隅信雄が詞と曲を手がけた作品。Chageは、ポプコンの先輩にあたる上隅のこの曲を『Many Happy Returns』でカバーした。","versions":[
     ["原曲","1977","児雷也","他愛もない僕の唄だけど","https://minkara.carview.co.jp/userid/507066/blog/34159419/","原曲の資料",{"note":"第13回ポプコン出場曲。1977年にシングルで発表。"}],
     ["カバー","2009","Chage","Many Happy Returns","https://www.universal-music.co.jp/chage/products/umck-1299/","公式資料・作品情報",{"note":"3月25日発売。第12曲。","releaseYear":"2009"}]
+  ]},
+  {"id":"haru-yo-koi","title":"春よ、来い","lyrics":"松任谷由実","music":"松任谷由実","writers":[],"note":"松任谷由実の1994年のシングル。2000年の松任谷由実のワンナイトコンサートでASKAがゲスト出演し、本人と共演した。","versions":[
+    ["原曲","1994","松任谷由実","春よ、来い","https://www.youtube.com/watch?v=qX7pFYH9O04","原曲・作品資料",{"note":"10月24日発売。26枚目のシングル。"}],
+    ["ライブ共演","2000","松任谷由実 with ASKA","松任谷由実 ワンナイトコンサート『Brothers & Sisters』","https://www.livefans.jp/songs/646263","LiveFans・公演と歌唱者",{"note":"11月1日、東京国際フォーラム。BSデジタル開局記念公演で、松任谷由実とASKAが共演。","performanceYear":"2000","reference":["https://www.youtube.com/watch?v=FS1MX1PCGOM","放送映像・共演の記録"]}]
+  ]},
+  {"id":"moon-kan","title":"Moon","lyrics":"KAN","music":"KAN","writers":[],"note":"KAN作詞・作曲の楽曲。2010年のKANのZepp Osaka公演では、ゲストのASKAが歌唱した。","versions":[
+    ["ライブカバー","2010","ASKA","BAND LIVE TOUR 2010 ルックスだけでひっぱって","https://up-front-works.jp/release/3416/?pc=pc","アップフロントワークス公式・歌唱者",{"note":"4月17日、Zepp Osaka。KANの公演にゲスト出演。","performanceYear":"2010","reference":["https://www.kimurakan.com/column/cbn273.php","KAN公式・公演日と会場"]}],
+    ["ライブ映像","2010","KAN公演・ゲスト歌唱：ASKA","BAND LIVE TOUR 2010 ルックスだけでひっぱって（DVD）","https://up-front-works.jp/release/3416/?pc=pc","アップフロントワークス公式・DVDと歌唱者",{"note":"9月22日発売。Disc 2第14曲。","performanceYear":"2010","releaseYear":"2010","releaseLabel":"映像発売"}]
+  ]},
+  {"id":"na-mo-naki-uta","title":"名もなき詩","lyrics":"桜井和寿","music":"桜井和寿","writers":[],"note":"Mr.Childrenの楽曲。ASKAは2008年のap bank fesでBank Bandの演奏によりカバーした。","versions":[
+    ["原曲","1996","Mr.Children","名もなき詩","https://www.mrchildren.jp/disco/album/album11.html","原曲・作品資料",{"note":"1996年にシングルで発売。"}],
+    ["ライブカバー","2008","ASKA with Bank Band","ap bank fes ’08","https://fes.apbank.jp/08/report/1.html","ap bank公式・当日のレポート",{"note":"7月19日、静岡・つま恋。ASKAのステージの3曲目。","performanceYear":"2008"}],
+    ["ライブ映像","2008","ASKA with Bank Band","ap bank fes ’08（DVD）","https://fes.apbank.jp/08/dvd/index.html","ap bank公式・DVDと収録曲",{"note":"Disc 1第11曲。","performanceYear":"2008","releaseYear":"2009","releaseLabel":"映像発売"}]
+  ]},
+  {"id":"aishiteru-chage","title":"アイシテル","lyrics":"CHAGE／エガワヒロシ","music":"CHAGE","writers":["Chage"],"note":"Chageのソロアルバム『アイシテル』の表題曲。ソロデビュー20周年記念公演ではKANとデュエットした。","versions":[
+    ["原曲","2008","CHAGE","アイシテル","https://www.universal-music.co.jp/chage/products/umck-9244/","原曲・作品資料",{"note":"10月8日発売。"}],
+    ["ライブ共演","2018","Chage with KAN","Chageソロデビュー20周年＆CRIMSON YEAR記念イベント","https://www.stv.jp/radio/kan/senkyoku/u3f86t000004ja1z.html","STVラジオ・KAN本人による公演回顧",{"note":"9月15日、Zepp Tokyo。ChageとKANがデュエット。","performanceYear":"2018","reference":["https://chage.jp/information/live/detail-289.php","Chage公式・公演日とゲスト"]}]
+  ]},
+  {"id":"everchild","title":"EVERCHiLD","lyrics":"HIROYUKI SAWANO","music":"HIROYUKI SAWANO","writers":[],"note":"澤野弘之のボーカルプロジェクトの曲。原曲は岡野昭仁が歌唱し、2024年のNHKホール公演ではゲストのASKAが歌った。","versions":[
+    ["原曲","2019","SawanoHiroyuki[nZk]:Akihito Okano","R∃/MEMBER","https://www.sh-nzk.net/artist/sawanohiroyukinzk/info/503427","原曲・作品資料",{"note":"3月6日発売。第2曲。"}],
+    ["ライブ客演","2024","澤野弘之 feat. ASKA","澤野弘之 LIVE [nZk]008","https://www.sonymusic.co.jp/Music/Info/hiroyukisawano/bLACKbLUE/","ソニーミュージック公式・公演と歌唱者",{"note":"6月2日、NHKホール。ASKAがゲスト歌唱。","performanceYear":"2024"}],
+    ["ライブ映像","2024","澤野弘之 feat. ASKA","澤野弘之 LIVE [nZk]008（『bLACKbLUE』初回盤Blu-ray）","https://www.sonymusic.co.jp/Music/Info/hiroyukisawano/bLACKbLUE/","ソニーミュージック公式・曲目と歌唱者",{"note":"6月2日、NHKホール。10月2日発売。ASKAのゲスト歌唱を収録。","performanceYear":"2024","releaseYear":"2024","releaseLabel":"映像発売"}]
+  ]},
+  {"id":"jojo-boz-scaggs","title":"JoJo","lyrics":"Boz Scaggs／David Foster／David Lasley","music":"Boz Scaggs／David Foster／David Lasley","writers":[],"note":"ボズ・スキャッグスの曲。2024年のデイヴィッド・フォスター来日公演で、ASKAがフォスターのピアノ伴奏で歌った。","versions":[
+    ["原曲","1980","Boz Scaggs","Middle Man","https://music.apple.com/us/song/1698413550","原曲・作品資料",{"note":"1980年のアルバムに収録。"}],
+    ["ライブカバー","2024","ASKA（ピアノ：デイヴィッド・フォスター）","HITMAN DAVID FOSTER & FRIENDS 2024","https://www.nikkansports.com/entertainment/news/202406220000978.html","日刊スポーツ・当日の公演レポート",{"note":"6月22日、大宮ソニックシティ 大ホール。","performanceYear":"2024"}]
+  ]},
+  {"id":"hard-to-say-im-sorry","title":"Hard to Say I’m Sorry（素直になれなくて）","lyrics":"Peter Cetera／David Foster","music":"Peter Cetera／David Foster","writers":[],"note":"シカゴの楽曲。ASKAとデイヴィッド・フォスターの公演では、CHAGE and ASKAの「PRIDE」の途中にこの曲をつないで披露した。","versions":[
+    ["原曲","1982","Chicago","Chicago 16","https://chicagotheband.com/js_albums/chicago-16/","原曲・作品資料",{"note":"アルバムには「Hard to Say I’m Sorry/Get Away」として収録。"}],
+    ["ライブカバー","2023","ASKA（ピアノ：デイヴィッド・フォスター）","ASKA featuring DAVID FOSTER PREMIUM CONCERT 2023","https://barks.jp/news/966287/","BARKS・公演レポート",{"note":"3月16日、ぴあアリーナMM。「PRIDE」とのメドレー。","performanceYear":"2023"}],
+    ["ライブ映像","2023","ASKA（ピアノ：デイヴィッド・フォスター）","ASKA featuring DAVID FOSTER PREMIUM CONCERT 2023（Blu-ray）","https://www.fellows.tokyo/discography/detail/50/","ASKA公式・Blu-rayと収録曲",{"note":"3月16日のぴあアリーナMM公演を2024年1月17日に発売。「PRIDE」とのメドレー。","performanceYear":"2023","releaseYear":"2024","releaseLabel":"映像発売"}],
+    ["ライブカバー","2024","ASKA（ピアノ：デイヴィッド・フォスター）","HITMAN DAVID FOSTER & FRIENDS 2024","https://www.nikkansports.com/entertainment/news/202406220000978.html","日刊スポーツ・当日の公演レポート",{"note":"6月22日、大宮ソニックシティ 大ホール。「PRIDE」とのメドレー。","performanceYear":"2024"}]
   ]}
 ];
