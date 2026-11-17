@@ -191,6 +191,18 @@ function syncSelection() {
   nextSong.disabled = index < 0 || index >= matches.length - 1;
 }
 
+function highlightCategoryMatches() {
+  const selectedCategory = category?.value || '';
+  category?.classList.toggle('category-active', Boolean(selectedCategory));
+  if (!selected) return;
+  const test = catalogCategoryTests[selectedCategory];
+  const covers = coverDirections(selected.song);
+  const rows = detailContent.querySelectorAll('#version-timeline > li');
+  rows.forEach((item, index) => {
+    item.classList.toggle('category-match', Boolean(test?.(selected.versions[index].row, covers)));
+  });
+}
+
 function showDetail() {
   detail.hidden = !selected;
   if (!selected) {
@@ -242,6 +254,7 @@ function showDetail() {
         </div>
       </details></li>`;
     }).join('')}</ol>`;
+  highlightCategoryMatches();
   const filterControl = detailContent.querySelector('.version-filter select');
   filterControl?.addEventListener('change', () => {
     const filter = filterOptions.find(({ id }) => id === filterControl.value);
@@ -286,6 +299,7 @@ function renderCatalog() {
     </button>`;
   }).join('') : '<p class="empty">該当する曲がありません。検索語や絞り込みを変えてみてください。</p>';
   syncSelection();
+  highlightCategoryMatches();
 }
 
 function updateUrl(push = false) {
