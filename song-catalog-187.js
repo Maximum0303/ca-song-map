@@ -4248,6 +4248,7 @@ const songs = [
     ["映像収録","1989","CHAGE&ASKA","HISTORY I ～10years after～","https://www.chage-aska.net/discography/video/history_one.php","公式資料・曲目と作品情報",{"note":"VTRの第10曲。"}],
     ["ベスト盤収録","1992","CHAGE&ASKA","SUPER BEST II","https://www.chage-aska.net/discography/album/super_best2.php","ベスト盤用ミックス。",{"note":"ベスト盤用ミックス。"}],
     ["シングル収録","1992","CHAGE&ASKA","LOVE SONG（1992年盤）","https://www.chage-aska.net/discography/single/love_song_1992.php","公式資料・曲目と作品情報",{"note":"3月25日発売。沖縄キャンペーン時のシングル第2曲。"}],
+    ["再収録","1993","CHAGE&ASKA","CHAGE&ASKA THE LONGEST TOUR MEMORIAL","https://www.chage-aska.net/discography/others/longest_tour.php","CHAGE and ASKA公式・発売日と曲順",{"note":"12月17日発売の記念CD。公式サイトの通し曲順で第28曲。"}],
     ["ライブ映像","1993","CHAGE&ASKA","夢の番人 SPECIAL EVENT 1993 GUYS","https://www.chage-aska.net/discography/video/yumenobannin_special_event.php","公式資料・曲目と作品情報",{"note":"国立代々木競技場第一体育館公演。1999年12月20日発売の会員限定VTRに収録。2012年4月25日発売のBlu-rayにも収録。","performanceYear":"1993","releaseYear":"1999","releaseLabel":"VTR発売","reference":["https://www.chage-aska.net/discography/video/yumenobannin_special_event_bluray.php","公式・Blu-rayの収録曲"]}],
     ["ライブ映像","1993","CHAGE&ASKA","史上最大の作戦 THE LONGEST TOUR 1993-1994","https://www.chage-aska.net/discography/video/sijyousaidainosakusen.php","公式資料・曲目と作品情報",{"note":"1993年12月収録。1999年12月20日発売の会員限定版第17曲。2009年の『LIVE DVD BOX 3』にも収録。","performanceYear":"1993","releaseYear":"1999","releaseLabel":"会員限定版発売","reference":["https://ndlsearch.ndl.go.jp/books/R100000002-I000010571830","国立国会図書館・収録時期とDVD書誌"]}],
     ["ライブ映像","1994","CHAGE&ASKA","ASIAN TOUR 1994 LIVE IN HONG KONG（LIVE DVD BOX 4）","https://chageandaskaproducts.net/products/ymehdvd-21","公式資料・曲目と作品情報",{"note":"4月29日・30日、香港コロシアム公演。2019年の『LIVE DVD BOX 4』Disc 1に収録。","performanceYear":"1994","releaseYear":"2019","releaseLabel":"DVD発売","reference":["https://w.atwiki.jp/cavc/pages/83.html","セットリスト・香港コロシアム公演"]}],
@@ -4278,6 +4279,7 @@ const songs = [
   {"id":"aisubeki-bakachintachi-e","title":"愛すべきばかちんたちへ","lyrics":"CHAGE／ASKA","music":"CHAGE／ASKA","writers":["Chage","ASKA"],"note":"チャゲ＆飛鳥の二人が作詞・作曲を共作した曲。Chageは2017年にソロで再録し、博多華丸・大吉が博多弁の台詞で参加した。","versions":[
     ["原曲","1982","チャゲ＆飛鳥","黄昏の騎士","https://www.chage-aska.net/discography/album/tasogarenokishi.php","原曲の資料",{"note":"2月14日発売のアルバム第10曲。","reissue":{"url":"https://www.yamahamusic.co.jp/s/ymc/discography/248?ima=0000","note":"2001年9月19日発売。ヤマハ再発CD（YCCR-00034）第10曲。"}}],
     ["セルフカバー","2017","Chage","たった一度の人生ならば／愛すべきばかちんたちへ","https://www.universal-music.co.jp/chage/news/2017-04-11_news/","公式資料・作品情報",{"note":"5月3日発売。博多華丸・大吉が台詞で参加。","releaseYear":"2017"}],
+    ["ライブ歌唱","2017","Chage","Chage Live Tour 2017 ～遠景/landscape～","https://www.livefans.jp/songs/495978","LiveFans・投稿セットリスト",{"note":"8月19日、東京・豊洲PIT公演で歌唱。","performanceYear":"2017","reference":["https://ca-treasurebox.seesaa.net/article/480917708.html","観覧記録・豊洲PIT公演"]}],
     ["ベスト盤収録","2018","Chage","音道","https://chage.jp/discography/chage/album/011.php","公式資料・曲目と作品情報",{"note":"5月16日発売のソロ・ベスト盤。2017年のセルフカバーを収録。"}]
   ]},
   {"id":"lennon-no-miscast","title":"レノンのミスキャスト","lyrics":"澤地隆","music":"CHAGE","writers":["Chage"],"note":"C&Aの『RHAPSODY』収録曲。Chageの『Many Happy Returns』ではキマグレンが参加し、2025年の『Instinto』には別のライブ音源が収録された。","versions":[
@@ -4331,6 +4333,10 @@ const songs = [
   ]},
   {"id":"aishiteru-chage","title":"アイシテル","lyrics":"CHAGE／エガワヒロシ","music":"CHAGE","writers":["Chage"],"note":"Chageのソロアルバム『アイシテル』の表題曲。ソロデビュー20周年記念公演ではKANとデュエットした。","versions":[
     ["原曲","2008","CHAGE","アイシテル","https://www.universal-music.co.jp/chage/products/umck-9244/","原曲・作品資料",{"note":"10月8日発売。"}],
+    ["ライブ映像","2008","CHAGE","CHAGE CONCERT TOUR 2008 アイシテル","https://chage.jp/discography/chage/bd/007.php","Chage公式・収録公演と曲目",{"note":"11月13日、SHIBUYA-AX公演。第2曲。2012年5月23日発売のBlu-rayに収録。","performanceYear":"2008","releaseYear":"2012","releaseLabel":"Blu-ray発売","reference":["https://www.billboard-japan.com/goods/detail/239685","Billboard JAPAN・公演日と曲順"]}],
+    ["ライブ音源","2014","Chage","Chage Fan Meeting Tour 2014 ～青いハンカチーフを・・・～","https://chage.jp/information/release/detail-8.php","Chage公式・配信日と曲目",{"note":"9月5日、iTunes Storeでライブ音源を配信。","performanceYear":"2014","releaseYear":"2014","releaseLabel":"配信"}],
+    ["ライブ映像","2014","Chage","Chage Live Tour 2014 ～equal～","https://chage.jp/information/release/detail-38.php","Chage公式・収録公演と曲目",{"note":"10月8日、東京・EX THEATER ROPPONGI公演。アンコール第1曲。2015年1月14日発売のBlu-ray・DVDに収録。","performanceYear":"2014","releaseYear":"2015","releaseLabel":"DVD・Blu-ray発売"}],
+    ["ベスト盤収録","2018","Chage","音道","https://chage.jp/information/release/detail-258.php","Chage公式・発売日と曲順",{"note":"5月16日発売。第12曲。"}],
     ["ライブ共演","2018","Chage with KAN","Chageソロデビュー20周年＆CRIMSON YEAR記念イベント","https://www.stv.jp/radio/kan/senkyoku/u3f86t000004ja1z.html","STVラジオ・KAN本人による公演回顧",{"note":"9月15日、Zepp Tokyo。ChageとKANがデュエット。","performanceYear":"2018","reference":["https://chage.jp/information/live/detail-289.php","Chage公式・公演日とゲスト"]}]
   ]},
   {"id":"everchild","title":"EVERCHiLD","lyrics":"HIROYUKI SAWANO","music":"HIROYUKI SAWANO","writers":[],"note":"澤野弘之のボーカルプロジェクトの曲。原曲は岡野昭仁が歌唱し、2024年のNHKホール公演ではゲストのASKAが歌った。","versions":[
