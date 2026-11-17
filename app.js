@@ -28,6 +28,24 @@ const recordingTypes = new Set([
 const isCover = ([type, , , work]) =>
   /^(?:海外|ライブ)?カバー(?:（形態未確認）|再収録)?$/.test(type)
   || (type === '配信収録' && work.endsWith('（いま歌うシリーズ）'));
+// Match singing credits, including duo aliases and guest vocalists.
+function isFamilyArtist(artist) {
+  const names = normalizeArtistAliases(String(artist ?? ''))
+    .replace(/（(?:ピアノ|演奏|伴奏|編曲|作品名義)[^）]*）|\((?:ピアノ|演奏|伴奏|編曲|作品名義)[^)]*\)/g, '');
+  return /(?:^|[\s/／・＋+&＆:：()（）])(?:chageaska|chage|aska|multi\s*max|チャゲ|飛鳥涼)(?=$|[\s/／・＋+&＆:：()（）]|ほか|を含む|が参加)/i.test(names);
+}
+
+function coverDirections(song) {
+  const originals = song.versions.filter(([type]) => type === '原曲' || type === '提供音源');
+  const familySong = song.writers?.length > 0 || originals.some(([, , artist]) => isFamilyArtist(artist));
+  const outsideOrigin = originals.length > 0
+    && originals.every(([type, , artist]) => type === '原曲' && !isFamilyArtist(artist));
+  return {
+    byFamily: row => isFamilyArtist(row[2]) && ((isCover(row) && (row[0] !== '配信収録' || outsideOrigin))
+      || (outsideOrigin && !familySong && /^(?:ライブ共演|ライブ客演|ライブ歌唱|ライブ映像|ライブ音源|放送歌唱映像)$/.test(row[0]))),
+    ofFamily: row => familySong && isCover(row) && !isFamilyArtist(row[2]),
+  };
+}
 const isLive = ([type, , , , , , meta]) =>
   /^(?:ライブ|放送)|^(?:イベント歌唱|テレビ放送|ラジオ歌唱|ミュージックビデオ|映像収録)$/.test(type)
   || Boolean(meta?.performanceYear || meta?.broadcastYear);
@@ -36,12 +54,15 @@ const versionFilters = [
   { id: 'recording', label: '音源・再収録', matches: ([type, , , , , , meta]) =>
     recordingTypes.has(type) && !meta?.performanceYear && !meta?.broadcastYear },
   { id: 'live', label: 'ライブ・映像・放送', matches: isLive },
-  { id: 'cover', label: '他の歌手によるカバー', matches: isCover },
+  { id: 'cover-by-family', label: 'C&A・ASKA・Chage・MULTI MAXが歌ったカバー', matches: (row, covers) => covers.byFamily(row) },
+  { id: 'cover-of-family', label: '他の歌手が歌ったC&A関連曲', matches: (row, covers) => covers.ofFamily(row) },
 ];
 
 const catalogCategoryTests = {
   provided: ([type]) => type === '提供音源',
-  cover: isCover,
+  cover: (row, covers) => isCover(row) || covers.byFamily(row),
+  'cover-by-family': (row, covers) => covers.byFamily(row),
+  'cover-of-family': (row, covers) => covers.ofFamily(row),
   'self-cover': ([type]) => type === 'セルフカバー',
   guest: ([type]) => /^(?:ライブ客演|ライブ共演|客演|共演再録|共作・デュエット)$/.test(type),
   live: isLive,
@@ -134,7 +155,8 @@ const catalogSongs = songs.flatMap((song, index) => {
   const fields = [song.title, song.lyrics, song.music, ...song.versions.flatMap(
     ([type, year, artist, work, , , meta]) => [type, year, artist, work, meta?.track, meta?.note, meta?.creditedAs, meta?.reissue?.note, meta?.performanceYear, meta?.broadcastYear, meta?.releaseYear]
   )].filter(Boolean).join(' ');
-  const categories = Object.keys(catalogCategoryTests).filter(key => song.versions.some(catalogCategoryTests[key]));
+  const covers = coverDirections(song);
+  const categories = Object.keys(catalogCategoryTests).filter(key => song.versions.some(row => catalogCategoryTests[key](row, covers)));
   return [{ song, categories, number: index + 1, firstYear, firstVersion, versions, text: normalize(fields + ' ' + normalizeArtistAliases(fields)) }];
 });
 const entries = new Map(catalogSongs.map(entry => [entry.song.id, entry]));
@@ -177,8 +199,9 @@ function showDetail() {
   }
 
   const { song, number, firstYear, versions } = selected;
+  const covers = coverDirections(song);
   const filterOptions = versionFilters.map(filter => ({
-    ...filter, count: versions.filter(({ row }) => filter.matches(row)).length,
+    ...filter, count: versions.filter(({ row }) => filter.matches(row, covers)).length,
   })).filter(filter => filter.count > 0 && filter.count < versions.length);
   detailContent.innerHTML = `
     <p class="eyebrow">No. ${String(number).padStart(2,'0')}</p>
@@ -224,7 +247,7 @@ function showDetail() {
     const filter = filterOptions.find(({ id }) => id === filterControl.value);
     const timeline = detailContent.querySelector('#version-timeline');
     versions.forEach(({ row }, index) => {
-      timeline.children[index].hidden = Boolean(filter && !filter.matches(row));
+      timeline.children[index].hidden = Boolean(filter && !filter.matches(row, covers));
     });
     detailContent.querySelector('#version-count').textContent = filter
       ? `${filter.count}件 / 全${versions.length}件`
