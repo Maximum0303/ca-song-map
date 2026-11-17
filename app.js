@@ -54,7 +54,7 @@ const versionFilters = [
   { id: 'recording', label: '音源・再収録', matches: ([type, , , , , , meta]) =>
     recordingTypes.has(type) && !meta?.performanceYear && !meta?.broadcastYear },
   { id: 'live', label: 'ライブ・映像・放送', matches: isLive },
-  { id: 'cover-by-family', label: 'C&A・ASKA・Chage・MULTI MAXが歌ったカバー', matches: (row, covers) => covers.byFamily(row) },
+  { id: 'cover-by-family', label: 'C&A・Chage・ASKA・MULTI MAXが歌ったカバー', matches: (row, covers) => covers.byFamily(row) },
   { id: 'cover-of-family', label: '他の歌手が歌ったC&A関連曲', matches: (row, covers) => covers.ofFamily(row) },
 ];
 
