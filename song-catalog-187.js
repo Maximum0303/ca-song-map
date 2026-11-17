@@ -4305,6 +4305,7 @@ const songs = [
   ]},
   {"id":"tokyo-tower-chage","title":"トウキョータワー","lyrics":"CHAGE","music":"CHAGE","writers":["Chage"],"note":"CHAGEの1998年のソロデビューシングル。2009年にスガ シカオを迎えて歌い直し、2023年のソロ25周年EPには別のリミックスが収録された。","versions":[
     ["原曲","1998","CHAGE","トウキョータワー","https://www.universal-music.co.jp/chage/release-history/","原曲の資料",{"note":"9月30日発売のソロデビューシングル。","reference":["https://www.uta-net.com/song/145253/","歌ネット・作詞作曲"]}],
+    ["アルバム収録","1998","CHAGE","2nd","https://www.oricon.co.jp/prof/4066/products/266598/1/","オリコン・オリジナル盤の発売日と曲順",{"note":"10月21日発売。第2曲。","reissue":{"note":"2001年4月18日発売。ヤマハ再発CD（YCCR-00006）第2曲。","url":"https://www.yamahamusic.co.jp/s/ymc/discography/200?ima=0000"}}],
     ["共演再録","2009","Chage with スガ シカオ","Many Happy Returns","https://www.universal-music.co.jp/chage/products/umck-1299/","公式資料・作品情報",{"note":"3月25日発売。第8曲。スガ シカオが歌唱参加。","releaseYear":"2009"}],
     ["リミックス","2023","Chage","青い空だけじゃない","https://chage.jp/information/release/detail-564.php","Chage公式・25周年EP",{"note":"8月30日発売。25th Ver.とRadio Editを収録。"}]
   ]},
