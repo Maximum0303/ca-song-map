@@ -231,20 +231,11 @@ function setupSongSharing(song) {
   detailContent.querySelector('.copy-song-link').addEventListener('click', () => {
     copySongLink(song, status, fallback);
   });
-  const shareButton = detailContent.querySelector('.share-song');
-  shareButton.hidden = typeof navigator.share !== 'function';
-  shareButton.addEventListener('click', async () => {
-    try {
-      await navigator.share({
-        title: song.title + '｜この曲、誰が歌った？',
-        text: '「' + song.title + '」の収録・公演記録',
-        url: songShareUrl(song),
-      });
-      status.textContent = '共有しました';
-    } catch (error) {
-      if (error.name !== 'AbortError') await copySongLink(song, status, fallback);
-    }
-  });
+  const shareLink = detailContent.querySelector('.share-song');
+  const intent = new URL('https://twitter.com/intent/tweet');
+  intent.searchParams.set('text', '「' + song.title + '」の収録・公演記録｜この曲、誰が歌った？');
+  intent.searchParams.set('url', songShareUrl(song));
+  shareLink.href = intent.href;
 }
 
 function showDetail() {
@@ -263,7 +254,7 @@ function showDetail() {
     <p class="eyebrow">No. ${String(number).padStart(2,'0')}</p>
     <h3>${song.title}</h3>
     <div class="song-share" role="group" aria-label="この曲を共有">
-      <button type="button" class="control-button share-song" hidden>共有する</button>
+      <a class="control-button share-song" target="_blank" rel="noopener noreferrer">Xで共有する</a>
       <button type="button" class="control-button copy-song-link">リンクをコピー</button>
       <span class="song-share-status" role="status"></span>
       <input class="song-share-link" type="text" readonly aria-label="この曲の共有リンク" hidden>
