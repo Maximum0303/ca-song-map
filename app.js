@@ -203,6 +203,50 @@ function highlightCategoryMatches() {
   });
 }
 
+
+function songShareUrl(song) {
+  const url = new URL(location.pathname, location.origin);
+  url.searchParams.set('song', song.id);
+  return url.href;
+}
+
+async function copySongLink(song, status, fallback) {
+  const url = songShareUrl(song);
+  try {
+    await navigator.clipboard.writeText(url);
+    fallback.hidden = true;
+    status.textContent = 'リンクをコピーしました';
+  } catch {
+    fallback.hidden = false;
+    fallback.value = url;
+    fallback.focus();
+    fallback.select();
+    status.textContent = 'リンクを選択しました。コピーして共有できます。';
+  }
+}
+
+function setupSongSharing(song) {
+  const status = detailContent.querySelector('.song-share-status');
+  const fallback = detailContent.querySelector('.song-share-link');
+  detailContent.querySelector('.copy-song-link').addEventListener('click', () => {
+    copySongLink(song, status, fallback);
+  });
+  const shareButton = detailContent.querySelector('.share-song');
+  shareButton.hidden = typeof navigator.share !== 'function';
+  shareButton.addEventListener('click', async () => {
+    try {
+      await navigator.share({
+        title: song.title + '｜この曲、誰が歌った？',
+        text: '「' + song.title + '」の収録・公演記録',
+        url: songShareUrl(song),
+      });
+      status.textContent = '共有しました';
+    } catch (error) {
+      if (error.name !== 'AbortError') await copySongLink(song, status, fallback);
+    }
+  });
+}
+
 function showDetail() {
   detail.hidden = !selected;
   if (!selected) {
@@ -218,6 +262,12 @@ function showDetail() {
   detailContent.innerHTML = `
     <p class="eyebrow">No. ${String(number).padStart(2,'0')}</p>
     <h3>${song.title}</h3>
+    <div class="song-share" role="group" aria-label="この曲を共有">
+      <button type="button" class="control-button share-song" hidden>共有する</button>
+      <button type="button" class="control-button copy-song-link">リンクをコピー</button>
+      <span class="song-share-status" role="status"></span>
+      <input class="song-share-link" type="text" readonly aria-label="この曲の共有リンク" hidden>
+    </div>
     <p class="credit">初出年　${firstYear ? yearText(firstYear) : "未確認"}</p>
     <p class="credit">作詞　${song.lyrics}　／　作曲　${song.music}</p>
     ${song.note ? `<p class="note">${song.note}</p>` : ''}
@@ -254,6 +304,7 @@ function showDetail() {
         </div>
       </details></li>`;
     }).join('')}</ol>`;
+  setupSongSharing(song);
   highlightCategoryMatches();
   const filterControl = detailContent.querySelector('.version-filter select');
   filterControl?.addEventListener('change', () => {
