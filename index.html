@@ -76,6 +76,12 @@
 .song-share a.control-button { display: inline-flex; align-items: center; text-decoration: none; }
 .song-share-status { color: var(--muted); font-size: 12px; overflow-wrap: anywhere; }
 .song-share-link { flex-basis: 100%; width: 100%; min-width: 0; padding: 8px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); font-size: 13px; }
+
+/* Companion fan site links (2026) */
+.ca-related-sites{display:flex;flex-wrap:wrap;gap:4px 15px;margin-top:9px;font:400 11px/1.7 var(--sans);letter-spacing:normal}
+.ca-related-sites a{color:var(--muted);text-decoration:none;transition:color .15s ease}
+.ca-related-sites a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.ca-related-sites a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
 </style>
 </head>
 <body>
@@ -169,6 +175,11 @@
     <a href="#disclaimer">免責事項</a>
     <a href="#privacy">プライバシーポリシー</a>
   </div>
+<nav class="ca-related-sites" aria-label="関連ファンサイト">
+    <a href="https://maximum0303.github.io/chage-aska-quiz/" target="_blank" rel="noopener noreferrer">C&A検定 ↗</a>
+    <a href="https://maximum0303.github.io/ca-on-this-day/" target="_blank" rel="noopener noreferrer">C&Aの何の日？ ↗</a>
+    <a href="https://w.atwiki.jp/canda/" target="_blank" rel="noopener noreferrer">アーカイブWiki ↗</a>
+  </nav>
   </div>
 </footer>
 </body>
