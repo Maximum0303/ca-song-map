@@ -172,6 +172,71 @@ let writer = '';
 let selected = null;
 let listScroll = 0;
 let compactScroll = 0;
+let catalogPage = 1;
+const mobilePageSize = 30;
+const filterDialog = document.querySelector('#filter-dialog');
+const controlsHome = document.querySelector('#controls-home');
+const mobileSearch = document.querySelector('#mobile-search');
+const activeConditions = document.querySelector('#active-conditions');
+const pagers = document.querySelectorAll('.catalog-pager');
+
+function renderConditions() {
+  activeConditions.replaceChildren();
+  const conditions = [
+    ['query', search.value.trim()],
+    ['writer', writer],
+    ['category', category.value ? category.selectedOptions[0].textContent : ''],
+    ['decade', decade.value ? decade.selectedOptions[0].textContent : ''],
+    ['sort', sort.value !== 'oldest' ? sort.selectedOptions[0].textContent : ''],
+  ];
+  for (const [key, label] of conditions) {
+    if (!label) continue;
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'condition-chip';
+    button.dataset.condition = key;
+    button.textContent = label + ' ×';
+    button.setAttribute('aria-label', label + 'を解除');
+    activeConditions.append(button);
+  }
+  activeConditions.hidden = !activeConditions.children.length;
+  document.querySelector('#filter-result-count').textContent = matches.length + '曲';
+}
+
+function renderPagination() {
+  const pages = Math.max(1, Math.ceil(matches.length / mobilePageSize));
+  catalogPage = Math.max(1, Math.min(catalogPage, pages));
+  const start = (catalogPage - 1) * mobilePageSize;
+  for (const pager of pagers) {
+    pager.hidden = !compactScreen.matches || matches.length === 0;
+    pager.innerHTML = `<button type="button" class="control-button" data-page-step="-1" ${catalogPage === 1 ? 'disabled' : ''}>前へ</button>
+      <span role="status">全${matches.length}曲中 ${start + 1}〜${Math.min(start + mobilePageSize, matches.length)}曲<br><small>${catalogPage} / ${pages}ページ</small></span>
+      <button type="button" class="control-button" data-page-step="1" ${catalogPage === pages ? 'disabled' : ''}>次へ</button>`;
+  }
+}
+
+function closeFilters() {
+  if (filterDialog.open) filterDialog.close();
+}
+
+function openFilters() {
+  if (!compactScreen.matches) {
+    search.focus();
+    return;
+  }
+  filterDialog.showModal();
+  document.body.classList.add('filters-open');
+}
+
+function placeSearchControls() {
+  closeFilters();
+  if (compactScreen.matches) {
+    document.querySelector('#filter-dialog-controls').append(controls);
+  } else {
+    controlsHome.after(controls);
+  }
+}
+
 
 for (const value of [...new Set(catalogSongs.filter(({ firstYear }) => firstYear).map(({ firstYear }) => firstYear.slice(0, 3) + '0'))].sort()) {
   decade.add(new Option(value + '年代', value));
@@ -327,7 +392,12 @@ function renderCatalog() {
   clearSearch.hidden = !query && !writer && !selectedCategory && !decade.value && sort.value === 'oldest';
   const groupByDecade = sort.value === 'oldest' || sort.value === 'newest';
   let previousDecade = null;
-  results.innerHTML = matches.length ? matches.map(({ song, number, firstYear, firstVersion }) => {
+  renderPagination();
+  renderConditions();
+  const visibleMatches = compactScreen.matches
+    ? matches.slice((catalogPage - 1) * mobilePageSize, catalogPage * mobilePageSize)
+    : matches;
+  results.innerHTML = matches.length ? visibleMatches.map(({ song, number, firstYear, firstVersion }) => {
     const [, year, artist, work] = firstVersion;
     const decadeLabel = firstYear ? `${firstYear.slice(0, 3)}0年代` : '初出年未確認';
     const heading = groupByDecade && decadeLabel !== previousDecade
@@ -348,6 +418,7 @@ function updateUrl(push = false) {
   const url = new URL(location.href);
   const params = { q: search.value.trim(), writer, category: category?.value, decade: decade.value,
     sort: sort.value === 'oldest' ? '' : sort.value,
+    page: compactScreen.matches && catalogPage > 1 ? String(catalogPage) : '',
     song: workspace.dataset.view === 'detail' ? selected?.song.id : '' };
   for (const [key, value] of Object.entries(params)) {
     if (value) url.searchParams.set(key, value);
@@ -374,6 +445,15 @@ function openEntry(entry, push = true) {
   if (workspace.dataset.view === 'catalog') {
     listScroll = results.scrollTop;
     compactScroll = window.scrollY;
+  }
+  if (compactScreen.matches) {
+    const index = matches.indexOf(entry);
+    const entryPage = index < 0 ? catalogPage : Math.floor(index / mobilePageSize) + 1;
+    if (entryPage !== catalogPage) {
+      catalogPage = entryPage;
+      compactScroll = 0;
+      renderCatalog();
+    }
   }
   workspace.dataset.view = 'detail';
   document.body.dataset.view = 'detail';
@@ -407,6 +487,8 @@ function showCatalog(restorePosition = false) {
 }
 
 function filterChanged() {
+  catalogPage = 1;
+  compactScroll = 0;
   renderCatalog();
   if (workspace.dataset.view === 'detail' && !matches.includes(selected)) {
     showCatalog();
@@ -432,7 +514,11 @@ function restoreFromUrl(restorePosition = false) {
   if (category) category.value = nextCategory;
   decade.value = [...decade.options].some(option => option.value === nextDecade) ? nextDecade : '';
   sort.value = Object.hasOwn(sorters, nextSort) ? nextSort : 'oldest';
-  if (!sameFilters || !restorePosition) renderCatalog();
+  const requestedPage = Number(params.get('page') || 1);
+  const restoredPage = Number.isSafeInteger(requestedPage) && requestedPage > 0 ? requestedPage : 1;
+  const pageChanged = catalogPage !== restoredPage;
+  catalogPage = restoredPage;
+  if (!sameFilters || !restorePosition || pageChanged) renderCatalog();
   if (entry) openEntry(entry, false);
   else showCatalog(restorePosition);
 }
@@ -469,7 +555,8 @@ document.querySelector('#find-song').addEventListener('click', event => {
   showCatalog();
   updateUrl();
   document.querySelector('#index').scrollIntoView({ block: 'start' });
-  search.focus({ preventScroll: true });
+  if (compactScreen.matches) openFilters();
+  else search.focus({ preventScroll: true });
 });
 history.scrollRestoration = 'manual';
 window.addEventListener('popstate', () => restoreFromUrl(true));
@@ -477,4 +564,48 @@ window.addEventListener('popstate', () => restoreFromUrl(true));
 new ResizeObserver(() => {
   document.documentElement.style.setProperty('--controls-height', controls.offsetHeight + 'px');
 }).observe(controls);
+mobileSearch.addEventListener('click', openFilters);
+document.querySelector('#close-filters').addEventListener('click', closeFilters);
+filterDialog.addEventListener('close', () => document.body.classList.remove('filters-open'));
+document.querySelector('#apply-filters').addEventListener('click', () => {
+  closeFilters();
+  showCatalog();
+  updateUrl();
+  document.querySelector('.catalog').scrollIntoView({ block: 'start', behavior: 'instant' });
+});
+search.addEventListener('keydown', event => {
+  if (event.key === 'Enter' && filterDialog.open) {
+    event.preventDefault();
+    document.querySelector('#apply-filters').click();
+  }
+});
+activeConditions.addEventListener('click', event => {
+  const key = event.target.closest('[data-condition]')?.dataset.condition;
+  if (!key) return;
+  if (key === 'query') search.value = '';
+  if (key === 'writer') setWriter('');
+  if (key === 'category') category.value = '';
+  if (key === 'decade') decade.value = '';
+  if (key === 'sort') sort.value = 'oldest';
+  filterChanged();
+});
+for (const pager of pagers) pager.addEventListener('click', event => {
+  const button = event.target.closest('[data-page-step]');
+  if (!button || button.disabled) return;
+  catalogPage += Number(button.dataset.pageStep);
+  renderCatalog();
+  updateUrl(true);
+  document.querySelector('.catalog').scrollIntoView({ block: 'start', behavior: 'instant' });
+  document.querySelector('.catalog-pager button:not(:disabled)')?.focus({ preventScroll: true });
+});
+compactScreen.addEventListener('change', () => {
+  placeSearchControls();
+  if (selected && matches.includes(selected)) {
+    catalogPage = Math.floor(matches.indexOf(selected) / mobilePageSize) + 1;
+  }
+  renderCatalog();
+  updateUrl();
+});
+placeSearchControls();
 restoreFromUrl();
+
