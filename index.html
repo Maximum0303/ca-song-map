@@ -107,9 +107,10 @@
   .filter-dialog-footer { position: sticky; bottom: 0; border-top: 1px solid var(--line); padding-bottom: calc(12px + env(safe-area-inset-bottom)); }
   #apply-filters { background: var(--accent); border-color: var(--accent); color: var(--card); min-height: 44px; padding-inline: 20px; }
   #filter-dialog .controls { display: grid; position: static; padding: 16px; border: 0; gap: 16px; }
-  #filter-dialog .filter-row { align-items: stretch; flex-direction: column; gap: 14px; }
+  #filter-dialog .filter-row { align-items: stretch; flex-direction: column; flex-wrap: nowrap; gap: 14px; }
   #filter-dialog .select-label { display: grid; gap: 5px; }
-  #filter-dialog .select-label select { width: 100%; min-width: 0; min-height: 44px; }
+  #filter-dialog .select-label select { width: 100%; min-width: 0; min-height: 44px; font-size: 16px; }
+  #filter-dialog .filters { flex-basis: auto; flex-shrink: 0; }
   #filter-dialog .filters button { flex: 1; min-height: 44px; }
   #filter-dialog .search input { font-size: 16px; min-height: 44px; }
   #close-filters { min-height: 44px; }
