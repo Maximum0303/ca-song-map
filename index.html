@@ -8,7 +8,7 @@
 <title>この曲、誰が歌った？｜チャゲアス 楽曲の地図</title>
 <link rel="stylesheet" href="style.css?v=5">
 <script defer src="song-catalog-187.js?v=46"></script>
-<script defer src="app.js?v=13"></script>
+<script defer src="app.js?v=14"></script>
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://maximum0303.github.io/ca-song-map/">
 <meta property="og:title" content="この曲、誰が歌った？｜チャゲアス 楽曲の地図">
@@ -82,6 +82,39 @@
 .ca-related-sites a{color:var(--muted);text-decoration:none;transition:color .15s ease}
 .ca-related-sites a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
 .ca-related-sites a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+
+#mobile-search { display: none; }
+.active-conditions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.condition-chip { max-width: 100%; overflow-wrap: anywhere; border: 1px solid var(--line); padding: 7px 10px; color: var(--accent); background: #f3e2d9; font-size: 12px; text-align: left; }
+
+.catalog-pager { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px; border-block: 1px solid var(--line); }
+.catalog-pager span { font-size: 12px; text-align: center; }
+.catalog-pager .control-button { min-height: 44px; }
+#filter-dialog { color: var(--ink); background: var(--paper); }
+@media (max-width: 760px) {
+  body { padding-bottom: calc(76px + env(safe-area-inset-bottom)); }
+  body.filters-open { overflow: hidden; }
+  #mobile-search { display: block; position: fixed; z-index: 5; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom)); border: 0; border-radius: 24px; padding: 12px 18px; min-height: 48px; background: var(--accent); color: var(--card); box-shadow: 0 3px 12px #24231f33; }
+  #controls-home + .controls { position: static; }
+  .catalog { scroll-margin-top: 12px; grid-template-rows: auto auto auto auto; }
+  .active-conditions { margin-top: 0; }
+  body[data-view="detail"] .active-conditions { display: none; }
+  #filter-dialog { width: 100%; max-width: 100%; max-height: 88dvh; margin: auto 0 0; padding: 0; border: 1px solid var(--line); border-radius: 18px 18px 0 0; }
+  #filter-dialog::backdrop { background: #24231f66; }
+  .filter-dialog-header, .filter-dialog-footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 16px; background: var(--paper); }
+  .filter-dialog-header { position: sticky; top: 0; z-index: 4; border-bottom: 1px solid var(--line); }
+  .filter-dialog-header h2 { font-size: 20px; }
+  .filter-dialog-footer { position: sticky; bottom: 0; border-top: 1px solid var(--line); padding-bottom: calc(12px + env(safe-area-inset-bottom)); }
+  #apply-filters { background: var(--accent); border-color: var(--accent); color: var(--card); min-height: 44px; padding-inline: 20px; }
+  #filter-dialog .controls { display: grid; position: static; padding: 16px; border: 0; gap: 16px; }
+  #filter-dialog .filter-row { align-items: stretch; flex-direction: column; gap: 14px; }
+  #filter-dialog .select-label { display: grid; gap: 5px; }
+  #filter-dialog .select-label select { width: 100%; min-width: 0; min-height: 44px; }
+  #filter-dialog .filters button { flex: 1; min-height: 44px; }
+  #filter-dialog .search input { font-size: 16px; min-height: 44px; }
+  #close-filters { min-height: 44px; }
+}
+
 </style>
 </head>
 <body>
@@ -92,6 +125,7 @@
 <h1 id="headline">この曲、誰が歌った<span>？</span></h1>
 <p class="subtitle">チャゲアス 楽曲の地図</p>
 </div>
+<div id="controls-home"></div>
 <div class="controls" id="search-controls">
 <div class="search-row">
 <label class="search"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input type="search" id="search" placeholder="曲名・歌手・作品名・掲載番号" aria-label="曲名・歌手・作品名・掲載番号" autocomplete="off"></label>
@@ -120,14 +154,18 @@
     <li><strong>カバーする側を選ぶ。</strong> 「C&amp;A・Chage・ASKA・MULTI MAXが歌ったカバー」と「他の歌手が歌ったC&amp;A関連曲」を選べます。まとめて見るなら「カバー（すべて）」を選びます。</li>
     <li><strong>記録を読む。</strong> 一覧から曲を選び、収録・公演記録の行を開くと、補足と出典を確認できます。「楽曲の種類」に当てはまる行は淡いえんじ色で表示されます。表示する記録をさらに絞るときは、曲詳細の「記録の種類」を使います。</li>
     <li><strong>曲を共有する。</strong> 曲詳細の「リンクをコピー」で、その曲を直接開くURLをコピーできます。「Xで共有する」を押すと、曲名と個別ページのURLが入ったXの投稿画面を開けます。</li>
+    <li><strong>スマホで探す。</strong> 右下の「検索・絞り込み」で条件を選び、「結果を表示」を押します。一覧は30曲ずつ表示し、上下の「前へ」「次へ」で切り替えられます。</li>
   </ol>
   <p>絞り込みや検索を解除するには「クリア」を押します。</p>
 </details>
 </div>
+<div class="active-conditions" id="active-conditions" aria-label="現在の検索条件" hidden></div>
 <div id="workspace" class="workspace" data-view="catalog">
 <section class="catalog" aria-labelledby="results-title">
 <div class="results-heading"><h2 id="results-title">曲一覧</h2><p id="count" role="status"></p></div>
+<nav class="catalog-pager" aria-label="曲一覧の上のページ切り替え" hidden></nav>
 <div id="results" class="results" aria-label="曲の一覧"></div>
+<nav class="catalog-pager" aria-label="曲一覧の下のページ切り替え" hidden></nav>
 </section>
 <article id="detail" class="detail" aria-label="選んだ曲の詳細" tabindex="-1" hidden>
 <nav class="detail-nav" aria-label="曲の移動">
@@ -154,6 +192,12 @@
   <p>情報の取り扱いについてのご連絡は、<a href="https://x.com/yahyahyah0303">Maximum（X @yahyahyah0303）</a>までお願いします。</p>
 </section>
 </main>
+<button type="button" id="mobile-search" aria-haspopup="dialog" aria-controls="filter-dialog">検索・絞り込み</button>
+<dialog id="filter-dialog" aria-labelledby="filter-dialog-title">
+  <div class="filter-dialog-header"><h2 id="filter-dialog-title">検索・絞り込み</h2><button type="button" id="close-filters" class="control-button">閉じる</button></div>
+  <div id="filter-dialog-controls"></div>
+  <div class="filter-dialog-footer"><span id="filter-result-count" role="status"></span><button type="button" id="apply-filters" class="control-button">結果を表示</button></div>
+</dialog>
 <div class="shell" style="padding-bottom:16px"><a href="https://twitter.com/intent/tweet?text=%E3%81%93%E3%81%AE%E6%9B%B2%E3%80%81%E8%AA%B0%E3%81%8C%E6%AD%8C%E3%81%A3%E3%81%9F%EF%BC%9F%EF%BD%9C%E3%83%81%E3%83%A3%E3%82%B2%E3%82%A2%E3%82%B9%20%E6%A5%BD%E6%9B%B2%E3%81%AE%E5%9C%B0%E5%9B%B3&amp;url=https%3A%2F%2Fmaximum0303.github.io%2Fca-song-map%2F" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:0 13px;border:1px solid #24231f;border-radius:6px;background:#24231f;color:#fffdf6;text-decoration:none;letter-spacing:normal;white-space:nowrap;font-size:13px">Xで共有</a></div>
 <section class="shell" aria-labelledby="visitor-counter-title">
   <div class="visitor-counter" id="visitor-counter" hidden>
@@ -184,3 +228,4 @@
 </footer>
 </body>
 </html>
+
