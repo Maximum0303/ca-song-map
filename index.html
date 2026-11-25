@@ -116,7 +116,39 @@
   #close-filters { min-height: 44px; }
 }
 
+
+/* ca-menu-sticky-v1 */
+.menu-sticky-option { display:inline-flex; align-items:center; gap:6px; color:var(--muted); font-size:12px; white-space:nowrap; cursor:pointer; }
+.menu-sticky-option input { accent-color:var(--accent); width:16px; height:16px; margin:0; cursor:pointer; }
+@media (min-width:761px) {
+  html[data-ca-menu-sticky="off"] #search-controls { position:static; }
+  html[data-ca-menu-sticky="off"] .catalog { top:12px; max-height:calc(100dvh - 24px); }
+  html[data-ca-menu-sticky="off"] .detail { scroll-margin-top:12px; }
+}
+@media (max-width:760px) { .menu-sticky-option { display:none; } }
+
 </style>
+<script id="ca-menu-sticky-setting">
+(function(){
+  var key = 'ca-song-map.menu-sticky';
+  var enabled = true;
+  try { enabled = localStorage.getItem(key) !== 'off'; } catch(e) {}
+  function apply(value){
+    document.documentElement.dataset.caMenuSticky = value ? 'on' : 'off';
+  }
+  apply(enabled);
+  document.addEventListener('DOMContentLoaded', function(){
+    var toggle = document.getElementById('menu-sticky-toggle');
+    if (!toggle) return;
+    toggle.checked = enabled;
+    toggle.addEventListener('change', function(){
+      enabled = toggle.checked;
+      apply(enabled);
+      try { localStorage.setItem(key, enabled ? 'on' : 'off'); } catch(e) {}
+    });
+  });
+})();
+</script>
 </head>
 <body>
 <header class="mast"><div class="shell mast-inner"><a class="brand" href="./"><span class="mark" aria-hidden="true"></span>C&amp;A SONG MAP</a><nav aria-label="サイト内メニュー"><a href="#index" id="find-song">曲を探す</a><a href="#about">このサイトについて</a></nav></div></header>
@@ -147,6 +179,7 @@
 <label class="select-label"><span>初出年代</span><select id="decade"><option value="">指定なし</option></select></label>
 <label class="select-label"><span>並び順</span><select id="sort"><option value="oldest">初出年が古い順</option><option value="newest">初出年が新しい順</option><option value="title">曲名順</option><option value="added">掲載番号が新しい順</option></select></label>
 </div>
+<label class="menu-sticky-option"><input type="checkbox" id="menu-sticky-toggle" checked>メニューを追随させる</label>
 <details class="catalog-guide">
   <summary>使い方</summary>
   <ol>
