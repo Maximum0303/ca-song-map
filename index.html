@@ -143,6 +143,16 @@ body[data-single-song="true"] #workspace { grid-template-columns:minmax(0,1fr); 
 body[data-single-song="true"] #detail { scroll-margin-top:8px; }
 body[data-single-song="true"] { padding-bottom:0; }
 
+
+/* ca-single-song-width-v2 */
+@media (min-width:761px) {
+  body[data-single-song="true"] #detail {
+    width:100%;
+    max-width:min(calc(61% - 13.42px), calc(100% - 282px));
+    margin-inline:auto;
+  }
+}
+
 </style>
 <script id="ca-menu-sticky-setting">
 (function(){
