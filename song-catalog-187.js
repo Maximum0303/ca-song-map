@@ -4424,5 +4424,10 @@ const songs = [
     ["ライブ共演","2017","Chage／スターダスト☆レビュー","LIVE SDD 2017","https://fmosaka.net/sdd/live_sdd_2017/set_list.html","FM大阪・公式セットリスト",{"note":"2月19日、大阪城ホール。Chageとスターダスト☆レビューの共演ステージ1曲目。","performanceYear":"2017","reference":["https://www.fmosaka.net/_ct/17049582","FM大阪・当日の公演レポート"]}],
     ["ベスト盤収録","2018","Chage","音道","https://chage.jp/discography/chage/album/011.php","Chage公式・発売日と収録バージョン",{"note":"5月16日発売のソロ活動20周年ベスト盤。第4曲にシングル版を収録。"}],
     ["ライブ映像","2018","Chage","Chage Live Tour 2018 ◆CRIMSON◆","https://www.universal-music.co.jp/chage/products/upxy-6073/","ユニバーサル ミュージック・収録公演と曲順",{"note":"8月26日、東京・豊洲PIT。ソロデビュー20周年記念ツアーの公演。11月28日発売のDVD・Blu-rayでM-10として収録。","performanceYear":"2018","releaseYear":"2018","releaseLabel":"DVD・Blu-ray発売"}]
+  ]},
+  {"id":"why-time-aska","title":"WHY / TIME","lyrics":"ASKA（WHY）／英語詞クレジット未確認（TIME）","music":"ASKA","writers":["ASKA"],"note":"ASKAが作詞・作曲したCHAGE and ASKAの1992年の楽曲「WHY」。1995年には同曲を基に英語詞の「TIME」が制作され、ASKAがソロで歌唱した。映画『ジャッジ・ドレッド』のサウンドトラックに収録。ここでは別題・英語詞によるセルフカバーとして扱う。","versions":[
+    ["原曲","1992","CHAGE and ASKA","GUYS","https://www.chage-aska.net/discography/album/guys.php","CHAGE and ASKA公式・初出と作家クレジット",{"track":"WHY","note":"11月7日発売。第7曲。編曲：JESS BAILEY。","reissue":{"note":"2001年発売のヤマハ再発CD（YCCR-00013）にも収録。","url":"https://www.yamahamusic.co.jp/s/ymc/discography/225?link=ROBO004"}}],
+    ["ベスト盤収録","1994","CHAGE and ASKA","Yin&Yang","https://www.chage-aska.net/discography/album/yin_and_yang.php","CHAGE and ASKA公式・発売日と収録曲",{"track":"WHY","note":"8月25日発売。Yin盤第13曲。"}],
+    ["セルフカバー","1995","ASKA","ジャッジ・ドレッド オリジナル・サウンドトラック","https://www.chage-aska.net/history/1990.php","CHAGE and ASKA公式・サウンドトラック発売記録",{"track":"TIME","note":"日本盤は9月21日発売（ESCA-6285）、第6曲。英語詞による別題のリメイク。英語詞の作家クレジットとメロディー変更の詳細は未確認。","reference":["https://www.suruga-ya.jp/product/detail/222005150","駿河屋・日本盤の発売日と曲順"]}]
   ]}
 ];
