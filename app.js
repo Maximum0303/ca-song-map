@@ -272,6 +272,7 @@ function highlightCategoryMatches() {
 function songShareUrl(song) {
   const url = new URL(location.pathname, location.origin);
   url.searchParams.set('song', song.id);
+  url.searchParams.set('view', 'single');
   return url.href;
 }
 
@@ -419,7 +420,8 @@ function updateUrl(push = false) {
   const params = { q: search.value.trim(), writer, category: category?.value, decade: decade.value,
     sort: sort.value === 'oldest' ? '' : sort.value,
     page: compactScreen.matches && catalogPage > 1 ? String(catalogPage) : '',
-    song: workspace.dataset.view === 'detail' ? selected?.song.id : '' };
+    song: workspace.dataset.view === 'detail' ? selected?.song.id : '',
+    view: document.body.dataset.singleSong === 'true' && workspace.dataset.view === 'detail' ? 'single' : '' };
   for (const [key, value] of Object.entries(params)) {
     if (value) url.searchParams.set(key, value);
     else url.searchParams.delete(key);
@@ -475,6 +477,7 @@ function revealSelection() {
 }
 
 function showCatalog(restorePosition = false) {
+  delete document.body.dataset.singleSong;
   workspace.dataset.view = 'catalog';
   document.body.dataset.view = 'catalog';
   if (!matches.includes(selected)) selectEntry(matches[0]);
@@ -502,6 +505,8 @@ function restoreFromUrl(restorePosition = false) {
   const params = new URLSearchParams(location.search);
   const id = params.get('song');
   const entry = entries.get(redirects.get(id) ?? id);
+  if (entry && params.get('view') === 'single') document.body.dataset.singleSong = 'true';
+  else delete document.body.dataset.singleSong;
   const query = params.get('q') ?? '';
   const nextWriter = params.get('writer') ?? '';
   const categoryParam = params.get('category') ?? '';
@@ -609,3 +614,5 @@ compactScreen.addEventListener('change', () => {
 placeSearchControls();
 restoreFromUrl();
 
+
+// ca-single-song-view-v1
