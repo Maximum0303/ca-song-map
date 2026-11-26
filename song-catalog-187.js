@@ -3728,9 +3728,11 @@ const songs = [
   ]},
   {id:'bokura-ga-umareta-ano-hi-no-youni', title:'僕らが生まれた あの日のように', lyrics:'飛鳥涼（ASKA）／小田和正', music:'飛鳥涼（ASKA）／小田和正', writers:['ASKA'], note:'飛鳥涼（ASKA）と小田和正が作詞・作曲を共作した「ウエルカムベビーキャンペーン」のチャリティーソング。USED TO BE A CHILDには、飛鳥涼、小田和正、カールスモーキー石井、玉置浩二、徳永英明、浜田麻里、山本潤子の7人が参加した。', versions:[
     ['原曲','1993','USED TO BE A CHILD','僕らが生まれた あの日のように','https://kazumasaoda.site/ja/song/37488/','小田和正公式・発売日、企画の経緯と参加者',
-      {note:'2月19日発売。ポニーキャニオンの8cmシングルCD（PCDA-90001）第1曲。歌ネットでは編曲はUSED TO BE A CHILD。小田和正公式では、編曲欄に飛鳥涼と小田和正も記載。',creditSource:'https://www.uta-net.com/song/6091/',reference:['https://www.suruga-ya.jp/product/detail/250031625','駿河屋・シングルCDの品番と曲順']}],
+      {note:'2月19日発売。ポニーキャニオンの8cmシングルCD（PCDA-90001）第1曲。ASKA公式の楽曲提供一覧では発売元をファンハウス／ポニーキャニオンと記載。歌ネットでは編曲はUSED TO BE A CHILD。小田和正公式では、編曲欄に飛鳥涼と小田和正も記載。',creditSource:'https://www.uta-net.com/song/6091/',reference:['https://www.fellows.tokyo/feature/disco_offer','ASKA公式・発売日、共作クレジットと発売元']}],
     ['カラオケ','1993','USED TO BE A CHILD（作品名義）','僕らが生まれた あの日のように','https://www.suruga-ya.jp/product/detail/250031625','駿河屋・シングルCDの曲順',
-      {track:'僕らが生まれた あの日のように（オリジナル・カラオケ）',note:'2月19日発売。シングルCD（PCDA-90001）第2曲。'}]
+      {track:'僕らが生まれた あの日のように（オリジナル・カラオケ）',note:'2月19日発売。シングルCD（PCDA-90001）第2曲。',reference:['https://kazumasaoda.site/ja/song/37489/','小田和正公式・オリジナル・カラオケの発売日と楽曲情報']}],
+    ['ミュージックビデオ','1993','USED TO BE A CHILD','僕らが生まれた あの日のように（MV）','https://greendays.blog.jp/archives/52289606.html','GREEN DAYS・小田和正の映像作品史（制作記録）',
+      {note:'小田和正がミュージックビデオを手掛けたとする資料がある。小田和正公式の参加者コメントにも録音時のビデオ撮影について記述がある。MVの公開日、市販映像作品への収録、音源の異同は未確認。',reference:['https://kazumasaoda.site/ja/song/37489/','小田和正公式・参加者コメント（録音時の撮影）']}]
   ]},
   {id:'i-miss-you-multi-max', title:'I MISS YOU', lyrics:'CHAGE', music:'飛鳥涼（ASKA）', writers:['Chage','ASKA'], note:'CHAGEが作詞、飛鳥涼（ASKA）が作曲、村上啓介が編曲したMULTI MAXの楽曲。1989年のアルバム『HEAVEN』第6曲。', versions:[
     ["原曲","1989","MULTI MAX","HEAVEN","https://chage.jp/discography/multi_max/album/007.php","Chage公式・オリジナル発売日と曲順",{"note":"11月29日発売。ポニーキャニオン盤CD（PCCA-00013）第6曲。アルバム資料の表記は5分37秒。","creditSource":"https://www.fellows.tokyo/feature/disco_offer","reference":["https://www.suruga-ya.jp/kaitori/kaitori_detail/220038810","駿河屋・初出CDの品番と曲順"],"reissue":{"note":"2001年9月19日発売。ヤマハ盤CD（YCCR-00038）第6曲。","url":"https://www.yamahamusic.co.jp/s/ymc/discography/212?ima=0000&link=ROBO004","reference":["https://newikis.com/ja/HEAVEN_%28MULTI_MAX%E3%81%AE%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%29","アルバム資料・作家、編曲クレジットと収録時間"]}}],
