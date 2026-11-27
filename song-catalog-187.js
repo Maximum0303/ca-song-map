@@ -3728,9 +3728,9 @@ const songs = [
   ]},
   {id:'bokura-ga-umareta-ano-hi-no-youni', title:'僕らが生まれた あの日のように', lyrics:'飛鳥涼（ASKA）／小田和正', music:'飛鳥涼（ASKA）／小田和正', writers:['ASKA'], note:'飛鳥涼（ASKA）と小田和正が作詞・作曲を共作した「ウエルカムベビーキャンペーン」のチャリティーソング。USED TO BE A CHILDには、飛鳥涼、小田和正、カールスモーキー石井、玉置浩二、徳永英明、浜田麻里、山本潤子の7人が参加した。', versions:[
     ['原曲','1993','USED TO BE A CHILD','僕らが生まれた あの日のように','https://kazumasaoda.site/ja/song/37488/','小田和正公式・発売日、企画の経緯と参加者',
-      {note:'2月19日発売。ポニーキャニオンの8cmシングルCD（PCDA-90001）第1曲。ASKA公式の楽曲提供一覧では発売元をファンハウス／ポニーキャニオンと記載。歌ネットでは編曲はUSED TO BE A CHILD。小田和正公式では、編曲欄に飛鳥涼と小田和正も記載。',creditSource:'https://www.uta-net.com/song/6091/',reference:['https://www.fellows.tokyo/feature/disco_offer','ASKA公式・発売日、共作クレジットと発売元']}],
+      {note:'2月19日発売。8cmシングルCDのポニーキャニオン盤（PCDA-90001）とSony Records盤（SRDL-3616）が発売された。両盤とも第1曲。両盤の音源・マスタリングの異同は未確認。ASKA公式の楽曲提供一覧では発売元をファンハウス／ポニーキャニオンと記載。歌ネットでは編曲はUSED TO BE A CHILD。小田和正公式では、編曲欄に飛鳥涼と小田和正も記載。',creditSource:'https://www.uta-net.com/song/6091/',reference:['https://www.fellows.tokyo/feature/disco_offer','ASKA公式・発売日、共作クレジットと発売元']}],
     ['カラオケ','1993','USED TO BE A CHILD（作品名義）','僕らが生まれた あの日のように','https://www.suruga-ya.jp/product/detail/250031625','駿河屋・シングルCDの曲順',
-      {track:'僕らが生まれた あの日のように（オリジナル・カラオケ）',note:'2月19日発売。シングルCD（PCDA-90001）第2曲。',reference:['https://kazumasaoda.site/ja/song/37489/','小田和正公式・オリジナル・カラオケの発売日と楽曲情報']}],
+      {track:'僕らが生まれた あの日のように（オリジナル・カラオケ）',note:'2月19日発売。ポニーキャニオン盤（PCDA-90001）とSony Records盤（SRDL-3616）の第2曲。ソニー盤の発売日はオリコン・駿河屋では2月19日、MusicBrainzでは9月21日と異なるため、ここではオリコン・駿河屋の記載を採用。両盤の音源・マスタリングの異同は未確認。',reference:['https://www.oricon.co.jp/prof/25393/products/236740/1/','オリコン・ソニー盤の発売日、品番と曲順'],creditSource:'https://musicbrainz.org/release/4f4186e1-096b-4ef6-b7e5-fd6aa88025b9'}],
     ['ミュージックビデオ','1993','USED TO BE A CHILD','僕らが生まれた あの日のように（MV）','https://greendays.blog.jp/archives/52289606.html','GREEN DAYS・小田和正の映像作品史（制作記録）',
       {note:'小田和正がミュージックビデオを手掛けたとする資料がある。小田和正公式の参加者コメントにも録音時のビデオ撮影について記述がある。MVの公開日、市販映像作品への収録、音源の異同は未確認。',reference:['https://kazumasaoda.site/ja/song/37489/','小田和正公式・参加者コメント（録音時の撮影）']}]
   ]},
