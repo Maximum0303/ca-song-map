@@ -302,6 +302,10 @@ function setupSongSharing(song) {
   intent.searchParams.set('text', '「' + song.title + '」の収録・公演記録｜この曲、誰が歌った？');
   intent.searchParams.set('url', songShareUrl(song));
   shareLink.href = intent.href;
+  const feedback = new URL('https://twitter.com/intent/tweet');
+  feedback.searchParams.set('text', '@yahyahyah0303 【楽曲の地図・情報提供】\nNo.' + selected.number + ' ' + song.title + '\n\n');
+  feedback.searchParams.set('url', songShareUrl(song));
+  detailContent.querySelector('.song-feedback').href = feedback.href;
 }
 
 function showDetail() {
@@ -322,9 +326,11 @@ function showDetail() {
     <div class="song-share" role="group" aria-label="この曲を共有">
       <a class="control-button share-song" target="_blank" rel="noopener noreferrer">Xで共有する</a>
       <button type="button" class="control-button copy-song-link">リンクをコピー</button>
+      <a class="control-button song-feedback" target="_blank" rel="noopener noreferrer">Xで情報提供</a>
       <span class="song-share-status" role="status"></span>
       <input class="song-share-link" type="text" readonly aria-label="この曲の共有リンク" hidden>
     </div>
+    <p class="song-feedback-note">未掲載情報や訂正情報はXでお寄せください。投稿内容は公開されます。</p>
     <p class="credit">初出年　${firstYear ? yearText(firstYear) : "未確認"}</p>
     <p class="credit">作詞　${song.lyrics}　／　作曲　${song.music}</p>
     ${song.note ? `<p class="note">${song.note}</p>` : ''}
@@ -616,3 +622,22 @@ restoreFromUrl();
 
 
 // ca-single-song-view-v1
+
+// ca-updates-feedback-v1
+
+// ca-updates-feedback-v2
+(function setupUpdateHistory(){
+  const panel = document.getElementById('update-history');
+  const list = document.getElementById('update-history-list');
+  const button = document.getElementById('history-toggle');
+  if (!panel || !list || !button || list.children.length <= 5) return;
+  let expanded = false;
+  function render(){
+    panel.classList.toggle('is-collapsed', !expanded);
+    button.setAttribute('aria-expanded', String(expanded));
+    button.textContent = expanded ? '過去の更新履歴を閉じる' : 'これまでの更新履歴を表示（' + (list.children.length - 5) + '件）';
+  }
+  button.hidden = false;
+  button.addEventListener('click', () => { expanded = !expanded; render(); });
+  render();
+})();
